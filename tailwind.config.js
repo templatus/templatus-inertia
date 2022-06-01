@@ -6,8 +6,8 @@ module.exports = {
           light: '#D30001',
           dark: '#690000',
         },
-        vue: {
-          DEFAULT: '#42b883',
+        svelte: {
+          DEFAULT: '#ff3e00',
         },
         rose: {
           DEFAULT: '#F0E7E9',
@@ -18,7 +18,7 @@ module.exports = {
   content: [
     './app/**/*.{html,rb}',
     './app/**/*.html.erb',
-    './app/javascript/**/*.{vue,js,ts}',
+    './app/javascript/**/*.{svelte,js,ts}',
   ],
   plugins: [require('@tailwindcss/forms')],
 };

@@ -45,21 +45,27 @@ describe 'Clicks' do
 
     before { Click.create! ip:, user_agent: }
 
-    it 'save click and returns http success' do
-      get '/clicks', headers: { ACCEPT: 'application/json' }
+    it 'returns existing clicks' do
+      get '/clicks',
+          headers: {
+            :ACCEPT => 'application/json',
+            'X-Inertia' => true,
+          }
 
       expect(response).to have_http_status(:success)
-      expect(JSON.parse(response.body)).to match(
-        'total' => 1,
-        'items' => [
-          hash_including(
-            {
-              'created_at' => Time.current.as_json,
-              'ip' => ip,
-              'user_agent' => user_agent,
-            },
-          ),
-        ],
+      expect(JSON.parse(response.body)).to include(
+        'props' => {
+          'total' => 1,
+          'items' => [
+            hash_including(
+              {
+                'created_at' => Time.current.as_json,
+                'ip' => ip,
+                'user_agent' => user_agent,
+              },
+            ),
+          ],
+        },
       )
     end
   end

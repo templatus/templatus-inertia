@@ -32,7 +32,14 @@ Rails.application.configure do
         *[:self, Rails.configuration.asset_host.presence].compact,
       )
       policy.style_src(
-        *[:self, Rails.configuration.asset_host.presence].compact,
+        *[
+          :self,
+          Rails.configuration.asset_host.presence,
+          # Allow @inertiajs/progress to display progress bar
+          "'sha256-kCeyw5rRT2DINADvWYmAhXLhQs4dKZrnn2sofIDmprs='",
+          # Allow Sevelte to display animations, see https://github.com/sveltejs/svelte/issues/6662#issuecomment-917492365
+          "'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        ].compact,
       )
       policy.frame_src(
         *[:self, Rails.configuration.asset_host.presence].compact,
