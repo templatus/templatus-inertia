@@ -3,5 +3,9 @@
   "singleQuote": true,
   "rubyPlugins": "plugin/single_quotes,plugin/trailing_comma",
   "printWidth": 80,
-  "tabWidth": 2
+  "tabWidth": 2,
+  "svelteAllowShorthand": true,
+  "svelteSortOrder": "scripts-markup-styles",
+  "svelteStrictMode": false,
+  "plugins": ["prettier-plugin-svelte"]
 }
