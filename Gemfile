@@ -9,6 +9,9 @@ gem 'rails', '~> 7.0.3'
 # Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
 gem 'vite_rails'
 
+# Inertia adapter for Rails (https://github.com/inertiajs/inertia-rails)
+gem 'inertia_rails'
+
 # Pg is the Ruby interface to the PostgreSQL RDBMS (https://github.com/ged/ruby-pg)
 gem 'pg', '~> 1.1'
 

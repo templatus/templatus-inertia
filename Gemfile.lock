@@ -114,6 +114,8 @@ GEM
     honeybadger (4.12.1)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
+    inertia_rails (1.12.1)
+      rails (>= 5)
     io-console (0.5.11)
     irb (1.4.1)
       reline (>= 0.3.0)
@@ -323,6 +325,7 @@ DEPENDENCIES
   dotenv-rails
   guard-rspec
   honeybadger
+  inertia_rails
   lograge
   pg (~> 1.1)
   prettier_print
