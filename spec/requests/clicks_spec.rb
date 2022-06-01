@@ -15,7 +15,7 @@ describe 'Clicks' do
              ACCEPT: 'application/json',
            }
 
-      expect(response).to have_http_status(:success)
+      expect(response).to have_http_status(:no_content)
       expect(Click.last.user_agent).to eq(user_agent)
     end
 
@@ -43,23 +43,37 @@ describe 'Clicks' do
   describe 'GET /index' do
     around { |example| freeze_time(&example) }
 
-    before { Click.create! ip:, user_agent: }
+    before do
+      Click.create! ip:, user_agent: user_agent
 
-    it 'save click and returns http success' do
-      get '/clicks', headers: { ACCEPT: 'application/json' }
+      InertiaRails.configure { |config| config.version = '1.0' }
+    end
+
+    let(:inertia_headers) do
+      {
+        'Accept' => 'application/json',
+        'X-Inertia' => true,
+        'X-Inertia-Version' => '1.0',
+      }
+    end
+
+    it 'returns existing clicks' do
+      get '/clicks', headers: inertia_headers
 
       expect(response).to have_http_status(:success)
-      expect(JSON.parse(response.body)).to match(
-        'total' => 1,
-        'items' => [
-          hash_including(
-            {
-              'created_at' => Time.current.as_json,
-              'ip' => ip,
-              'user_agent' => user_agent,
-            },
-          ),
-        ],
+      expect(JSON.parse(response.body)).to include(
+        'props' => {
+          'total' => 1,
+          'items' => [
+            hash_including(
+              {
+                'created_at' => Time.current.as_json,
+                'ip' => ip,
+                'user_agent' => user_agent,
+              },
+            ),
+          ],
+        },
       )
     end
   end
