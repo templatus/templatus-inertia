@@ -5,6 +5,7 @@
 :root {
   --color-rails-light: theme('colors.rails.light');
   --color-rails-dark: theme('colors.rails.dark');
+  --color-inertia: theme('colors.inertia.DEFAULT');
 }
 
 .gradient__rails-light {
@@ -13,4 +14,8 @@
 
 .gradient__rails-dark {
   stop-color: var(--color-rails-dark);
+}
+
+.gradient__inertia {
+  stop-color: var(--color-inertia);
 }

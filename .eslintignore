@@ -6,3 +6,6 @@
 /log
 /db
 /config
+*.config.js
+*.config.ts
+.eslintrc.js
