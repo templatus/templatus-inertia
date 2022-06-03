@@ -303,7 +303,7 @@ GEM
     vite_rails (3.0.9)
       railties (>= 5.1, < 8)
       vite_ruby (~> 3.0)
-    vite_ruby (3.1.5)
+    vite_ruby (3.1.6)
       dry-cli (~> 0.7.0)
       rack-proxy (~> 0.6, >= 0.6.1)
       zeitwerk (~> 2.2)
@@ -356,4 +356,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.14
+   2.3.15
