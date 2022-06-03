@@ -54,6 +54,7 @@ https://github.com/ledermann/templatus/
 - [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates) configuration for updating dependencies (with auto-merge)
 - Ready for serving assets via CDN like CloudFront
 - [Honeybadger](https://www.honeybadger.io/) for error tracking in Ruby and TypeScript
+- [Plausible](https://plausible.io/) for privacy friendly analytics
 
 ### Production
 
@@ -110,14 +111,14 @@ success Already up-to-date.
 Building with Vite ⚡️
 vite v2.9.9 building for production...
 transforming...
-✓ 146 modules transformed.
+✓ 149 modules transformed.
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.22 KiB
 ../../public/vite/manifest.json                     0.20 KiB
 ../../public/vite/assets/application.be5c5e42.css   17.62 KiB / gzip: 4.29 KiB
-../../public/vite/assets/application.16bd364a.js    138.79 KiB / gzip: 47.43 KiB
-../../public/vite/assets/application.16bd364a.js.map 508.53 KiB
+../../public/vite/assets/application.156de8b3.js    141.12 KiB / gzip: 48.36 KiB
+../../public/vite/assets/application.156de8b3.js.map 524.87 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
