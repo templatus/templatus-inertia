@@ -18,10 +18,8 @@ export const currentItems = writable([] as Click[]);
 export const currentTotal = writable(0);
 export const subscribed = writable(false);
 
-export async function sendClick(): Promise<void> {
-  await axios
-    .post(Routes.clicks_path())
-    .catch((err: Error) => console.warn(err));
+export function sendClick(): void {
+  void axios.post(Routes.clicks_path());
 }
 
 export function startCable(): void {
