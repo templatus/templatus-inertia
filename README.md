@@ -54,6 +54,7 @@ https://github.com/ledermann/templatus/
 - [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates) configuration for updating dependencies (with auto-merge)
 - Ready for serving assets via CDN like CloudFront
 - [Honeybadger](https://www.honeybadger.io/) for error tracking in Ruby and TypeScript
+- [Plausible](https://plausible.io/) for privacy friendly analytics
 
 ### Production
 
@@ -96,7 +97,7 @@ https://github.com/rails/rails/pull/41994
 
 ### JavaScript size
 
-126 KB of compiled JavaScript (after tree-shaking, minified & uncompressed). The largest parts are:
+141 KB of compiled JavaScript (after tree-shaking, minified & uncompressed). The largest parts are:
 
 - Honeybadger (23 KB)
 - ActionCable (9 KB)
@@ -106,18 +107,18 @@ $ RAILS_ENV=production bin/rails assets:precompile
 yarn install v1.22.19
 [1/5] 🔍  Resolving packages...
 success Already up-to-date.
-✨  Done in 0.08s.
+✨  Done in 0.11s.
 Building with Vite ⚡️
 vite v2.9.9 building for production...
 transforming...
-✓ 146 modules transformed.
+✓ 149 modules transformed.
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.22 KiB
 ../../public/vite/manifest.json                     0.20 KiB
-../../public/vite/assets/application.be5c5e42.css   17.62 KiB / gzip: 4.29 KiB
-../../public/vite/assets/application.16bd364a.js    138.79 KiB / gzip: 47.43 KiB
-../../public/vite/assets/application.16bd364a.js.map 508.53 KiB
+../../public/vite/assets/application.f8cac37f.css   18.24 KiB / gzip: 4.44 KiB
+../../public/vite/assets/application.985860e9.js    141.16 KiB / gzip: 48.39 KiB
+../../public/vite/assets/application.985860e9.js.map 525.01 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
