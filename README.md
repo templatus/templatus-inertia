@@ -110,14 +110,14 @@ success Already up-to-date.
 Building with Vite ⚡️
 vite v2.9.9 building for production...
 transforming...
-✓ 145 modules transformed.
+✓ 146 modules transformed.
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.22 KiB
 ../../public/vite/manifest.json                     0.20 KiB
-../../public/vite/assets/application.8678b6c6.css   17.44 KiB / gzip: 4.28 KiB
-../../public/vite/assets/application.2fa062e6.js    126.25 KiB / gzip: 44.39 KiB
-../../public/vite/assets/application.2fa062e6.js.map 455.16 KiB
+../../public/vite/assets/application.be5c5e42.css   17.62 KiB / gzip: 4.29 KiB
+../../public/vite/assets/application.16bd364a.js    138.79 KiB / gzip: 47.43 KiB
+../../public/vite/assets/application.16bd364a.js.map 508.53 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 

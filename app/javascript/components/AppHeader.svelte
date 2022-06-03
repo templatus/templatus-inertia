@@ -2,10 +2,11 @@
   import { assetUrl } from '@/utils/metaContent';
   import { inertia, page } from '@inertiajs/inertia-svelte';
   import logoPath from '@/images/logo.svg';
+  import * as Routes from '@/routes';
 
   const tabs = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'Home', href: Routes.root_path() },
+    { name: 'About', href: Routes.about_path() },
   ];
 </script>
 

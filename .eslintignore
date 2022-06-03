@@ -9,3 +9,5 @@
 *.config.js
 *.config.ts
 .eslintrc.js
+app/javascript/routes.js
+app/javascript/routes.d.ts

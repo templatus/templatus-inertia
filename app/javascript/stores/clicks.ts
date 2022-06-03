@@ -1,6 +1,7 @@
 import { writable } from 'svelte/store';
 import { createConsumer } from '@rails/actioncable';
 import axios from 'axios';
+import * as Routes from '@/routes';
 
 import type { Subscription } from 'rails__actioncable';
 
@@ -18,7 +19,9 @@ export const currentTotal = writable(0);
 export const subscribed = writable(false);
 
 export async function sendClick(): Promise<void> {
-  await axios.post('/clicks').catch((err: Error) => console.warn(err));
+  await axios
+    .post(Routes.clicks_path())
+    .catch((err: Error) => console.warn(err));
 }
 
 export function startCable(): void {
