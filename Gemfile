@@ -45,6 +45,9 @@ gem 'rack-brotli'
 # Simple, efficient background processing for Ruby (https://sidekiq.org)
 gem 'sidekiq'
 
+# Brings Rails named routes to javascript (http://github.com/railsware/js-routes)
+gem 'js-routes'
+
 group :development, :test do
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
   gem 'debug', platforms: %i[mri mingw x64_mingw]
