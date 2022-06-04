@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "esNext",
     "module": "esNext",
-    "types": ["vite/client"],
+    "types": ["vite/client", "jest", "@testing-library/jest-dom"],
     "paths": {
       "@/*": ["./app/javascript/*"],
       "@test/*": ["./spec/javascript/*"]
@@ -11,6 +11,6 @@
     "strict": true,
     "noImplicitAny": false,
   },
-  "include": ["app/javascript/**/*"],
+  "include": [ "app/javascript/**/*", "spec/javascript/**/*" ],
   "exclude": ["node_modules", "public"]
 }

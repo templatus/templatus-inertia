@@ -34,6 +34,7 @@ tmp/*
 yarn-error.log
 config/environments/test.rb
 config/environments/development.rb
+jest.config.js
 cypress.config.json
 spec
 README.md
