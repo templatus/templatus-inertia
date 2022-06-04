@@ -12,7 +12,6 @@ module.exports = {
   testMatch: ['**/?(*.)+(spec|test).+(ts|tsx)'],
   transform: {
     '^.+\\.ts$': 'ts-jest',
-    '^.+\\.js$': 'babel-jest',
     '^.+\\.svelte$': [
       'svelte-jester',
       {

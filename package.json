@@ -17,8 +17,6 @@
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
     "@feltcoop/eslint-config": "^0.1.7",
     "@prettier/plugin-ruby": "^3.1.2",
     "@size-limit/file": "^7.0.8",
@@ -33,8 +31,6 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "autoprefixer": "^10.4.7",
-    "babel-jest": "^28.1.0",
-    "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "cypress": "^10.0.2",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
