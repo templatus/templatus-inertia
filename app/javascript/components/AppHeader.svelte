@@ -16,7 +16,7 @@
   <img
     src={assetUrl(logoPath)}
     alt="Logo"
-    class="h-20 w-20 rounded bg-gradient-to-br from-slate-200 to-white p-3 lg:h-56 lg:w-56"
+    class="h-20 w-20 rounded bg-gradient-to-br from-slate-200 to-white p-2 lg:h-56 lg:w-56 lg:p-3"
     width="150"
     height="150"
   />
