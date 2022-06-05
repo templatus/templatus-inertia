@@ -12,7 +12,6 @@ describe 'Clicks' do
            headers: {
              HTTP_USER_AGENT: user_agent,
              REMOTE_ADDR: ip,
-             ACCEPT: 'application/json',
            }
 
       expect(response).to have_http_status(:no_content)
@@ -40,41 +39,14 @@ describe 'Clicks' do
     end
   end
 
-  describe 'GET /index' do
-    around { |example| freeze_time(&example) }
+  describe 'GET /index', inertia: true do
+    let!(:click) { Click.create! ip:, user_agent: }
 
-    before do
-      Click.create! ip:, user_agent: user_agent
+    it 'renders existing clicks' do
+      get '/clicks'
 
-      InertiaRails.configure { |config| config.version = '1.0' }
-    end
-
-    let(:inertia_headers) do
-      {
-        'Accept' => 'application/json',
-        'X-Inertia' => true,
-        'X-Inertia-Version' => '1.0',
-      }
-    end
-
-    it 'returns existing clicks' do
-      get '/clicks', headers: inertia_headers
-
-      expect(response).to have_http_status(:success)
-      expect(JSON.parse(response.body)).to include(
-        'props' => {
-          'total' => 1,
-          'items' => [
-            hash_including(
-              {
-                'created_at' => Time.current.as_json,
-                'ip' => ip,
-                'user_agent' => user_agent,
-              },
-            ),
-          ],
-        },
-      )
+      expect_inertia.to render_component('Clicks/Index')
+      expect_inertia.to have_exact_props(total: 1, items: [click])
     end
   end
 end
