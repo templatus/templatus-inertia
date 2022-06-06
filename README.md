@@ -107,7 +107,7 @@ $ RAILS_ENV=production bin/rails assets:precompile
 yarn install v1.22.19
 [1/5] 🔍  Resolving packages...
 success Already up-to-date.
-✨  Done in 0.12s.
+✨  Done in 0.11s.
 Building with Vite ⚡️
 vite v2.9.9 building for production...
 transforming...
@@ -116,9 +116,9 @@ rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.22 KiB
 ../../public/vite/manifest.json                     0.20 KiB
-../../public/vite/assets/application.48e99857.css   18.27 KiB / gzip: 4.45 KiB
-../../public/vite/assets/application.44c9cb49.js    141.14 KiB / gzip: 48.37 KiB
-../../public/vite/assets/application.44c9cb49.js.map 524.94 KiB
+../../public/vite/assets/application.af5b711d.css   18.27 KiB / gzip: 4.45 KiB
+../../public/vite/assets/application.50503594.js    141.22 KiB / gzip: 48.40 KiB
+../../public/vite/assets/application.50503594.js.map 525.22 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
