@@ -124,17 +124,17 @@ Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vit
 
 ### Network transfer
 
-Small footprint: The demo application transfers only **52 KB** of data on the first visit.
+Small footprint: The demo application transfers only **60 KB** of data on the first visit.
 
 ![Network](docs/network.png)
 
 ### Docker build time
 
-With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the build job requires about 1,5 minutes on GitHub Actions (see https://github.com/ledermann/templatus-inertia/actions)
+With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the `deploy` job requires about 1,5 minutes on GitHub Actions (see https://github.com/ledermann/templatus-inertia/actions)
 
 ### Docker image size
 
-The Docker image is based on Alpine Linux and is optimized for minimal size (currently **113 MB** uncompressed disk size). It includes just the bare minimum - no build tools like Node.js, no JS sources (just the compiled assets), no tests.
+The Docker image is based on Alpine Linux and is optimized for minimal size (currently **115 MB** uncompressed disk size). It includes just the bare minimum - no build tools like Node.js, no JS sources (just the compiled assets), no tests.
 
 ```
 $ container-diff analyze ghcr.io/ledermann/templatus-inertia -n
@@ -143,7 +143,7 @@ $ container-diff analyze ghcr.io/ledermann/templatus-inertia -n
 
 Analysis for ghcr.io/ledermann/templatus-inertia:
 IMAGE                                 DIGEST     SIZE
-ghcr.io/ledermann/templatus-inertia   sha256:... 114.4M
+ghcr.io/ledermann/templatus-inertia   sha256:... 114.6M
 ```
 
 ## Getting started
