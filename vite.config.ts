@@ -2,8 +2,6 @@ import { defineConfig } from 'vite';
 import RubyPlugin from 'vite-plugin-ruby';
 import FullReload from 'vite-plugin-full-reload';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
-import { brotliCompressSync } from 'zlib';
-import gzipPlugin from 'rollup-plugin-gzip';
 import { fileURLToPath, URL } from 'url';
 import preprocess from 'svelte-preprocess';
 
@@ -26,13 +24,6 @@ export default defineConfig({
       preprocess: preprocess({
         postcss: true,
       }),
-    }),
-    // Create gzip copies of relevant assets
-    gzipPlugin(),
-    // Create brotli copies of relevant assets
-    gzipPlugin({
-      customCompression: (content) => brotliCompressSync(Buffer.from(content)),
-      fileName: '.br',
     }),
   ],
   resolve: {
