@@ -117,7 +117,7 @@ rendering chunks...
 ../../public/vite/manifest.json                     0.32 KiB
 ../../public/vite/assets/application.5e23928d.js    27.28 KiB / gzip: 10.26 KiB
 ../../public/vite/assets/application.5e23928d.js.map 49.74 KiB
-../../public/vite/assets/application.a344bc09.css   18.45 KiB / gzip: 4.47 KiB
+../../public/vite/assets/application.fa0fb80f.css   19.48 KiB / gzip: 4.50 KiB
 ../../public/vite/assets/vendor.b59622b9.js         137.75 KiB / gzip: 48.35 KiB
 ../../public/vite/assets/vendor.b59622b9.js.map     555.30 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
