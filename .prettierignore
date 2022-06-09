@@ -1,0 +1,4 @@
+db/schema.rb
+tsconfig.json
+coverage/*
+public/*
