@@ -1,14 +1,19 @@
-[![Build Status](https://github.com/ledermann/templatus/workflows/CI/badge.svg)](https://github.com/ledermann/templatus/actions)
+[![Build Status](https://github.com/ledermann/templatus-inertia/workflows/CI/badge.svg)](https://github.com/ledermann/templatus-inertia/actions)
 [![Cypress](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/5d6bqs&style=flat-square&logo=cypress)](https://dashboard.cypress.io/projects/5d6bqs/runs)
 
-# Templatus (Vue edition)
+# Templatus (Inertia edition)
 
-Templatus is an opinionated template to build web applications with Ruby on Rails and Vue.js 3. It simplifies the process of setting up a new application while following best practices.
+Templatus is an opinionated template to build web applications with Ruby on Rails and Inertia (using Svelte.js). It simplifies the process of setting up a new application while following best practices.
 
-Live demo available at https://templatus.ledermann.dev
+Live demo available at https://templatus-inertia.ledermann.dev
 
-There is a sister repository that uses Hotwire instead of Vue.js:
+There are two sister repositories:
+
+Using Hotwire instead of Inertia (the "DHH way"):
 https://github.com/ledermann/templatus-hotwire/
+
+Using API instead of Inertia and Svelte.js instead of Vue.js;
+https://github.com/ledermann/templatus/
 
 ## Features / Technology stack
 
@@ -23,13 +28,10 @@ https://github.com/ledermann/templatus-hotwire/
 
 ### Frontend
 
-- [Vite](https://vitejs.dev/) for bundling JavaScript and CSS with Hot Module Replacement (HMR) in development
-- [Vue 3](https://v3.vuejs.org/) as frontend framework
-- [Vue Router 4](https://next.router.vuejs.org/) for frontend routing
-- [Pinia](https://pinia.esm.dev/) for frontend state management
+- [Inertia](https://inertiajs.com/) as a protocol for frontend/backend communication
 - [Tailwind CSS 3](https://tailwindcss.com/) to not have to write CSS at all
-- [Heroicons](https://heroicons.com/) for SVG icons as Vue components
-- [Rails Request.JS](https://github.com/rails/request.js) for AJAX requests with default headers
+- [Tabler Icons](https://tablericons.com/) for free SVG icons
+- [Vite](https://vitejs.dev/) for bundling JavaScript and CSS with Hot Module Replacement (HMR) in development
 
 ### Development
 
@@ -44,7 +46,6 @@ https://github.com/ledermann/templatus-hotwire/
 - [RuboCop](https://rubocop.org/) for Ruby static code analysis
 - [RSpec](https://rspec.info/) for Ruby testing
 - [ESLint](https://eslint.org/) for TypeScript static code analysis
-- [Jest](https://jestjs.io/) for TypeScript unit testing
 - [Cypress](https://www.cypress.io/) for E2E testing
 
 ### Deployment
@@ -62,7 +63,6 @@ https://github.com/ledermann/templatus-hotwire/
 - [Lograge](https://github.com/roidrage/lograge) for single-line logging
 - Gzip and Brotli compression of dynamic responses (HTML, JSON) using [Rack::Deflater](https://github.com/rack/rack/blob/master/lib/rack/deflater.rb), [Rack::Brotli](https://github.com/marcotc/rack-brotli)
 - Fine-tuned Content Security Policy (CSP)
-- Ready for PWA (manifest, service-worker)
 
 ## Metrics
 
@@ -76,35 +76,30 @@ This template is developed with optimized performance and security in mind. The 
 
 ### Security headers
 
-[![Security headers](docs/security-headers.png)](https://securityheaders.com/?q=templatus.ledermann.dev&followRedirects=on)
+[![Security headers](docs/security-headers.png)](https://securityheaders.com/?q=templatus-inertia.ledermann.dev&followRedirects=on)
 
 What's the red _Permissions-Policy_ badge? This seems to be fixed with one of the next Rails update:
 https://github.com/rails/rails/pull/41994
 
 ### Mozilla Observatory
 
-[![Mozilla Observatory](docs/mozilla-observatory.png)](https://observatory.mozilla.org/analyze/templatus.ledermann.dev)
+[![Mozilla Observatory](docs/mozilla-observatory.png)](https://observatory.mozilla.org/analyze/templatus-inertia.ledermann.dev)
 
 ### WebPageTest
 
-[![WebPageTest](docs/web-page-test.png)](https://www.webpagetest.org/result/220603_AiDcD6_63C/)
+[![WebPageTest](docs/web-page-test.png)](https://www.webpagetest.org/result/220530_BiDcQQ_83b754931114d99469b521e72731eb4d/)
 
 ### GTmetrix
 
-[![GTmetrix](docs/GTmetrix.png)](https://gtmetrix.com/reports/templatus.ledermann.dev/OsUlXu9V/)
+[![GTmetrix](docs/GTmetrix.png)](https://gtmetrix.com/reports/templatus-inertia.ledermann.dev/OsUlXu9V/)
 
 ### Check-your-website
 
-[![Check-your-website](docs/check-your-website.png)](https://check-your-website.server-daten.de/?q=templatus.ledermann.dev)
+[![Check-your-website](docs/check-your-website.png)](https://check-your-website.server-daten.de/?q=templatus-inertia.ledermann.dev)
 
 ### JavaScript size
 
-147 KB of compiled JavaScript (after tree-shaking, minified & uncompressed). The largest parts are:
-
-- Vue.js + Vue Router (75 KB)
-- Honeybadger (23 KB)
-- ActionCable (9 KB)
-- Pinia (6 KB)
+165 KB of compiled JavaScript (after tree-shaking, minified & uncompressed).
 
 ```
 $ RAILS_ENV=production bin/rails assets:precompile
@@ -115,41 +110,41 @@ success Already up-to-date.
 Building with Vite ⚡️
 vite v2.9.10 building for production...
 transforming...
-✓ 298 modules transformed.
+✓ 155 modules transformed.
 rendering chunks...
-../../public/vite/assets/logo.44ced38d.svg          0.48 KiB
+../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.22 KiB
 ../../public/vite/manifest.json                     0.32 KiB
-../../public/vite/assets/application.46f860cd.js    16.18 KiB / gzip: 6.58 KiB
-../../public/vite/assets/application.46f860cd.js.map 25.15 KiB
-../../public/vite/assets/application.97255384.css   19.66 KiB / gzip: 4.69 KiB
-../../public/vite/assets/vendor.bc768583.js         130.42 KiB / gzip: 48.90 KiB
-../../public/vite/assets/vendor.bc768583.js.map     979.48 KiB
-Build with Vite complete: /Users/ledermann/Projects/templatus/public/vite
+../../public/vite/assets/application.5e23928d.js    27.28 KiB / gzip: 10.26 KiB
+../../public/vite/assets/application.5e23928d.js.map 49.74 KiB
+../../public/vite/assets/application.a344bc09.css   18.45 KiB / gzip: 4.47 KiB
+../../public/vite/assets/vendor.b59622b9.js         137.75 KiB / gzip: 48.35 KiB
+../../public/vite/assets/vendor.b59622b9.js.map     555.30 KiB
+Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
 ### Network transfer
 
-Small footprint: The demo application transfers only **62 KB** of data on the first visit.
+Small footprint: The demo application transfers only **72 KB** of data on the first visit.
 
 ![Network](docs/network.png)
 
 ### Docker build time
 
-With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the build job requires about 1,5 minutes on GitHub Actions (see https://github.com/ledermann/templatus/actions)
+With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the `deploy` job requires about 1,5 minutes on GitHub Actions (see https://github.com/ledermann/templatus-inertia/actions)
 
 ### Docker image size
 
-The Docker image is based on Alpine Linux and is optimized for minimal size (currently **113 MB** uncompressed disk size). It includes just the bare minimum - no build tools like Node.js, no JS sources (just the compiled assets), no tests.
+The Docker image is based on Alpine Linux and is optimized for minimal size (currently **115 MB** uncompressed disk size). It includes just the bare minimum - no build tools like Node.js, no JS sources (just the compiled assets), no tests.
 
 ```
-$ container-diff analyze ghcr.io/ledermann/templatus -n
+$ container-diff analyze ghcr.io/ledermann/templatus-inertia -n
 
 -----Size-----
 
-Analysis for ghcr.io/ledermann/templatus:
-IMAGE                              DIGEST     SIZE
-ghcr.io/ledermann/templatus        sha256:... 114.9M
+Analysis for ghcr.io/ledermann/templatus-inertia:
+IMAGE                                 DIGEST     SIZE
+ghcr.io/ledermann/templatus-inertia   sha256:... 114.7M
 ```
 
 ## Getting started
@@ -159,8 +154,8 @@ ghcr.io/ledermann/templatus        sha256:... 114.9M
 1. Clone the repo locally:
 
 ```bash
-git clone git@github.com:ledermann/templatus.git
-cd templatus
+git clone git@github.com:ledermann/templatus-inertia.git
+cd templatus-inertia
 ```
 
 2. Install PostgreSQL, Redis, and puma-dev (if not already present). On a Mac with Homebrew, run this to install from the `Brewfile`:
@@ -178,7 +173,7 @@ puma-dev link
 
 # Use Vite via puma-dev proxy
 # Adopted from https://github.com/puma/puma-dev#webpack-dev-server
-echo 3036 > ~/.puma-dev/vite.templatus
+echo 3036 > ~/.puma-dev/vite.templatus-inertia
 ```
 
 4. Setup the application to install gems and NPM packages and create the database:
@@ -193,7 +188,7 @@ bin/setup
 bin/dev
 ```
 
-Then open https://templatus.test in your browser.
+Then open https://templatus-inertia.test in your browser.
 
 ### Running linters
 

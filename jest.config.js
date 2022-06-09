@@ -2,22 +2,28 @@ module.exports = {
   verbose: true,
   roots: ['spec/javascript'],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/app/javascript/src/$1',
-    '^@test/(.*)$': '<rootDir>/spec/javascript/src/$1',
+    '^@/(.*)$': '<rootDir>/app/javascript/$1',
+    '^@test/(.*)$': '<rootDir>/spec/javascript/$1',
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       'jest-transform-stub',
   },
-  moduleFileExtensions: ['js', 'ts', 'json', 'vue'],
+  moduleFileExtensions: ['js', 'ts', 'svelte'],
   preset: 'ts-jest',
   testMatch: ['**/?(*.)+(spec|test).+(ts|tsx)'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-    '^.+\\.vue$': '@vue/vue3-jest',
+    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.svelte$': [
+      'svelte-jester',
+      {
+        preprocess: true,
+      },
+    ],
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
+      'jest-transform-stub',
   },
   testEnvironment: 'jsdom',
   testEnvironmentOptions: {
-    url: 'https://templatus.test/',
+    url: 'https://templatus-inertia.test/',
     customExportConditions: ['node', 'node-addons'],
   },
-  snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
 };

@@ -1,4 +1,4 @@
-describe 'Clicks' do
+describe 'Clicks', inertia: true do
   include ActiveSupport::Testing::TimeHelpers
 
   let(:user_agent) { 'Netscape Navigator' }
@@ -12,10 +12,11 @@ describe 'Clicks' do
            headers: {
              HTTP_USER_AGENT: user_agent,
              REMOTE_ADDR: ip,
-             ACCEPT: 'application/json',
            }
 
-      expect(response).to have_http_status(:no_content)
+      expect_inertia.to render_component('Clicks/Index')
+      expect_inertia.to have_exact_props({})
+
       expect(Click.last.user_agent).to eq(user_agent)
     end
 
@@ -40,27 +41,14 @@ describe 'Clicks' do
     end
   end
 
-  describe 'GET /index' do
-    around { |example| freeze_time(&example) }
+  describe 'GET /' do
+    let!(:click) { Click.create! ip:, user_agent: }
 
-    before { Click.create! ip:, user_agent: }
+    it 'renders existing clicks' do
+      get '/'
 
-    it 'save click and returns http success' do
-      get '/clicks', headers: { ACCEPT: 'application/json' }
-
-      expect(response).to have_http_status(:success)
-      expect(JSON.parse(response.body)).to match(
-        'total' => 1,
-        'items' => [
-          hash_including(
-            {
-              'created_at' => Time.current.as_json,
-              'ip' => ip,
-              'user_agent' => user_agent,
-            },
-          ),
-        ],
-      )
+      expect_inertia.to render_component('Clicks/Index')
+      expect_inertia.to have_exact_props(total: 1, items: [click])
     end
   end
 end

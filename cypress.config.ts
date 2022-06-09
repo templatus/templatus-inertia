@@ -1,7 +1,7 @@
 import { defineConfig } from 'cypress';
 
 export default defineConfig({
-  projectId: '5d6bqs',
+  projectId: '6g6s4z',
   screenshotsFolder: 'tmp/cypress_screenshots',
   trashAssetsBeforeRuns: false,
   videosFolder: 'tmp/cypress_videos',
@@ -13,7 +13,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       return require('./spec/cypress/plugins/index.js')(on, config);
     },
-    baseUrl: 'https://templatus.test',
+    baseUrl: 'https://templatus-inertia.test',
     specPattern: 'spec/cypress/integration/**/*.{js,jsx,ts,tsx}',
     supportFile: 'spec/cypress/support/index.js',
   },

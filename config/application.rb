@@ -30,9 +30,13 @@ module Templatus
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
+    config.exceptions_app = ->(env) do
+      ExceptionsController.action(:show).call(env)
+    end
+
     config.time_zone = ENV.fetch('TIME_ZONE', 'Berlin')
 
-    config.x.app_host = ENV.fetch('APP_HOST', 'templatus.test')
+    config.x.app_host = ENV.fetch('APP_HOST', 'templatus-inertia.test')
 
     config.x.git.commit_version =
       ENV.fetch('COMMIT_VERSION') { `git describe --always`.chomp }
