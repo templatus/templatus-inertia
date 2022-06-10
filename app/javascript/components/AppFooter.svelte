@@ -19,7 +19,7 @@
       class="hover:underline"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://github.com/ledermann/templatus-inertia"
+      href="https://github.com/templatus/templatus-inertia"
     >
       <svg viewBox="0 0 24 24" class="h-8 w-8" fill="currentColor">
         <title>GitHub</title>

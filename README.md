@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/ledermann/templatus-inertia/workflows/CI/badge.svg)](https://github.com/ledermann/templatus-inertia/actions)
+[![Build Status](https://github.com/templatus/templatus-inertia/workflows/CI/badge.svg)](https://github.com/templatus/templatus-inertia/actions)
 [![Cypress](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/5d6bqs&style=flat-square&logo=cypress)](https://dashboard.cypress.io/projects/5d6bqs/runs)
 
 # Templatus (Inertia edition)
@@ -10,10 +10,10 @@ Live demo available at https://templatus-inertia.ledermann.dev
 There are two sister repositories:
 
 Using Hotwire instead of Inertia (the "DHH way"):
-https://github.com/ledermann/templatus-hotwire/
+https://github.com/templatus/templatus-hotwire/
 
 Using API instead of Inertia and Svelte.js instead of Vue.js;
-https://github.com/ledermann/templatus/
+https://github.com/templatus/templatus/
 
 ## Features / Technology stack
 
