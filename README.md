@@ -87,11 +87,11 @@ https://github.com/rails/rails/pull/41994
 
 ### WebPageTest
 
-[![WebPageTest](docs/web-page-test.png)](https://www.webpagetest.org/result/220530_BiDcQQ_83b754931114d99469b521e72731eb4d/)
+[![WebPageTest](docs/web-page-test.png)](https://www.webpagetest.org/result/220616_BiDcE2_4B7/)
 
 ### GTmetrix
 
-[![GTmetrix](docs/GTmetrix.png)](https://gtmetrix.com/reports/templatus-inertia.ledermann.dev/OsUlXu9V/)
+[![GTmetrix](docs/GTmetrix.png)](https://gtmetrix.com/reports/templatus-inertia.ledermann.dev/UNRVxoRT/)
 
 ### Check-your-website
 
@@ -125,26 +125,26 @@ Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vit
 
 ### Network transfer
 
-Small footprint: The demo application transfers only **72 KB** of data on the first visit.
+Small footprint: The demo application transfers only **71 KB** of data on the first visit.
 
 ![Network](docs/network.png)
 
 ### Docker build time
 
-With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the `deploy` job requires about 1,5 minutes on GitHub Actions (see https://github.com/ledermann/templatus-inertia/actions)
+With multi-stage building and using [DockerRailsBase](https://github.com/ledermann/docker-rails-base) the build of the Docker image takes very little time. Currently, the `deploy` job requires about 1,5 minutes on GitHub Actions (see https://github.com/templatus/templatus-inertia/actions)
 
 ### Docker image size
 
 The Docker image is based on Alpine Linux and is optimized for minimal size (currently **115 MB** uncompressed disk size). It includes just the bare minimum - no build tools like Node.js, no JS sources (just the compiled assets), no tests.
 
 ```
-$ container-diff analyze ghcr.io/ledermann/templatus-inertia -n
+$ container-diff analyze ghcr.io/templatus/templatus-inertia -n
 
 -----Size-----
 
-Analysis for ghcr.io/ledermann/templatus-inertia:
+Analysis for ghcr.io/templatus/templatus-inertia:
 IMAGE                                 DIGEST     SIZE
-ghcr.io/ledermann/templatus-inertia   sha256:... 114.7M
+ghcr.io/templatus/templatus-inertia   sha256:... 115M
 ```
 
 ## Getting started
@@ -154,7 +154,7 @@ ghcr.io/ledermann/templatus-inertia   sha256:... 114.7M
 1. Clone the repo locally:
 
 ```bash
-git clone git@github.com:ledermann/templatus-inertia.git
+git clone git@github.com:templatus/templatus-inertia.git
 cd templatus-inertia
 ```
 
