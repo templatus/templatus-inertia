@@ -112,7 +112,7 @@ GEM
       temple (>= 0.8.0)
       tilt
     honeybadger (4.12.1)
-    i18n (1.11.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     inertia_rails (2.0.1)
       rails (>= 5)
