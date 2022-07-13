@@ -59,7 +59,7 @@
     "typescript": "^4.7.4",
     "vite": "^2.9.14",
     "vite-plugin-full-reload": "^1.0.1",
-    "vite-plugin-ruby": "^3.0.12"
+    "vite-plugin-ruby": "^3.1.0"
   },
   "size-limit": [
     {
