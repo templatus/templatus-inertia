@@ -106,20 +106,20 @@ $ RAILS_ENV=production bin/rails assets:precompile
 yarn install v1.22.19
 [1/5] 🔍  Resolving packages...
 success Already up-to-date.
-✨  Done in 0.12s.
+✨  Done in 0.11s.
 Building with Vite ⚡️
-vite v2.9.13 building for production...
+vite v3.0.0 building for production...
 transforming...
-✓ 155 modules transformed.
+✓ 142 modules transformed.
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
-../../public/vite/manifest-assets.json              0.22 KiB
-../../public/vite/manifest.json                     0.32 KiB
-../../public/vite/assets/application.69742ef7.js    26.83 KiB / gzip: 10.10 KiB
-../../public/vite/assets/application.69742ef7.js.map 49.80 KiB
-../../public/vite/assets/application.b8a38804.css   20.26 KiB / gzip: 4.50 KiB
-../../public/vite/assets/vendor.5a765114.js         137.58 KiB / gzip: 48.29 KiB
-../../public/vite/assets/vendor.5a765114.js.map     556.44 KiB
+../../public/vite/manifest-assets.json              0.10 KiB
+../../public/vite/manifest.json                     0.56 KiB
+../../public/vite/assets/application.8b2d3314.css   20.26 KiB / gzip: 4.50 KiB
+../../public/vite/assets/application.23843d8e.js    26.83 KiB / gzip: 10.10 KiB
+../../public/vite/assets/application.23843d8e.js.map 49.79 KiB
+../../public/vite/assets/vendor.47fd780a.js         137.95 KiB / gzip: 48.59 KiB
+../../public/vite/assets/vendor.47fd780a.js.map     556.29 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
