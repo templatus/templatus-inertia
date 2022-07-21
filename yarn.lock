@@ -343,10 +343,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@feltcoop/eslint-config@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@feltcoop/eslint-config/-/eslint-config-0.2.0.tgz#4a49579766fc8bf275fc2c8884b492f86dd2a106"
-  integrity sha512-craKj7jecywUO7/+YU4G5DHEv3lVeDQHQVQqxdT685Nd1HckRHG7mJO/ayCYXzKPbB0ANaoUfXLG/jx9vzDfuQ==
+"@feltcoop/eslint-config@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@feltcoop/eslint-config/-/eslint-config-0.2.1.tgz#68bdd8e72105963f2e2bbec11e36bd96620d509c"
+  integrity sha512-XqEu9dvaEz7sR3luxpdG4tgR/Sm6L8DYD4SQnUqrQ4lto6Lv7agDdTDRLrKlbGH4lWMLKvwdW/1dDJckFPkoiQ==
 
 "@honeybadger-io/js@^4.0.4":
   version "4.0.4"
