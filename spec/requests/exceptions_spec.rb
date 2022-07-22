@@ -1,5 +1,5 @@
-describe 'Exception handling', type: :request do
-  describe 'requesting URL which does NOT exist' do
+describe 'Exception handling' do
+  context 'when URL does NOT exist' do
     %w[
       /this-does-not-exist
       /this/does/not/exist
@@ -18,6 +18,8 @@ describe 'Exception handling', type: :request do
       /wp-login.php
       /.git/config
       /../root
+      /.env
+      /.git
     ].each do |url|
       context "for #{url}" do
         it 'returns a 404 status code' do
@@ -27,15 +29,4 @@ describe 'Exception handling', type: :request do
       end
     end
   end
-
-  # describe 'requesting URL with unknown format' do
-  #   %w[?format=xml /.env /.git].each do |url|
-  #     context "for #{url}" do
-  #       it 'returns a 406 status code' do
-  #         rails_respond_without_detailed_exceptions { get(url) }
-  #         expect(response).to have_http_status(:not_acceptable)
-  #       end
-  #     end
-  #   end
-  # end
 end
