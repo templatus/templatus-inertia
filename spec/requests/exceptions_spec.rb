@@ -29,4 +29,13 @@ describe 'Exception handling' do
       end
     end
   end
+
+  context 'when ActiveRecord::RecordNotFound is raised' do
+    it 'returns a 404 status code' do
+      allow(Features).to receive(:new).and_raise(ActiveRecord::RecordNotFound)
+
+      get about_path
+      expect(response).to have_http_status(:not_found)
+    end
+  end
 end
