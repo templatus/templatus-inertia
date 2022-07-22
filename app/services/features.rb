@@ -16,7 +16,9 @@ class Features
   def alpine_version
     return unless RUBY_PLATFORM.include?('linux')
 
-    `cat /etc/alpine-release 2>/dev/null`.chomp
+    # :nocov:
+    `cat /etc/alpine-release 2>/dev/null`.chomp.presence
+    # :nocov:
   end
 
   def ruby_version
