@@ -8,7 +8,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
-    "@honeybadger-io/js": "^4.0.4",
+    "@honeybadger-io/js": "^4.0.5",
     "@inertiajs/inertia": "^0.11.0",
     "@inertiajs/inertia-svelte": "^0.8.0",
     "@inertiajs/progress": "^0.2.7",
