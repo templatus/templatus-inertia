@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "lint": "eslint --ext .js,.ts,.svelte --cache .",
     "tsc": "tsc --noEmit"
   },
