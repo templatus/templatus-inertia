@@ -6,6 +6,5 @@
   "tabWidth": 2,
   "svelteAllowShorthand": true,
   "svelteSortOrder": "scripts-markup-styles",
-  "svelteStrictMode": false,
-  "plugins": ["prettier-plugin-svelte"]
+  "svelteStrictMode": false
 }
