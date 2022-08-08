@@ -31,7 +31,7 @@
     "@types/jest": "^28.1.6",
     "@types/rails__actioncable": "^6.1.6",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
-    "@typescript-eslint/parser": "^5.32.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "acorn": "^8.8.0",
     "autoprefixer": "^10.4.8",
     "cypress": "^10.4.0",
