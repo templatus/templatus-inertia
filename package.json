@@ -47,7 +47,7 @@
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "rollup": "^2.77.2",
+    "rollup": "^2.77.3",
     "rollup-plugin-gzip": "^3.0.1",
     "size-limit": "^8.0.0",
     "svelte": "^3.49.0",
