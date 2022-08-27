@@ -5,7 +5,7 @@ import Plausible from 'plausible-tracker';
 const plausibleUrl = metaContent('plausible-url');
 if (plausibleUrl) {
   const plausible = Plausible({
-    domain: metaContent('app-host'),
+    domain: metaContent('app-host') || window.location.host,
     apiHost: plausibleUrl,
   });
 
