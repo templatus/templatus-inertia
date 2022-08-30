@@ -21,7 +21,7 @@
     "@feltcoop/eslint-config": "^0.2.1",
     "@prettier/plugin-ruby": "^3.2.0",
     "@size-limit/file": "^8.0.1",
-    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "@sveltejs/vite-plugin-svelte": "^1.0.3",
     "@tailwindcss/forms": "^0.5.2",
     "@testing-library/dom": "^8.17.1",
     "@testing-library/jest-dom": "^5.16.5",
