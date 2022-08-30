@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "^5.36.0",
     "acorn": "^8.8.0",
     "autoprefixer": "^10.4.8",
-    "cypress": "^10.6.0",
+    "cypress": "^10.7.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
