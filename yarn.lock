@@ -782,10 +782,10 @@
   dependencies:
     semver "7.3.7"
 
-"@sveltejs/vite-plugin-svelte@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.3.tgz#f760677e03074b9f42335dbde33ba988c95d1e67"
-  integrity sha512-0Qu51m2W9RBlxWPp8i31KJpnqmjWMOne8vAzgmOX6ZM9uX+/RAv6BNhEMcNoP5MsyLjyW1ZTCiJoaZZ5EeqpFg==
+"@sveltejs/vite-plugin-svelte@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.4.tgz#363a0adeb9221c35abb65197c6db0754b9994a08"
+  integrity sha512-UZco2fdj0OVuRWC0SUJjEOftITc2IeHLFJNp00ym9MuQ9dShnlO4P29G8KUxRlcS7kSpzHuko6eCR9MOALj7lQ==
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     debug "^4.3.4"
