@@ -783,16 +783,16 @@
   dependencies:
     semver "7.3.7"
 
-"@sveltejs/vite-plugin-svelte@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.4.tgz#363a0adeb9221c35abb65197c6db0754b9994a08"
-  integrity sha512-UZco2fdj0OVuRWC0SUJjEOftITc2IeHLFJNp00ym9MuQ9dShnlO4P29G8KUxRlcS7kSpzHuko6eCR9MOALj7lQ==
+"@sveltejs/vite-plugin-svelte@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.5.tgz#080955415c83f51906b7f4d41bd68e487c82ca4e"
+  integrity sha512-CmSdSow0Dr5ua1A11BQMtreWnE0JZmkVIcRU/yG3PKbycKUpXjNdgYTWFSbStLB0vdlGnBbm2+Y4sBVj+C+TIw==
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.5"
-    magic-string "^0.26.2"
+    magic-string "^0.26.3"
     svelte-hmr "^0.14.12"
 
 "@tailwindcss/forms@^0.5.3":
@@ -3552,10 +3552,10 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@^0.26.2:
-  version "0.26.2"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.2.tgz#5331700e4158cd6befda738bb6b0c7b93c0d4432"
-  integrity sha512-NzzlXpclt5zAbmo6h6jNc8zl2gNRGHvmsZW4IvZhTC4W7k4OlLP+S5YLussa/r3ixNT66KOQfNORlXHSOy/X4A==
+magic-string@^0.26.3:
+  version "0.26.3"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.3.tgz#25840b875140f7b4785ab06bddc384270b7dd452"
+  integrity sha512-u1Po0NDyFcwdg2nzHT88wSK0+Rih0N1M+Ph1Sp08k8yvFFU3KR72wryS7e1qMPJypt99WB7fIFVCA92mQrMjrg==
   dependencies:
     sourcemap-codec "^1.4.8"
 
