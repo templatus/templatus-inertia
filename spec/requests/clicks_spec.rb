@@ -47,6 +47,7 @@ describe 'Clicks', inertia: true do
     it 'renders existing clicks' do
       get '/'
 
+      expect(response).to have_http_status(:ok)
       expect_inertia.to render_component('Clicks/Index')
       expect_inertia.to have_exact_props(total: 1, items: [click])
     end
