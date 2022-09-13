@@ -4494,11 +4494,6 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-test-jest@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/test-jest/-/test-jest-1.0.1.tgz#3f329be1a83d9037feb358b065ffc42ec9578e92"
-  integrity sha512-n3M1YTxgm/9X9OnlPSrFrCUkzWs7aSMjWVPNQxkx95KNBeZ8nXrDWsx9UvMQ8dcI9BFcOCABY2Inumh2TTmnvg==
-
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
