@@ -12,13 +12,12 @@
       day: 'numeric',
       hour: 'numeric',
       minute: 'numeric',
-      second: 'numeric',
       hour12: false,
     });
   }
 </script>
 
-<ul>
+<ul class="text-sm md:text-base">
   {#each clicks as click (click.id)}
     <li
       class="bg-white py-5"
