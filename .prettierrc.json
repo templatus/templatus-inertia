@@ -5,6 +5,7 @@
   "printWidth": 80,
   "tabWidth": 2,
   "svelteAllowShorthand": true,
-  "svelteSortOrder": "scripts-markup-styles",
-  "svelteStrictMode": false
+  "svelteSortOrder": "options-scripts-markup-styles",
+  "svelteStrictMode": false,
+  "svelteIndentScriptAndStyle": true
 }
