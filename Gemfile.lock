@@ -115,7 +115,7 @@ GEM
     honeybadger (4.12.2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    inertia_rails (2.0.1)
+    inertia_rails (3.0.0)
       rails (>= 5)
     io-console (0.5.11)
     irb (1.4.1)
