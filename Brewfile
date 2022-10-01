@@ -1,3 +1,3 @@
 brew 'puma/puma/puma-dev'
-brew 'postgresql'
+brew 'postgresql14'
 brew 'redis'
