@@ -28,7 +28,7 @@
     "@testing-library/svelte": "^3.2.1",
     "@testing-library/user-event": "^14.4.3",
     "@tsconfig/svelte": "^3.0.0",
-    "@types/jest": "^29.1.1",
+    "@types/jest": "^29.1.2",
     "@types/rails__actioncable": "^6.1.6",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
