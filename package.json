@@ -45,7 +45,7 @@
     "jest-transform-stub": "^2.0.0",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.7.1",
+    "prettier-plugin-svelte": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "rollup": "^2.79.1",
     "rollup-plugin-gzip": "^3.0.1",
