@@ -108,18 +108,18 @@ yarn install v1.22.19
 success Already up-to-date.
 ✨  Done in 0.12s.
 Building with Vite ⚡️
-vite v3.1.7 building for production...
+vite v3.1.8 building for production...
 transforming...
 ✓ 142 modules transformed.
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.10 KiB
 ../../public/vite/manifest.json                     0.56 KiB
-../../public/vite/assets/application.2b600e6d.js    26.89 KiB / gzip: 10.14 KiB
-../../public/vite/assets/application.2b600e6d.js.map 53.44 KiB
+../../public/vite/assets/application.4275ce6b.js    26.89 KiB / gzip: 10.14 KiB
+../../public/vite/assets/application.4275ce6b.js.map 53.44 KiB
 ../../public/vite/assets/application.ea338878.css   19.26 KiB / gzip: 4.48 KiB
-../../public/vite/assets/vendor.e75ec821.js         143.40 KiB / gzip: 49.88 KiB
-../../public/vite/assets/vendor.e75ec821.js.map     611.88 KiB
+../../public/vite/assets/vendor.603c4f2b.js         143.40 KiB / gzip: 49.88 KiB
+../../public/vite/assets/vendor.603c4f2b.js.map     611.88 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
