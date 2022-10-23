@@ -11,7 +11,11 @@ class ClicksController < ApplicationController
                     ip: anonymize(request.remote_ip)
     ActionCable.server.broadcast 'clicks_channel', click
 
-    render inertia: 'Clicks/Index'
+    flash.now[:notice] = 'Click was successfully recorded.'
+    render inertia: 'Clicks/Index', status: :created
+  rescue StandardError
+    flash.now[:alert] = 'Click recording failed!'
+    render inertia: 'Clicks/Index', status: :unprocessable_entity
   end
 
   private
