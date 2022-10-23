@@ -99,7 +99,7 @@ https://github.com/rails/rails/pull/41994
 
 ### JavaScript size
 
-165 KB of compiled JavaScript (after tree-shaking, minified & uncompressed).
+171 KB of compiled JavaScript (after tree-shaking, minified & uncompressed).
 
 ```
 $ RAILS_ENV=production bin/rails assets:precompile
@@ -117,7 +117,7 @@ rendering chunks...
 ../../public/vite/manifest.json                     0.56 KiB
 ../../public/vite/assets/application.b9c77d60.js    26.89 KiB / gzip: 10.14 KiB
 ../../public/vite/assets/application.b9c77d60.js.map 53.44 KiB
-../../public/vite/assets/application.ea338878.css   19.26 KiB / gzip: 4.48 KiB
+../../public/vite/assets/application.8b551e71.css   19.28 KiB / gzip: 4.48 KiB
 ../../public/vite/assets/vendor.50f79030.js         143.81 KiB / gzip: 49.93 KiB
 ../../public/vite/assets/vendor.50f79030.js.map     612.25 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
