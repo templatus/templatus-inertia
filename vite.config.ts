@@ -12,9 +12,7 @@ export default defineConfig({
     RubyPlugin(),
     FullReload(['config/routes.rb', 'app/views/**/*']),
     svelte({
-      experimental: {
-        prebundleSvelteLibraries: true,
-      },
+      prebundleSvelteLibraries: true,
       preprocess: preprocess({
         postcss: true,
       }),
