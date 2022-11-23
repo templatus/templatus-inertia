@@ -111,6 +111,9 @@ Building with Vite ⚡️
 vite v3.2.4 building for production...
 transforming...
 ✓ 145 modules transformed.
+14:37:44 [vite-plugin-svelte] dom compile done.
+package          	files	 time	  avg
+templatus-inertia	   18	0.14s	7.7ms
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.10 KiB
