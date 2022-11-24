@@ -1,15 +1,10 @@
 import axios from 'axios';
-import { createInertiaApp } from '@inertiajs/inertia-svelte';
-import { InertiaProgress } from '@inertiajs/progress';
+import { createInertiaApp } from '@inertiajs/svelte';
 import { metaContent } from '@/utils/metaContent';
 
 const pages = import.meta.glob('../pages/**/*.svelte', { eager: true });
 
 axios.defaults.headers.common['X-CSRF-Token'] = metaContent('csrf-token');
-
-InertiaProgress.init({
-  showSpinner: true,
-});
 
 createInertiaApp({
   resolve: (name: string) => pages[`../pages/${name}.svelte`],

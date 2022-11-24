@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 import { createConsumer } from '@rails/actioncable';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/svelte';
 import * as Routes from '@/routes';
 
 import type { Subscription } from 'rails__actioncable';
@@ -19,7 +19,7 @@ export const currentTotal = writable(0);
 export const subscribed = writable(false);
 
 export function sendClick(): void {
-  Inertia.post(Routes.clicks());
+  router.post(Routes.clicks());
 }
 
 export function startCable(): void {

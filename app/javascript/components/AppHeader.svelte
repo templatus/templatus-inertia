@@ -1,6 +1,6 @@
 <script lang="ts">
   import { assetUrl } from '@/utils/metaContent';
-  import { inertia, page } from '@inertiajs/inertia-svelte';
+  import { inertia, page } from '@inertiajs/svelte';
   import logoPath from '@/images/logo.svg';
   import * as Routes from '@/routes';
 

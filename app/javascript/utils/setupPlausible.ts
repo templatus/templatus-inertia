@@ -1,5 +1,5 @@
 import { metaContent } from '@/utils/metaContent';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/svelte';
 import Plausible from 'plausible-tracker';
 
 const plausibleUrl = metaContent('plausible-url');
@@ -11,7 +11,7 @@ if (plausibleUrl) {
 
   plausible.enableAutoOutboundTracking();
 
-  Inertia.on('navigate', () => {
+  router.on('navigate', () => {
     plausible.trackPageview();
   });
 }

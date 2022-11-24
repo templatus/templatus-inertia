@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { page } from '@inertiajs/inertia-svelte';
+  import { page } from '@inertiajs/svelte';
 
   import AppBackground from '@/components/AppBackground.svelte';
   import AppHeader from '@/components/AppHeader.svelte';
