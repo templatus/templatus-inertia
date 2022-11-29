@@ -106,23 +106,23 @@ $ RAILS_ENV=production bin/rails assets:precompile
 yarn install v1.22.19
 [1/5] 🔍  Resolving packages...
 success Already up-to-date.
-✨  Done in 0.12s.
+✨  Done in 0.11s.
 Building with Vite ⚡️
 vite v3.2.4 building for production...
 transforming...
-✓ 145 modules transformed.
-14:37:44 [vite-plugin-svelte] dom compile done.
+✓ 150 modules transformed.
+06:55:41 [vite-plugin-svelte] dom compile done.
 package          	files	 time	  avg
-templatus-inertia	   18	0.14s	7.7ms
+templatus-inertia	   18	0.14s	7.6ms
 rendering chunks...
 ../../public/vite/assets/logo.10f03a2b.svg          0.48 KiB
 ../../public/vite/manifest-assets.json              0.10 KiB
 ../../public/vite/manifest.json                     0.56 KiB
-../../public/vite/assets/application.cdcff8db.js    28.98 KiB / gzip: 10.84 KiB
-../../public/vite/assets/application.cdcff8db.js.map 56.18 KiB
+../../public/vite/assets/application.856c6f5f.js    28.94 KiB / gzip: 10.82 KiB
+../../public/vite/assets/application.856c6f5f.js.map 56.00 KiB
 ../../public/vite/assets/application.b2696019.css   20.17 KiB / gzip: 4.68 KiB
-../../public/vite/assets/vendor.d64984e2.js         147.21 KiB / gzip: 50.66 KiB
-../../public/vite/assets/vendor.d64984e2.js.map     616.99 KiB
+../../public/vite/assets/vendor.355b828c.js         149.21 KiB / gzip: 51.10 KiB
+../../public/vite/assets/vendor.355b828c.js.map     633.73 KiB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
