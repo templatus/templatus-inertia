@@ -4,6 +4,12 @@
   "rubyPlugins": "plugin/single_quotes,plugin/trailing_comma",
   "printWidth": 80,
   "tabWidth": 2,
+  "plugins": [
+    "@prettier/plugin-ruby",
+    "prettier-plugin-svelte",
+    "prettier-plugin-tailwindcss"
+  ],
+  "pluginSearchDirs": false,
   "svelteAllowShorthand": true,
   "svelteSortOrder": "options-scripts-markup-styles",
   "svelteStrictMode": false,
