@@ -92,6 +92,9 @@ Style/StringLiteralsInInterpolation:
 Style/DisableCopsWithinSourceCodeDirective:
   Enabled: false
 
+Style/RequireOrder:
+  Enabled: false
+
 ### Metrics
 
 Metrics/BlockLength:
