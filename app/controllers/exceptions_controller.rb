@@ -8,7 +8,7 @@ class ExceptionsController < ActionController::Base
     status = request.path_info.delete_prefix('/').to_i
 
     if request.format.html? || request.inertia?
-      render inertia: 'Error/Show', props: { status: }, status: status
+      render(inertia: 'Error/Show', props: { status: }, status:)
     else
       head status
     end
