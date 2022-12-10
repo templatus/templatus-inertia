@@ -6,8 +6,8 @@
 /log
 /db
 /config
-*.config.js
+*.config.cjs
 *.config.ts
-.eslintrc.js
+.eslintrc.cjs
 app/javascript/routes.js
 app/javascript/routes.d.ts
