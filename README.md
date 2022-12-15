@@ -104,14 +104,15 @@ https://github.com/rails/rails/pull/41994
 ```
 $ RAILS_ENV=production bin/rails assets:precompile
 yarn install v1.22.19
-[1/5] 🔍  Resolving packages...
+[1/6] 🔍  Validating package.json...
+[2/6] 🔍  Resolving packages...
 success Already up-to-date.
-✨  Done in 0.11s.
+✨  Done in 0.12s.
 Building with Vite ⚡️
-vite v4.0.0 building for production...
+vite v4.0.1 building for production...
 transforming...
 ✓ 150 modules transformed.
-04:09:37 [vite-plugin-svelte] dom compile done.
+12:44:42 [vite-plugin-svelte] dom compile done.
 package          	files	 time	  avg
 templatus-inertia	   18	0.14s	7.8ms
 rendering chunks...
@@ -120,8 +121,8 @@ computing gzip size...
 ../../public/vite/assets/logo.10f03a2b.svg           0.50 kB
 ../../public/vite/manifest.json                      0.57 kB
 ../../public/vite/assets/application.b2696019.css   20.65 kB │ gzip:  4.79 kB
-../../public/vite/assets/application.c2b13e04.js    29.69 kB │ gzip: 11.13 kB │ map:  57.34 kB
-../../public/vite/assets/vendor.46c0e32b.js        152.83 kB │ gzip: 52.42 kB │ map: 649.31 kB
+../../public/vite/assets/application.74932a9b.js    29.69 kB │ gzip: 11.12 kB │ map:  57.34 kB
+../../public/vite/assets/vendor.88a89de9.js        154.81 kB │ gzip: 52.59 kB │ map: 658.05 kB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
