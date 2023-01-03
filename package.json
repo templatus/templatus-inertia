@@ -9,7 +9,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
-    "@honeybadger-io/js": "^4.8.1",
+    "@honeybadger-io/js": "^4.8.2",
     "@inertiajs/svelte": "^1.0.0-beta.2",
     "@rails/actioncable": "^7.0.4",
     "plausible-tracker": "^0.3.8",
