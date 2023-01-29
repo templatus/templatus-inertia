@@ -4784,10 +4784,10 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tabler-icons-svelte@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/tabler-icons-svelte/-/tabler-icons-svelte-1.9.1.tgz#48f1a869833aa7dfa1f2f6bc25621ffb71b386d1"
-  integrity sha512-cG8LzXzSjWSF+vWXX2Dqn6HewZ78ttmlt+2x12E5dtMeAmKMnSEi7i/sgMa8/PQ0wZ3GT+QtHcHPZEdXzAj4sQ==
+tabler-icons-svelte@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/tabler-icons-svelte/-/tabler-icons-svelte-1.10.0.tgz#f15575204b8bec31bd1a7fe0e78d2ec252d4274a"
+  integrity sha512-BERFRwLW+nLnEXrC1yc3TCwM9LxlMqixnQiMIF/u9XESbYXUCi6udjwvSGmwLepAD0DI9OdXBrZvfPBan7Dzcg==
 
 tailwindcss@^3.2.4:
   version "3.2.4"
