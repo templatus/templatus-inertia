@@ -849,6 +849,18 @@
     svelte-hmr "^0.15.1"
     vitefu "^0.2.3"
 
+"@tabler/icons-svelte@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-svelte/-/icons-svelte-2.1.2.tgz#ebc19e012e622abb4e49a66dc76d20c7727eae76"
+  integrity sha512-LWK2zsVpC5pZo0Aiy6DgWBTDZ7oIst5EkpRenpnRRVGrn+DJPwx4cYUUbtfgFV/O4Qha8hUw5FEtkevRrueVsQ==
+  dependencies:
+    "@tabler/icons" "2.1.2"
+
+"@tabler/icons@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.1.2.tgz#589ede0fe885d388caa78186c71c2997dd29dd73"
+  integrity sha512-+CPB+BSqVDP4+/d+cHSaGwG460C3sob7EJkQ+ZS8xV6bRER64OsCP92O7M+uYBhJFDWuf6poCeSETNZNcFa2nA==
+
 "@tailwindcss/forms@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.3.tgz#e4d7989686cbcaf416c53f1523df5225332a86e7"
@@ -4722,11 +4734,6 @@ symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
-
-tabler-icons-svelte@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/tabler-icons-svelte/-/tabler-icons-svelte-1.10.0.tgz#f15575204b8bec31bd1a7fe0e78d2ec252d4274a"
-  integrity sha512-BERFRwLW+nLnEXrC1yc3TCwM9LxlMqixnQiMIF/u9XESbYXUCi6udjwvSGmwLepAD0DI9OdXBrZvfPBan7Dzcg==
 
 tailwindcss@^3.2.4:
   version "3.2.4"

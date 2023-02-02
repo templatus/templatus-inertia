@@ -1,7 +1,6 @@
 <script lang="ts">
   import { fly } from 'svelte/transition';
-  import AlertCircle from 'tabler-icons-svelte/icons/AlertCircle.svelte';
-  import CircleCheck from 'tabler-icons-svelte/icons/CircleCheck.svelte';
+  import { IconAlertCircle, IconCircleCheck } from '@tabler/icons-svelte';
 
   export let flash = {
     notice: '',
@@ -9,14 +8,14 @@
   };
 
   let text: string;
-  let icon: typeof AlertCircle | typeof CircleCheck;
+  let icon: typeof IconAlertCircle | typeof IconCircleCheck;
   let backgroundClass: string;
   let textClass: string;
   let iconClass: string;
 
   $: if (flash.notice) {
     text = flash.notice;
-    icon = CircleCheck;
+    icon = IconCircleCheck;
     textClass = 'text-green-800';
     iconClass = 'text-green-400';
     backgroundClass = 'bg-green-50 border-green-500';
@@ -26,7 +25,7 @@
 
   $: if (flash.alert) {
     text = flash.alert;
-    icon = AlertCircle;
+    icon = IconAlertCircle;
     textClass = 'text-red-800';
     iconClass = 'text-red-400';
     backgroundClass = 'bg-red-50 border-red-500';

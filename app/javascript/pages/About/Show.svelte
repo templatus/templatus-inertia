@@ -5,7 +5,7 @@
 
 <script lang="ts">
   import PageTitle from '@/components/PageTitle.svelte';
-  import Check from 'tabler-icons-svelte/icons/Check.svelte';
+  import { IconCheck } from '@tabler/icons-svelte';
 
   export let features;
 </script>
@@ -38,7 +38,7 @@
             <div class="relative">
               <dt>
                 <div class="absolute h-6 w-6 text-inertia" aria-hidden="true">
-                  <Check />
+                  <IconCheck />
                 </div>
 
                 <p
