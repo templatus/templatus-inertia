@@ -111,18 +111,18 @@ success Already up-to-date.
 Building with Vite ⚡️
 vite v4.0.4 building for production...
 transforming...
-✓ 138 modules transformed.
-12:01:48 [vite-plugin-svelte] dom compile done.
+✓ 136 modules transformed.
+06:09:05 [vite-plugin-svelte] dom compile done.
 package          	files	 time	  avg
-templatus-inertia	   19	0.15s	8.0ms
+templatus-inertia	   19	0.16s	8.3ms
 rendering chunks...
 computing gzip size...
 ../../public/vite/manifest-assets.json               0.10 kB
 ../../public/vite/assets/logo.10f03a2b.svg           0.50 kB
 ../../public/vite/manifest.json                      0.57 kB
 ../../public/vite/assets/application.b2696019.css   20.65 kB │ gzip:  4.79 kB
-../../public/vite/assets/application.2edd902e.js    29.67 kB │ gzip: 11.12 kB │ map:  57.78 kB
-../../public/vite/assets/vendor.1cf57362.js        161.44 kB │ gzip: 55.94 kB │ map: 705.11 kB
+../../public/vite/assets/application.09635415.js    29.67 kB │ gzip: 11.12 kB │ map:  57.78 kB
+../../public/vite/assets/vendor.d635f636.js        165.05 kB │ gzip: 57.05 kB │ map: 717.32 kB
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
