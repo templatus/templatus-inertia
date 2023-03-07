@@ -21,7 +21,7 @@ describe 'Exception handling' do
       /.env
       /.git
     ].each do |url|
-      context "for #{url}" do
+      context "with #{url}" do
         it 'returns a 404 status code' do
           rails_respond_without_detailed_exceptions { get(url) }
           expect(response).to have_http_status(:not_found)
