@@ -44,7 +44,7 @@
     "jest-transform-stub": "^2.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.6",
-    "prettier-plugin-svelte": "^2.9.0",
+    "prettier-plugin-svelte": "^2.10.0",
     "prettier-plugin-tailwindcss": "^0.2.5",
     "size-limit": "^8.2.4",
     "svelte": "^3.57.0",
