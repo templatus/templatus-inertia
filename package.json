@@ -17,7 +17,7 @@
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@feltcoop/eslint-config": "^0.2.1",
+    "@feltjs/eslint-config": "^0.2.1",
     "@prettier/plugin-ruby": "^3.2.2",
     "@size-limit/file": "^8.2.4",
     "@sveltejs/vite-plugin-svelte": "2.0.4",

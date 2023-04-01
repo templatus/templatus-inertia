@@ -490,10 +490,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.37.0.tgz#cf1b5fa24217fe007f6487a26d765274925efa7d"
   integrity sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==
 
-"@feltcoop/eslint-config@^0.2.1":
+"@feltjs/eslint-config@^0.2.1":
   version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@feltcoop/eslint-config/-/eslint-config-0.2.1.tgz#68bdd8e72105963f2e2bbec11e36bd96620d509c"
-  integrity sha512-XqEu9dvaEz7sR3luxpdG4tgR/Sm6L8DYD4SQnUqrQ4lto6Lv7agDdTDRLrKlbGH4lWMLKvwdW/1dDJckFPkoiQ==
+  resolved "https://registry.yarnpkg.com/@feltjs/eslint-config/-/eslint-config-0.2.1.tgz#3c612dff2e614fad1dd56f9c00c221cdbc0e51d1"
+  integrity sha512-QBS7FWQf7wB5k3+ZPhkfTQZXihZS9j8iSAy6cAmBkMiAyQ9UVU2kw4Kq95VdQ+ffs8D9hZdPKrTf6ZfzJ1PNFw==
 
 "@honeybadger-io/core@^5.2.0":
   version "5.2.0"
