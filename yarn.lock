@@ -867,17 +867,17 @@
     svelte-hmr "^0.15.1"
     vitefu "^0.2.4"
 
-"@tabler/icons-svelte@^2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons-svelte/-/icons-svelte-2.12.0.tgz#f62b0dca94db137d1acfc5587ef7d724c40f22fe"
-  integrity sha512-K6F3vAxEcNCRD1Vw+eA23j8Hxodr/tuakhVk/lb9ARVqGfbXTYBldzleLYDEjGB/lRwgWUrGPq4abZwYIwGlww==
+"@tabler/icons-svelte@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-svelte/-/icons-svelte-2.13.0.tgz#5ede7eaef079dc53b217e5ed2d0c5c70d88af083"
+  integrity sha512-z8QDZkqpPq1tcdq5oIIDwSTPK5nQkvpCBe9N+aXsImqN64al4xVljVoihuWEooC140ZFLk4JYll21O8QPZlYnA==
   dependencies:
-    "@tabler/icons" "2.12.0"
+    "@tabler/icons" "2.13.0"
 
-"@tabler/icons@2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.12.0.tgz#cb4300ec52677b30f9f36c351dcb54cb4fc2ee63"
-  integrity sha512-PiYD2zUOewNAtfJKU9tBZfyv3NeFlTlUe5LSGTTplvBcM0iuHrNVnd30+HIcUGJQhi3Uf0Ng9FRi/kPqm/q6ZA==
+"@tabler/icons@2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.13.0.tgz#46d1f3b0ab50c01928204302ce0a2f3e2d70b1d4"
+  integrity sha512-YF1cl17cdhaAHQayv3zDRzYLT6AX49gm6RGTNkIfFiEcefMsJtyCt1qXbI/mxzFCugrb3LdlPmZPLceYl9kn8A==
 
 "@tailwindcss/forms@^0.5.3":
   version "0.5.3"
