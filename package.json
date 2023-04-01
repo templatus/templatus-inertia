@@ -12,12 +12,12 @@
     "@honeybadger-io/js": "^5.2.0",
     "@inertiajs/svelte": "^1.0.2",
     "@rails/actioncable": "^7.0.4",
-    "@tabler/icons-svelte": "^2.12.0",
+    "@tabler/icons-svelte": "^2.13.0",
     "plausible-tracker": "^0.3.8",
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@feltcoop/eslint-config": "^0.2.1",
+    "@feltjs/eslint-config": "^0.2.1",
     "@prettier/plugin-ruby": "^3.2.2",
     "@size-limit/file": "^8.2.4",
     "@sveltejs/vite-plugin-svelte": "2.0.4",
