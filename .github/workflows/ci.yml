@@ -50,6 +50,8 @@ jobs:
         run: bin/rubocop --parallel
 
       - name: Run ESLint
+        env:
+          NODE_OPTIONS: '--max-old-space-size=8192'
         run: bin/yarn lint
 
       - name: Check for TypeScript errors

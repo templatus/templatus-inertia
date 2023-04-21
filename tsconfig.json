@@ -4,6 +4,7 @@
     "target": "esNext",
     "module": "esNext",
     "moduleResolution": "node",
+    "verbatimModuleSyntax": false,
     "types": ["vite/client", "jest", "@testing-library/jest-dom"],
     "paths": {
       "@/*": ["./app/javascript/*"],
