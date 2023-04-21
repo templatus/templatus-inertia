@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@honeybadger-io/js": "^5.3.0",
-    "@inertiajs/svelte": "^1.0.5",
+    "@inertiajs/svelte": "^1.0.6",
     "@rails/actioncable": "^7.0.4",
     "@tabler/icons-svelte": "^2.16.0",
     "plausible-tracker": "^0.3.8",
