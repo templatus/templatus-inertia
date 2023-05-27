@@ -864,10 +864,10 @@
   dependencies:
     debug "^4.3.4"
 
-"@sveltejs/vite-plugin-svelte@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.3.0.tgz#a8055e73678359166b80151aa0a958a97278dcb7"
-  integrity sha512-NbgDn5/auWfGYFip7DheDj49/JLE6VugdtdLJjnQASYxXqrQjl81xaZzQsoSAxWk+j2mOkmPFy56gV2i63FUnA==
+"@sveltejs/vite-plugin-svelte@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.4.0.tgz#11c9535b77b0b9c4c81371cc83854b7a3ccbb698"
+  integrity sha512-OdKTMNZTb4OPrXY0IAJiOG5krQcgEaDtqjLNFj5KInyzn3/HNVuXx9egAneMMhStqk1K5Nf7DIG40e9HeBxeOA==
   dependencies:
     "@sveltejs/vite-plugin-svelte-inspector" "^1.0.1"
     debug "^4.3.4"
