@@ -9,7 +9,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
-    "@honeybadger-io/js": "^5.4.1",
+    "@honeybadger-io/js": "^6.0.0",
     "@inertiajs/svelte": "^1.0.7",
     "@rails/actioncable": "^7.0.5",
     "@tabler/icons-svelte": "^2.20.0",
