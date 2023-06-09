@@ -535,22 +535,22 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@inertiajs/core@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@inertiajs/core/-/core-1.0.7.tgz#8721cfe049a6a1d9be9bb1ec65667bf2ed4ee825"
-  integrity sha512-hb9XP+TVNdYoI3+3dx2Myp16w/WmqDCvTMl0o8SfFG6xSAJItihytrm0BJUNkV1PnId1qp0RUswOFZ8I8u3hzg==
+"@inertiajs/core@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@inertiajs/core/-/core-1.0.8.tgz#b632970dcb381d3564005cdf8405286559522f0f"
+  integrity sha512-8nr1C76bE9Pfb5OwDGtjtSsiy2g6EG5J7w/w4dWHmoQdY9g01F+VnN3+QYtf/fsFkd8l7A6HoCBgUEZHkwdhXg==
   dependencies:
     axios "^1.2.0"
     deepmerge "^4.0.0"
     nprogress "^0.2.0"
     qs "^6.9.0"
 
-"@inertiajs/svelte@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@inertiajs/svelte/-/svelte-1.0.7.tgz#28a4f22f4633c36b3204075e57c17c8d13e36154"
-  integrity sha512-2p0VMUD6StskHIhvWGxFLe4sJkvYG977MfWinicOXPJnZIF98mvrrOSqXIAU6/ycomUQZkyuSwO8MQhv1ZGSXQ==
+"@inertiajs/svelte@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@inertiajs/svelte/-/svelte-1.0.8.tgz#4bb3e4428d242ff0e0e6761bec5d009c53fa15d5"
+  integrity sha512-Q3+FSccmyB3TKCDD+8WvnaoChjAbmsR5nWDmffV0TTk9ypGTo38ZeyqoHIn3FKSEm3AD8ksVEIRccn8vD4cLPA==
   dependencies:
-    "@inertiajs/core" "1.0.7"
+    "@inertiajs/core" "1.0.8"
     lodash.isequal "^4.5.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
