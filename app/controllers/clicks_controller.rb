@@ -6,19 +6,23 @@ class ClicksController < ApplicationController
   end
 
   def create
-    click =
-      Click.create! user_agent: request.user_agent,
-                    ip: anonymize(request.remote_ip)
-    ActionCable.server.broadcast 'clicks_channel', click
+    create_click!
 
-    flash.now[:notice] = 'Click was successfully recorded.'
+    flash.now[:notice] = t('.success')
     render inertia: 'Clicks/Index', status: :created
   rescue StandardError
-    flash.now[:alert] = 'Click recording failed!'
+    flash.now[:alert] = t('.fail')
     render inertia: 'Clicks/Index', status: :unprocessable_entity
   end
 
   private
+
+  def create_click!
+    click =
+      Click.create! user_agent: request.user_agent,
+                    ip: anonymize(request.remote_ip)
+    ActionCable.server.broadcast 'clicks_channel', click
+  end
 
   def anonymize(ip)
     addr = IPAddr.new(ip.to_s)
