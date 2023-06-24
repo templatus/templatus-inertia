@@ -19,7 +19,7 @@
   "devDependencies": {
     "@feltjs/eslint-config": "^0.2.1",
     "@prettier/plugin-ruby": "^3.2.2",
-    "@size-limit/file": "^8.2.4",
+    "@size-limit/file": "^8.2.6",
     "@sveltejs/vite-plugin-svelte": "2.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@testing-library/dom": "^9.3.1",
@@ -46,7 +46,7 @@
     "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.1",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "size-limit": "^8.2.4",
+    "size-limit": "^8.2.6",
     "svelte": "^3.59.2",
     "svelte-jester": "^2.3.2",
     "svelte-preprocess": "^5.0.4",
