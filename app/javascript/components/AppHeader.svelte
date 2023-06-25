@@ -11,7 +11,7 @@
 </script>
 
 <header
-  class="{$$props.class} flex items-end justify-between space-x-5 p-5 lg:flex-col lg:items-stretch lg:space-y-36 lg:space-x-0 lg:p-0"
+  class="{$$props.class} flex items-end justify-between space-x-5 p-5 lg:flex-col lg:items-stretch lg:space-x-0 lg:space-y-36 lg:p-0"
 >
   <img
     src={assetUrl(logoPath)}
@@ -22,7 +22,7 @@
   />
 
   <nav
-    class="flex space-x-5 text-center text-lg font-medium uppercase lg:flex-col lg:space-y-5 lg:space-x-0"
+    class="flex space-x-5 text-center text-lg font-medium uppercase lg:flex-col lg:space-x-0 lg:space-y-5"
   >
     {#each tabs as tab}
       <a

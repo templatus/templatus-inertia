@@ -46,7 +46,7 @@ gem 'sidekiq'
 gem 'js-routes'
 
 group :development, :test do
-   # Debugging functionality for Ruby (https://github.com/ruby/debug)
+  # Debugging functionality for Ruby (https://github.com/ruby/debug)
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 
   # Autoload dotenv in Rails. (https://github.com/bkeepers/dotenv)

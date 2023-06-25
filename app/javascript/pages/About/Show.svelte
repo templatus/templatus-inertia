@@ -55,14 +55,14 @@
 
                   {#if feature.version}
                     <span
-                      class="ml-2 inline-flex items-center rounded-full bg-rose py-0.5 px-2.5 text-xs font-medium text-black"
+                      class="ml-2 inline-flex items-center rounded-full bg-rose px-2.5 py-0.5 text-xs font-medium text-black"
                     >
                       {feature.version}
                     </span>
                   {/if}
                 </p>
               </dt>
-              <dd class="mt-2 ml-9 text-base text-gray-600">
+              <dd class="ml-9 mt-2 text-base text-gray-600">
                 {@html feature.description}
               </dd>
             </div>

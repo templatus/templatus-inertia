@@ -43,7 +43,7 @@
 </div>
 
 <ClickButton
-  class="mt-5 w-full lg:absolute lg:-top-5 lg:-right-10 lg:mt-0 lg:w-56 lg:rounded lg:bg-gradient-to-br lg:from-slate-100 lg:to-white lg:p-3 lg:shadow"
+  class="mt-5 w-full lg:absolute lg:-right-10 lg:-top-5 lg:mt-0 lg:w-56 lg:rounded lg:bg-gradient-to-br lg:from-slate-100 lg:to-white lg:p-3 lg:shadow"
   count={$currentTotal}
 />
 

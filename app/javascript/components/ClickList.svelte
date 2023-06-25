@@ -26,7 +26,7 @@
       out:fade|local={{ duration: 200 }}
     >
       <p>
-        <span class="rounded bg-gray-900 py-1 px-2 font-mono text-rose">
+        <span class="rounded bg-gray-900 px-2 py-1 font-mono text-rose">
           {click.ip}
         </span>
 
