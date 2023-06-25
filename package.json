@@ -17,7 +17,6 @@
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@feltjs/eslint-config": "^0.2.1",
     "@prettier/plugin-ruby": "^3.2.2",
     "@size-limit/file": "^8.2.6",
     "@sveltejs/vite-plugin-svelte": "2.4.2",
@@ -38,7 +37,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-cypress": "^2.13.3",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-plugin-svelte": "^2.31.1",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "jest-transform-stub": "^2.0.0",

@@ -63,6 +63,7 @@
                 </p>
               </dt>
               <dd class="ml-9 mt-2 text-base text-gray-600">
+                <!-- eslint-disable svelte/no-at-html-tags -->
                 {@html feature.description}
               </dd>
             </div>
