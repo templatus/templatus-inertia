@@ -111,7 +111,7 @@ success Already up-to-date.
 Building with Vite ⚡️
 vite v4.3.9 building for production...
 transforming...
-✓ 4388 modules transformed.
+✓ 4406 modules transformed.
 rendering chunks...
 computing gzip size...
 ../../public/vite/manifest-assets.json               0.10 kB │ gzip:  0.09 kB
@@ -120,7 +120,7 @@ computing gzip size...
 ../../public/vite/assets/application-2aab95d7.css   21.21 kB │ gzip:  4.81 kB
 ../../public/vite/assets/application-eeea89d9.js    29.70 kB │ gzip: 11.14 kB │ map:  57.89 kB
 ../../public/vite/assets/vendor-2cbd284d.js        167.81 kB │ gzip: 58.07 kB │ map: 728.54 kB
-✓ built in 18.75s
+✓ built in 18.69s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
