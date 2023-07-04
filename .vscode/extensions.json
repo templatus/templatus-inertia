@@ -4,6 +4,6 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "github.copilot",
-    "orta.vscode-jest"
+    "ZixuanChen.vitest-explorer"
   ]
 }

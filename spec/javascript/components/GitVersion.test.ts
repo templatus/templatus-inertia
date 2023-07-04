@@ -1,5 +1,4 @@
 import { render } from '@testing-library/svelte';
-import '@testing-library/jest-dom';
 import GitVersion from '@/components/GitVersion.svelte';
 
 describe('GitVersion', () => {

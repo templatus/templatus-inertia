@@ -87,6 +87,11 @@
         "description": "Behaviour Driven Development for Ruby. Making TDD Productive and Fun."
       },
       {
+        "name": "Vitest",
+        "href": "https://vitest.dev/",
+        "description": "A Vite-native unit test framework. It's fast!"
+      },
+      {
         "name": "RuboCop",
         "href": "https://rubocop.org/",
         "description": "The Ruby Linter/Formatter that Serves and Protects"
