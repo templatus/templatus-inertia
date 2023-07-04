@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import GitVersion from '@/components/GitVersion.svelte';
 
 describe('GitVersion', () => {
-  test('renders version', async () => {
+  test('renders version', () => {
     const { getByText } = render(GitVersion, {
       props: {
         commitVersion: 'v0.0.1-123-7654321',
