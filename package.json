@@ -17,7 +17,7 @@
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@prettier/plugin-ruby": "^3.2.2",
+    "@prettier/plugin-ruby": "^4.0.0",
     "@size-limit/file": "^8.2.6",
     "@sveltejs/vite-plugin-svelte": "2.4.2",
     "@tailwindcss/forms": "^0.5.3",
