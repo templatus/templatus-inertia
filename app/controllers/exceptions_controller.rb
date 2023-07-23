@@ -5,7 +5,7 @@ class ExceptionsController < ActionController::Base
   layout 'application'
 
   def show
-    status = request.path_info.delete_prefix('/').to_i
+    status = Integer(request.path_info.delete_prefix('/'), 10)
 
     if request.format.html? || request.inertia?
       render(inertia: 'Error/Show', props: { status: }, status:)
