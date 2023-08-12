@@ -10,7 +10,6 @@ createInertiaApp({
   resolve: (name: string) => pages[`../pages/${name}.svelte`],
 
   setup({ el, App, props }) {
-    // eslint-disable-next-line no-new
-    new App({ target: el, props });
+    const _app = new App({ target: el, props });
   },
 });
