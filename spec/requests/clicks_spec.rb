@@ -24,8 +24,8 @@ describe 'Clicks', inertia: true do
         call(ipv4)
 
         expect(response).to have_http_status(:created)
-        expect_inertia.to have_exact_props(
-          { flash: { notice: 'Click was successfully recorded.' } },
+        expect(inertia.props[:flash]).to eq(
+          { notice: 'Click was successfully recorded.' },
         )
         expect(Click.last.ip).to eq('1.2.3.0')
         expect(Click.last.user_agent).to eq(user_agent)
@@ -39,8 +39,8 @@ describe 'Clicks', inertia: true do
         call(ipv6)
 
         expect(response).to have_http_status(:created)
-        expect_inertia.to have_exact_props(
-          { flash: { notice: 'Click was successfully recorded.' } },
+        expect(inertia.props[:flash]).to eq(
+          { notice: 'Click was successfully recorded.' },
         )
         expect(Click.last.ip).to eq('2001:0db8:0:0:0:0:0:0')
         expect(Click.last.user_agent).to eq(user_agent)
@@ -54,8 +54,8 @@ describe 'Clicks', inertia: true do
         call(ipv6)
 
         expect(response).to have_http_status(:unprocessable_entity)
-        expect_inertia.to have_exact_props(
-          { flash: { alert: 'Click recording failed!' } },
+        expect(inertia.props[:flash]).to eq(
+          { alert: 'Click recording failed!' },
         )
       end
     end

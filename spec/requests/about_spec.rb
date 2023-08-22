@@ -5,7 +5,7 @@ describe 'About', inertia: true do
 
       expect(response).to have_http_status(:ok)
       expect_inertia.to render_component('About/Show')
-      expect_inertia.to include_props(:features)
+      expect(inertia.props[:features]).to be_present
     end
   end
 end
