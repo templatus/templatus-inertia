@@ -1,4 +1,4 @@
-describe 'Clicks', inertia: true do
+describe 'Clicks', :inertia do
   include ActiveSupport::Testing::TimeHelpers
 
   let(:user_agent) { 'Netscape Navigator' }
