@@ -1,4 +1,4 @@
-describe 'About', inertia: true do
+describe 'About', :inertia do
   describe 'GET /show' do
     it 'render features' do
       get '/about'
