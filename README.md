@@ -119,9 +119,9 @@ computing gzip size...
 ../../public/vite/assets/logo-10f03a2b.svg           0.50 kB │ gzip:  0.30 kB
 ../../public/vite/manifest.json                      0.57 kB │ gzip:  0.22 kB
 ../../public/vite/assets/application-e151bf91.css   21.46 kB │ gzip:  4.88 kB
-../../public/vite/assets/application-812a6bf9.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
-../../public/vite/assets/vendor-a9f07a5c.js        180.44 kB │ gzip: 61.03 kB │ map: 814.27 kB
-✓ built in 20.88s
+../../public/vite/assets/application-4d588863.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
+../../public/vite/assets/vendor-9a1dba92.js        180.44 kB │ gzip: 61.04 kB │ map: 814.83 kB
+✓ built in 22.45s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
