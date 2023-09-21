@@ -29,7 +29,7 @@
     "@types/rails__actioncable": "^6.1.6",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
-    "@vitest/coverage-v8": "^0.34.4",
+    "@vitest/coverage-v8": "^0.34.5",
     "acorn": "^8.10.0",
     "autoprefixer": "^10.4.16",
     "cypress": "^13.2.0",
