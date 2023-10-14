@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.2.2'
 
 # Full-stack web application framework. (https://rubyonrails.org)
-gem 'rails', '~> 7.0.6'
+gem 'rails', '~> 7.1.1'
 
 # Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
 gem 'vite_rails'
@@ -16,16 +15,16 @@ gem 'inertia_rails'
 gem 'pg', '~> 1.1'
 
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
-gem 'puma', '~> 6'
+gem 'puma', '>= 5.0'
 
 # Boot large ruby/rails apps faster (https://github.com/Shopify/bootsnap)
 gem 'bootsnap', require: false
 
 # Timezone Data for TZInfo (https://tzinfo.github.io)
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data', platforms: %i[windows jruby]
 
 # A Ruby client library for Redis (https://github.com/redis/redis-rb)
-gem 'redis'
+gem 'redis', '>= 4.0.1'
 
 # Tame Rails' multi-line logging into a single line per request (https://github.com/roidrage/lograge)
 gem 'lograge'
@@ -44,7 +43,7 @@ gem 'js-routes'
 
 group :development, :test do
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
-  gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'debug', platforms: %i[mri windows]
 
   # Autoload dotenv in Rails. (https://github.com/bkeepers/dotenv)
   gem 'dotenv-rails'

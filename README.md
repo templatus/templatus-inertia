@@ -20,7 +20,7 @@ https://github.com/templatus/templatus/
 ### Backend
 
 - [Ruby](https://www.ruby-lang.org/de/) 3.2
-- [Ruby on Rails](https://rubyonrails.org/) 7.0
+- [Ruby on Rails](https://rubyonrails.org/) 7.1
 - [ActionCable](https://guides.rubyonrails.org/action_cable_overview.html) for WebSocket communication
 - [PostgreSQL](https://www.postgresql.org/) for using as SQL database
 - [Sidekiq](https://sidekiq.org/) for background processing
@@ -110,18 +110,18 @@ yarn install v1.22.19
 success Already up-to-date.
 ✨  Done in 0.11s.
 Building with Vite ⚡️
-vite v4.4.9 building for production...
+vite v4.4.11 building for production...
 transforming...
-✓ 4897 modules transformed.
+✓ 4980 modules transformed.
 rendering chunks...
 computing gzip size...
 ../../public/vite/manifest-assets.json               0.10 kB │ gzip:  0.09 kB
 ../../public/vite/assets/logo-10f03a2b.svg           0.50 kB │ gzip:  0.30 kB
 ../../public/vite/manifest.json                      0.57 kB │ gzip:  0.22 kB
 ../../public/vite/assets/application-e151bf91.css   21.46 kB │ gzip:  4.88 kB
-../../public/vite/assets/application-60d67629.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
-../../public/vite/assets/vendor-c7993941.js        180.90 kB │ gzip: 61.20 kB │ map: 816.44 kB
-✓ built in 22.76s
+../../public/vite/assets/application-eb9572d8.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
+../../public/vite/assets/vendor-597444d4.js        181.57 kB │ gzip: 61.41 kB │ map: 818.86 kB
+✓ built in 21.26s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
