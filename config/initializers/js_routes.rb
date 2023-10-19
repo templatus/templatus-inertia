@@ -13,6 +13,7 @@ JsRoutes.setup do |config|
     /rails_conductor/,
     /rails_direct_uploads/,
     /rails_.+_inbound/,
+    /rails_health_check/,
     # Sidekiq admin UI
     /sidekiq/,
     # Other
