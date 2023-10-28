@@ -12,7 +12,7 @@
     "@honeybadger-io/js": "^6.5.3",
     "@inertiajs/svelte": "^1.0.13",
     "@rails/actioncable": "^7.1.1",
-    "@tabler/icons-svelte": "^2.39.0",
+    "@tabler/icons-svelte": "^2.40.0",
     "plausible-tracker": "^0.3.8",
     "timeago.js": "^4.0.2"
   },
@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "@vitest/coverage-v8": "^0.34.6",
-    "acorn": "^8.11.1",
+    "acorn": "^8.11.2",
     "autoprefixer": "^10.4.16",
     "cypress": "^13.3.3",
     "eslint": "^8.52.0",
