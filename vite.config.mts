@@ -6,6 +6,9 @@ import { fileURLToPath, URL } from 'url';
 import preprocess from 'svelte-preprocess';
 
 export default defineConfig({
+  build: {
+    assetsInlineLimit: 0,
+  },
   plugins: [
     splitVendorChunkPlugin(),
     RubyPlugin(),
