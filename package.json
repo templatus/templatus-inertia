@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "format": "prettier . --write --plugin=@prettier/plugin-ruby --plugin=prettier-plugin-tailwindcss",
     "test": "vitest",
     "lint": "eslint --ext .js,.cjs,.ts,.svelte --cache .",
     "tsc": "tsc --noEmit"
