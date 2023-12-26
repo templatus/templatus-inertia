@@ -29,7 +29,7 @@
     "@tsconfig/svelte": "^5.0.2",
     "@types/rails__actioncable": "^6.1.10",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
+    "@typescript-eslint/parser": "^6.16.0",
     "@vitest/coverage-v8": "^1.1.0",
     "acorn": "^8.11.2",
     "autoprefixer": "^10.4.16",
