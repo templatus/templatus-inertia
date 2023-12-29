@@ -41,6 +41,9 @@ gem 'sidekiq'
 # Brings Rails named routes to javascript (http://github.com/railsware/js-routes)
 gem 'js-routes'
 
+# Ruby on Rails applications monitoring (https://www.rorvswild.com)
+gem 'rorvswild'
+
 group :development, :test do
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
   gem 'debug', platforms: %i[mri windows]
