@@ -39,7 +39,7 @@
     "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-prettier": "^5.1.2",
     "eslint-plugin-svelte": "^2.35.1",
-    "jsdom": "^23.1.0",
+    "jsdom": "^23.2.0",
     "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
