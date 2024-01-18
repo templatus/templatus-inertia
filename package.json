@@ -30,7 +30,7 @@
     "@types/rails__actioncable": "^6.1.10",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
-    "@vitest/coverage-v8": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.1",
     "acorn": "^8.11.3",
     "autoprefixer": "^10.4.16",
     "cypress": "^13.6.3",
