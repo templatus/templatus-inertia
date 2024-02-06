@@ -767,9 +767,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^6.4.1":
-  version: 6.4.1
-  resolution: "@testing-library/jest-dom@npm:6.4.1"
+"@testing-library/jest-dom@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "@testing-library/jest-dom@npm:6.4.2"
   dependencies:
     "@adobe/css-tools": "npm:^4.3.2"
     "@babel/runtime": "npm:^7.9.2"
@@ -796,7 +796,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/50104f19eb9e31c21521cc12c0323cb8939d8999eac5e869fb6480f7fc99ea3e131f464e71b9ebe6edc1936e8d9a1a540d9253f1c06ddb5e13387e00ea724ba0
+  checksum: 10c0/e7eba527b34ce30cde94424d2ec685bdfed51daaafb7df9b68b51aec6052e99a50c8bfe654612dacdf857a1eb81d68cf294fc89de558ee3a992bf7a6019fffcc
   languageName: node
   linkType: hard
 
@@ -5935,7 +5935,7 @@ __metadata:
     "@tabler/icons-svelte": "npm:^2.47.0"
     "@tailwindcss/forms": "npm:^0.5.7"
     "@testing-library/dom": "npm:^9.3.4"
-    "@testing-library/jest-dom": "npm:^6.4.1"
+    "@testing-library/jest-dom": "npm:^6.4.2"
     "@testing-library/svelte": "npm:^4.1.0"
     "@testing-library/user-event": "npm:^14.5.2"
     "@tsconfig/svelte": "npm:^5.0.2"
