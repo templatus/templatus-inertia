@@ -42,7 +42,7 @@
     "jsdom": "^24.0.0",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
-    "prettier-plugin-svelte": "^3.2.1",
+    "prettier-plugin-svelte": "^3.2.2",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "size-limit": "^11.0.2",
     "svelte": "^4.2.12",
