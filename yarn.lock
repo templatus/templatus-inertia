@@ -5505,9 +5505,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"size-limit@npm:^11.1.0":
-  version: 11.1.0
-  resolution: "size-limit@npm:11.1.0"
+"size-limit@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "size-limit@npm:11.1.1"
   dependencies:
     bytes-iec: "npm:^3.1.1"
     chokidar: "npm:^3.6.0"
@@ -5518,7 +5518,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
   bin:
     size-limit: bin.js
-  checksum: 10c0/80969b20cba02b5bafa2db4725063104c1e4138e77b2698a4e62bf75d2ac80f52001d475e48dd8c5c616a7c98bef424ebed1974ee47e221212897586359c879c
+  checksum: 10c0/506fd993d11b95ec69d942873adae83c0b75cba2242948a7ed23fff23a5a1c13d011565cffcd281a6a9d98329feb87d1fc9df3f72ba3730f6828bfaf2e985891
   languageName: node
   linkType: hard
 
@@ -6001,7 +6001,7 @@ __metadata:
     prettier: "npm:^3.2.5"
     prettier-plugin-svelte: "npm:^3.2.2"
     prettier-plugin-tailwindcss: "npm:^0.5.12"
-    size-limit: "npm:^11.1.0"
+    size-limit: "npm:^11.1.1"
     svelte: "npm:^4.2.12"
     svelte-preprocess: "npm:^5.1.3"
     tailwindcss: "npm:^3.4.1"
