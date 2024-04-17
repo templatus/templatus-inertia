@@ -106,18 +106,18 @@ https://github.com/rails/rails/pull/41994
 ```
 $ RAILS_ENV=production bin/rails assets:precompile
 Building with Vite ⚡️
-vite v5.0.10 building for production...
+vite v5.2.9 building for production...
 transforming...
-✓ 5079 modules transformed.
+✓ 5426 modules transformed.
 rendering chunks...
 computing gzip size...
 ../../public/vite/.vite/manifest-assets.json         0.10 kB │ gzip:  0.09 kB
-../../public/vite/assets/logo-hS0xeg8X.svg           0.50 kB │ gzip:  0.30 kB
-../../public/vite/.vite/manifest.json                0.57 kB │ gzip:  0.23 kB
-../../public/vite/assets/application-19of6NlW.css   21.84 kB │ gzip:  4.89 kB
-../../public/vite/assets/application-EiACybca.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
-../../public/vite/assets/vendor-cBEHYrEO.js        188.89 kB │ gzip: 63.10 kB │ map: 847.88 kB
-✓ built in 16.03s
+../../public/vite/assets/logo-CFLTF6Dx.svg           0.50 kB │ gzip:  0.30 kB
+../../public/vite/.vite/manifest.json                0.64 kB │ gzip:  0.24 kB
+../../public/vite/assets/application-DOAoAgkW.css   22.07 kB │ gzip:  4.92 kB
+../../public/vite/assets/application-DbQVwHOv.js    29.73 kB │ gzip: 11.17 kB │ map:  58.05 kB
+../../public/vite/assets/vendor-DHenktro.js        192.39 kB │ gzip: 64.11 kB │ map: 860.29 kB
+✓ built in 15.85s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
