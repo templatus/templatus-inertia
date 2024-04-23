@@ -33,7 +33,7 @@
     "@vitest/coverage-v8": "^1.5.0",
     "acorn": "^8.11.3",
     "autoprefixer": "^10.4.19",
-    "cypress": "^13.8.0",
+    "cypress": "^13.8.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-cypress": "^3.0.0",
