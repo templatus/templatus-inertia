@@ -53,7 +53,7 @@ describe 'Clicks', :inertia do
       it 'fails and returns http failure' do
         call(ipv6)
 
-        expect(response).to have_http_status(:unprocessable_entity)
+        expect(response).to have_http_status(:unprocessable_content)
         expect(inertia.props[:flash]).to eq(
           { alert: 'Click recording failed!' },
         )

@@ -12,7 +12,7 @@ class ClicksController < ApplicationController
     render inertia: 'Clicks/Index', status: :created
   rescue StandardError
     flash.now[:alert] = t('.fail')
-    render inertia: 'Clicks/Index', status: :unprocessable_entity
+    render inertia: 'Clicks/Index', status: :unprocessable_content
   end
 
   private
