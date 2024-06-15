@@ -6025,9 +6025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "svelte-preprocess@npm:6.0.0"
+"svelte-preprocess@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "svelte-preprocess@npm:6.0.1"
   dependencies:
     detect-indent: "npm:^6.1.0"
     strip-indent: "npm:^3.0.0"
@@ -6064,7 +6064,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/7b7a4394bc719b1268942915da4e7e562e8afbe9685489c06fcc3fafdf5c41c5f249459218487d9ab9c54e76dad0557f361a8de365b3f45596f155f38e164ce4
+  checksum: 10c0/9f37b90fc1c8047e2f8ff2538daf003405416bed60d0c65dbc6c315dede58074ded43bd30c2e8582d52488829b2acc322f378ce655394a6a4b09f8db0b0b9b12
   languageName: node
   linkType: hard
 
@@ -6191,7 +6191,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.6.4"
     size-limit: "npm:^11.1.4"
     svelte: "npm:^4.2.18"
-    svelte-preprocess: "npm:^6.0.0"
+    svelte-preprocess: "npm:^6.0.1"
     tailwindcss: "npm:^3.4.4"
     timeago.js: "npm:^4.0.2"
     typescript: "npm:^5.4.5"

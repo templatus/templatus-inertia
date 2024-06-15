@@ -46,7 +46,7 @@
     "prettier-plugin-tailwindcss": "^0.6.4",
     "size-limit": "^11.1.4",
     "svelte": "^4.2.18",
-    "svelte-preprocess": "^6.0.0",
+    "svelte-preprocess": "^6.0.1",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5",
     "vite": "^5.3.0",
