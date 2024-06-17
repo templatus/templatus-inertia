@@ -43,7 +43,7 @@
     "postcss": "^8.4.38",
     "prettier": "^3.3.2",
     "prettier-plugin-svelte": "^3.2.4",
-    "prettier-plugin-tailwindcss": "^0.6.4",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "size-limit": "^11.1.4",
     "svelte": "^4.2.18",
     "svelte-preprocess": "^6.0.1",
