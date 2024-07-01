@@ -48,7 +48,7 @@
     "svelte": "^4.2.18",
     "svelte-preprocess": "^6.0.1",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "vite": "^5.3.2",
     "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-ruby": "^5.0.0",
