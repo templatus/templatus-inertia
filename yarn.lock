@@ -737,21 +737,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tabler/icons-svelte@npm:^3.7.0":
-  version: 3.7.0
-  resolution: "@tabler/icons-svelte@npm:3.7.0"
+"@tabler/icons-svelte@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "@tabler/icons-svelte@npm:3.8.0"
   dependencies:
-    "@tabler/icons": "npm:3.7.0"
+    "@tabler/icons": "npm:3.8.0"
   peerDependencies:
     svelte: ">=3 <6"
-  checksum: 10c0/30948b74f6868392f207da7cad7fc2eed7a6fd54c03fa69e1768b50f28a354a0fc111f9098fe2f08d4fcf6de5919d9a5f37e474dfbddf8db1eff24f8d3028785
+  checksum: 10c0/abe39aa269edd00071c7b8c87e6c568897f8b139d849cbb6e5168ac9b20fd793be9623ac4b4a109c6551e308982c502f751e3823744fb176126a017043dbd51d
   languageName: node
   linkType: hard
 
-"@tabler/icons@npm:3.7.0":
-  version: 3.7.0
-  resolution: "@tabler/icons@npm:3.7.0"
-  checksum: 10c0/062b308ff94e127fd051b7ed5d050c25fcb8bcfa4b5ef55071c66b4485beeefce463cbf5088ff25340b5239288bcbc8f4bf65bb73450e668c225ab39fcd923c8
+"@tabler/icons@npm:3.8.0":
+  version: 3.8.0
+  resolution: "@tabler/icons@npm:3.8.0"
+  checksum: 10c0/4d622391100638678045a867b2c10e27f2c13c46aa94e0308b71179beead58a80439039b5755a7bb396b440d1b6ad5a45897f4dd4f0ebcae623bed8b88262f14
   languageName: node
   linkType: hard
 
@@ -5595,7 +5595,7 @@ __metadata:
     "@rails/actioncable": "npm:7.1.3"
     "@size-limit/file": "npm:^11.1.4"
     "@sveltejs/vite-plugin-svelte": "npm:^3.1.1"
-    "@tabler/icons-svelte": "npm:^3.7.0"
+    "@tabler/icons-svelte": "npm:^3.8.0"
     "@tailwindcss/forms": "npm:^0.5.7"
     "@testing-library/dom": "npm:^10.2.0"
     "@testing-library/jest-dom": "npm:^6.4.6"
