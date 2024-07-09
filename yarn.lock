@@ -2086,13 +2086,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "detect-indent@npm:6.1.0"
-  checksum: 10c0/dd83cdeda9af219cf77f5e9a0dc31d828c045337386cfb55ce04fad94ba872ee7957336834154f7647b89b899c3c7acc977c57a79b7c776b506240993f97acc7
-  languageName: node
-  linkType: hard
-
 "didyoumean@npm:^1.2.2":
   version: 1.2.2
   resolution: "didyoumean@npm:1.2.2"
@@ -5380,12 +5373,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "svelte-preprocess@npm:6.0.1"
-  dependencies:
-    detect-indent: "npm:^6.1.0"
-    strip-indent: "npm:^3.0.0"
+"svelte-preprocess@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "svelte-preprocess@npm:6.0.2"
   peerDependencies:
     "@babel/core": ^7.10.2
     coffeescript: ^2.5.1
@@ -5419,7 +5409,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/9f37b90fc1c8047e2f8ff2538daf003405416bed60d0c65dbc6c315dede58074ded43bd30c2e8582d52488829b2acc322f378ce655394a6a4b09f8db0b0b9b12
+  checksum: 10c0/31569a0f773f61ef9d51f221aee83ea30b7e73e71d61a5e0364fb15041cbd2b9c61ef94b9bf4ae94aa8dcdc2bd35a5d4a56393acdd35d278f7f1216a5d04b0c9
   languageName: node
   linkType: hard
 
@@ -5546,7 +5536,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.6.5"
     size-limit: "npm:^11.1.4"
     svelte: "npm:^4.2.18"
-    svelte-preprocess: "npm:^6.0.1"
+    svelte-preprocess: "npm:^6.0.2"
     tailwindcss: "npm:^3.4.4"
     timeago.js: "npm:^4.0.2"
     typescript: "npm:^5.5.3"
