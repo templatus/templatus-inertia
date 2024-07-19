@@ -2399,9 +2399,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^2.42.0":
-  version: 2.42.0
-  resolution: "eslint-plugin-svelte@npm:2.42.0"
+"eslint-plugin-svelte@npm:^2.43.0":
+  version: 2.43.0
+  resolution: "eslint-plugin-svelte@npm:2.43.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
@@ -2413,14 +2413,14 @@ __metadata:
     postcss-safe-parser: "npm:^6.0.0"
     postcss-selector-parser: "npm:^6.1.0"
     semver: "npm:^7.6.2"
-    svelte-eslint-parser: "npm:^0.40.0"
+    svelte-eslint-parser: "npm:^0.41.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
-    svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.181
+    svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.191
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/1bbc08136f922f05a3197466ea3a63cd121e0446488457e3e96792710d9348c5f782629307e43e8fcafdbfe6e82eacf24e4fce7e0f8d50764a95f31a2c72aeef
+  checksum: 10c0/93b9068c2f9d0a0decc4531fb6448dcaa130e8b2b4f401c1bde93f64ca80a2bf53b9a04099da979421bbcbd5936ebe6050e700514e16676465990202d916e937
   languageName: node
   linkType: hard
 
@@ -5324,9 +5324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-eslint-parser@npm:^0.40.0":
-  version: 0.40.0
-  resolution: "svelte-eslint-parser@npm:0.40.0"
+"svelte-eslint-parser@npm:^0.41.0":
+  version: 0.41.0
+  resolution: "svelte-eslint-parser@npm:0.41.0"
   dependencies:
     eslint-scope: "npm:^7.2.2"
     eslint-visitor-keys: "npm:^3.4.3"
@@ -5334,11 +5334,11 @@ __metadata:
     postcss: "npm:^8.4.39"
     postcss-scss: "npm:^4.0.9"
   peerDependencies:
-    svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.181
+    svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.191
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/71638163784143014fbb598c95316a026455b353bf31592d153086a0ca0ea5b7c3f9c34d4519b8d223151dc4ef04d3838bf8f143ac6a9174ffcdcc06aec8adc2
+  checksum: 10c0/3127b2f65ab6086bf7a2de6e35ac0d00d0c04a689911698c79d1450bf8f129d6783e52a1a74e91476cf72a043b12bca3d3937f2313922bf9004384bc8addacbf
   languageName: node
   linkType: hard
 
@@ -5505,7 +5505,7 @@ __metadata:
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-cypress: "npm:^3.3.0"
     eslint-plugin-prettier: "npm:^5.2.1"
-    eslint-plugin-svelte: "npm:^2.42.0"
+    eslint-plugin-svelte: "npm:^2.43.0"
     jsdom: "npm:^24.1.0"
     plausible-tracker: "npm:^0.3.9"
     postcss: "npm:^8.4.39"
