@@ -3439,9 +3439,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^24.1.2":
-  version: 24.1.2
-  resolution: "jsdom@npm:24.1.2"
+"jsdom@npm:^25.0.0":
+  version: 25.0.0
+  resolution: "jsdom@npm:25.0.0"
   dependencies:
     cssstyle: "npm:^4.0.1"
     data-urls: "npm:^5.0.0"
@@ -3469,7 +3469,7 @@ __metadata:
   peerDependenciesMeta:
     canvas:
       optional: true
-  checksum: 10c0/cbdbd6d45f4be47fe402ecb2bc3effeee43c90c5f7d564ec7c66bdbf737f7292d0ad5488dcc013b1d784553487b4eb4fe31211d14451c21478ddf23bc94baba6
+  checksum: 10c0/1552bcfb816b2c69ae159ba0cd79e8964030c106cc0cb2deb20a64c1ca54e1ea41352b9802d89b7cf823e43e6d74ed7289abff4aacc95b1b2bc936570aab3594
   languageName: node
   linkType: hard
 
@@ -5456,7 +5456,7 @@ __metadata:
     eslint-plugin-cypress: "npm:^3.5.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-svelte: "npm:^2.43.0"
-    jsdom: "npm:^24.1.2"
+    jsdom: "npm:^25.0.0"
     plausible-tracker: "npm:^0.3.9"
     postcss: "npm:^8.4.41"
     prettier: "npm:^3.3.3"
