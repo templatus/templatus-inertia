@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
-import RubyPlugin from 'vite-plugin-ruby';
-import FullReload from 'vite-plugin-full-reload';
+import ViteRails from 'vite-plugin-rails';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
-import { fileURLToPath, URL } from 'url';
 import { sveltePreprocess } from 'svelte-preprocess';
+import { resolve } from 'path';
 
 export default defineConfig({
   build: {
@@ -19,8 +18,11 @@ export default defineConfig({
     },
   },
   plugins: [
-    RubyPlugin(),
-    FullReload(['config/routes.rb', 'app/views/**/*']),
+    ViteRails({
+      fullReload: {
+        additionalPaths: ['config/routes.rb', 'app/views/**/*'],
+      },
+    }),
     svelte({
       prebundleSvelteLibraries: true,
       preprocess: sveltePreprocess({
@@ -30,7 +32,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./app/javascript', import.meta.url)),
+      '@': resolve(__dirname, 'app/javascript'),
     },
   },
   server: {
