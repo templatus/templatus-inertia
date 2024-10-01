@@ -776,9 +776,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/svelte@npm:^5.2.1":
-  version: 5.2.1
-  resolution: "@testing-library/svelte@npm:5.2.1"
+"@testing-library/svelte@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "@testing-library/svelte@npm:5.2.2"
   dependencies:
     "@testing-library/dom": "npm:^10.0.0"
   peerDependencies:
@@ -790,7 +790,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/543ebf7014b6d4fec26abf232bbe7c4384d057e5ad8888affdb692ea813a1e9ecd6f5c74a8dd8e856350933837a0ce0ed43403c238a3083801f8d4ee3b335166
+  checksum: 10c0/2960632d4137e832a4fc68bda1c0e5c917ee7545043bee9f4dd106fce5c1f7e9875d1d76cbd89cbcf4e0ba2b630e6a43b943e0d0669fdabc54707fa7d10dcc6d
   languageName: node
   linkType: hard
 
@@ -5348,7 +5348,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.9"
     "@testing-library/dom": "npm:^10.4.0"
     "@testing-library/jest-dom": "npm:^6.5.0"
-    "@testing-library/svelte": "npm:^5.2.1"
+    "@testing-library/svelte": "npm:^5.2.2"
     "@testing-library/user-event": "npm:^14.5.2"
     "@tsconfig/svelte": "npm:^5.0.4"
     "@types/rails__actioncable": "npm:^6.1.11"
