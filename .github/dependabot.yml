@@ -48,6 +48,10 @@ updates:
           - 'rspec*'
           - 'factory_bot'
           - 'factory_bot_rails'
+      vitest:
+        patterns:
+          - '@vitest*'
+          - 'vitest'
 
   - package-ecosystem: npm
     directory: '/'
