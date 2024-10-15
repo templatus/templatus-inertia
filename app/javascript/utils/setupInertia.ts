@@ -10,6 +10,6 @@ createInertiaApp({
   resolve: (name: string) => pages[`../pages/${name}.svelte`],
 
   setup({ el, App, props }) {
-    const _app = new App({ target: el, props });
+    new App({ target: el, props });
   },
 });

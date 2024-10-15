@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import forms from '@tailwindcss/forms';
+
+export default {
   theme: {
     extend: {
       colors: {
@@ -20,5 +21,5 @@ module.exports = {
     './app/**/*.{html,html.erb,rb}',
     './app/javascript/**/*.{svelte,js,ts}',
   ],
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [forms],
 };
