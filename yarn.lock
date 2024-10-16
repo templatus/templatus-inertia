@@ -2428,9 +2428,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^2.44.1":
-  version: 2.44.1
-  resolution: "eslint-plugin-svelte@npm:2.44.1"
+"eslint-plugin-svelte@npm:^2.45.1":
+  version: 2.45.1
+  resolution: "eslint-plugin-svelte@npm:2.45.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
@@ -2442,14 +2442,14 @@ __metadata:
     postcss-safe-parser: "npm:^6.0.0"
     postcss-selector-parser: "npm:^6.1.0"
     semver: "npm:^7.6.2"
-    svelte-eslint-parser: "npm:^0.41.1"
+    svelte-eslint-parser: "npm:^0.42.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
     svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.191
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/fcf11baf18a2689d8e8591a83c007c2c8f80e35fa4ebded911c78c524196382a0c4effcffc4f5fdd6c176606485ba56e7ce8f0fde1c9489bb8e7a72911aec5d4
+  checksum: 10c0/33469d525ac09531208fbd527ece6399c11faba05b0f7502ecf0ba1da7aeee33c7bc39bfc7fad8d1c14ce325d9a503335d743a9c955bd3b4b8d83b885cfa89f6
   languageName: node
   linkType: hard
 
@@ -5205,9 +5205,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-eslint-parser@npm:^0.41.1":
-  version: 0.41.1
-  resolution: "svelte-eslint-parser@npm:0.41.1"
+"svelte-eslint-parser@npm:^0.42.0":
+  version: 0.42.0
+  resolution: "svelte-eslint-parser@npm:0.42.0"
   dependencies:
     eslint-scope: "npm:^7.2.2"
     eslint-visitor-keys: "npm:^3.4.3"
@@ -5219,7 +5219,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/fc58a24f8be4a1f94f4898c0ea720b9b39d161dafd17547ec4e9399b2e20a3cf87a704e29e8590bfe3e25a9e7ccbb5e7d48d184b1786c712b19f049bb867c6c5
+  checksum: 10c0/239c0e1934e70d9a6dd8462393eb00345375eb3133f1ac2e886ce9b19ba551da3db0b24c01a07013df7c52abae9a199a39e5780cc06ce745ebdef6578f5f343b
   languageName: node
   linkType: hard
 
@@ -5387,7 +5387,7 @@ __metadata:
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-cypress: "npm:^4.0.0"
     eslint-plugin-prettier: "npm:^5.2.1"
-    eslint-plugin-svelte: "npm:^2.44.1"
+    eslint-plugin-svelte: "npm:^2.45.1"
     eslint-plugin-tailwindcss: "npm:^3.17.5"
     jsdom: "npm:^25.0.1"
     plausible-tracker: "npm:^0.3.9"
