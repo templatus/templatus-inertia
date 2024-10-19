@@ -816,9 +816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/svelte@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "@testing-library/svelte@npm:5.2.3"
+"@testing-library/svelte@npm:^5.2.4":
+  version: 5.2.4
+  resolution: "@testing-library/svelte@npm:5.2.4"
   dependencies:
     "@testing-library/dom": "npm:^10.0.0"
   peerDependencies:
@@ -830,7 +830,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/a83d662ee7a0ce901598bd985b8d6afde72c7aa37f22447078bd38c7ec9df6b3fb15464d3f171726479a65f0e562732526686b6a33d6b2c7fd34edb6e7b706a9
+  checksum: 10c0/c0fcefa208248187e6a0d8fb9d2d42e96eb9382119357099a0ff730db9f056e39ad306ccf8e25fac273228b52d2d02f1c5e5aa3f7782f3a86bb2f2b6ee897752
   languageName: node
   linkType: hard
 
@@ -5372,7 +5372,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.9"
     "@testing-library/dom": "npm:^10.4.0"
     "@testing-library/jest-dom": "npm:^6.6.2"
-    "@testing-library/svelte": "npm:^5.2.3"
+    "@testing-library/svelte": "npm:^5.2.4"
     "@testing-library/user-event": "npm:^14.5.2"
     "@tsconfig/svelte": "npm:^5.0.4"
     "@types/eslint-plugin-tailwindcss": "npm:^3.17.0"
