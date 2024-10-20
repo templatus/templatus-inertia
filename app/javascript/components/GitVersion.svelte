@@ -16,5 +16,7 @@
 
 <div>
   <code class="text-sm">{commitVersion}</code>
-  <b class="ml-3"><time bind:this={timeElement} datetime={commitTime} /></b>
+  <b class="ml-3">
+    <time bind:this={timeElement} datetime={commitTime}></time>
+  </b>
 </div>
