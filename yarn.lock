@@ -597,10 +597,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actioncable@npm:^7.2.101":
-  version: 7.2.101
-  resolution: "@rails/actioncable@npm:7.2.101"
-  checksum: 10c0/5917b0d5c51c8b38bb33532fd6483937d6bf030add46e2bca0272aed5b5b43ceec881f8c89a9784b416cb86a2655198f0faac4929a67caa4812ed622346cdc90
+"@rails/actioncable@npm:^7.2.102":
+  version: 7.2.102
+  resolution: "@rails/actioncable@npm:7.2.102"
+  checksum: 10c0/ed8f0a4467f0ebd5800eb2f8405b07d383d69448499673d261d1c56dafe1be97ab0b97314a8e6aea58f8a0c717e40d3f4e075856a63009e3cb0051ca03f653e3
   languageName: node
   linkType: hard
 
@@ -5365,7 +5365,7 @@ __metadata:
     "@honeybadger-io/js": "npm:^6.10.1"
     "@inertiajs/svelte": "npm:^1.2.0"
     "@prettier/plugin-ruby": "npm:^4.0.4"
-    "@rails/actioncable": "npm:^7.2.101"
+    "@rails/actioncable": "npm:^7.2.102"
     "@size-limit/file": "npm:^11.1.6"
     "@sveltejs/vite-plugin-svelte": "npm:^3.1.2"
     "@tabler/icons-svelte": "npm:^3.20.0"
