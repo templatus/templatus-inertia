@@ -106,18 +106,18 @@ https://github.com/rails/rails/pull/41994
 ```
 $ RAILS_ENV=production SECRET_KEY_BASE_DUMMY=1 bin/rails assets:precompile
 Building with Vite ⚡️
-vite v5.4.3 building for production...
+vite v5.4.10 building for production...
 transforming...
-✓ 5752 modules transformed.
+✓ 5932 modules transformed.
 rendering chunks...
 computing gzip size...
 ../../public/vite/.vite/manifest-assets.json         0.10 kB │ gzip:  0.09 kB
 ../../public/vite/assets/logo-CFLTF6Dx.svg           0.50 kB │ gzip:  0.30 kB
 ../../public/vite/.vite/manifest.json                0.64 kB │ gzip:  0.24 kB
-../../public/vite/assets/application-CXTdSWI1.css   22.06 kB │ gzip:  4.93 kB
-../../public/vite/assets/application-9fltgjYs.js    29.96 kB │ gzip: 11.30 kB │ map:  59.26 kB
-../../public/vite/assets/vendor-DD_9a-k5.js        198.49 kB │ gzip: 66.47 kB │ map: 887.06 kB
-✓ built in 17.42s
+../../public/vite/assets/application-C6-kcyvH.css   22.09 kB │ gzip:  4.92 kB
+../../public/vite/assets/application-ByWAsid9.js    19.96 kB │ gzip:  8.08 kB │ map:    54.10 kB
+../../public/vite/assets/vendor-DHyeDnQa.js        211.06 kB │ gzip: 71.88 kB │ map: 1,065.92 kB
+✓ built in 5.67s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
