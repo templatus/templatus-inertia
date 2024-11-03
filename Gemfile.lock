@@ -130,8 +130,8 @@ GEM
       logger
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.3.0)
-      railties (>= 5)
+    inertia_rails (3.4.0)
+      railties (>= 6)
     io-console (0.7.2)
     irb (1.14.1)
       rdoc (>= 4.0.0)
