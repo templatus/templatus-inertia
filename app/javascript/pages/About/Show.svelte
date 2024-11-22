@@ -14,7 +14,7 @@
 
 <p class="mt-6 max-w-4xl text-base lg:text-xl">
   Templatus is an opinionated template for web applications with
-  <b>Ruby on Rails</b> and <b>Inertia</b>
+  <b>Ruby on Rails</b> and <b>Inertia.js</b> using <b>Svelte.js</b>
 </p>
 
 <div class="mt-20 space-y-24">
