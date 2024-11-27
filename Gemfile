@@ -8,13 +8,13 @@ gem 'rails', '~> 7.2.1'
 # Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
 gem 'vite_rails'
 
-# Inertia adapter for Rails (https://github.com/inertiajs/inertia-rails)
+# Inertia.js adapter for Rails (https://github.com/inertiajs/inertia-rails)
 gem 'inertia_rails'
 
 # Pg is the Ruby interface to the PostgreSQL RDBMS (https://github.com/ged/ruby-pg)
 gem 'pg', '~> 1.1'
 
-# Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
+# A Ruby/Rack web server built for parallelism. (https://puma.io)
 gem 'puma', '>= 5.0'
 
 # Boot large ruby/rails apps faster (https://github.com/Shopify/bootsnap)
