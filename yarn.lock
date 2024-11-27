@@ -1157,9 +1157,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-v8@npm:^2.1.5":
-  version: 2.1.5
-  resolution: "@vitest/coverage-v8@npm:2.1.5"
+"@vitest/coverage-v8@npm:^2.1.6":
+  version: 2.1.6
+  resolution: "@vitest/coverage-v8@npm:2.1.6"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@bcoe/v8-coverage": "npm:^0.2.3"
@@ -1174,12 +1174,12 @@ __metadata:
     test-exclude: "npm:^7.0.1"
     tinyrainbow: "npm:^1.2.0"
   peerDependencies:
-    "@vitest/browser": 2.1.5
-    vitest: 2.1.5
+    "@vitest/browser": 2.1.6
+    vitest: 2.1.6
   peerDependenciesMeta:
     "@vitest/browser":
       optional: true
-  checksum: 10c0/c6870a8714861fafa5114711d9c2ea56525e6a5e2ebf464e0aea1cb8b79a2fe742e239c0ee210c3e8e916646f799b07707c8bf2a7fd33e0d7f2bc9bd9d938d77
+  checksum: 10c0/22b3674e00aa6ce9a55ffecb741a2f1bc160b462d1678109e64308bc2afae6f1760c6003b9941a287499b31b76ee5c91d468778cc1d8836496b6fa84df4a3c42
   languageName: node
   linkType: hard
 
@@ -5311,7 +5311,7 @@ __metadata:
     "@types/rails__actioncable": "npm:^6.1.11"
     "@typescript-eslint/eslint-plugin": "npm:^8.16.0"
     "@typescript-eslint/parser": "npm:^8.16.0"
-    "@vitest/coverage-v8": "npm:^2.1.5"
+    "@vitest/coverage-v8": "npm:^2.1.6"
     acorn: "npm:^8.14.0"
     autoprefixer: "npm:^10.4.20"
     cypress: "npm:^13.16.0"
