@@ -134,7 +134,7 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    js-routes (2.3.0)
+    js-routes (2.3.1)
       railties (>= 5)
       sorbet-runtime
     json (2.8.2)
@@ -327,7 +327,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.13.1)
     simplecov_json_formatter (0.1.4)
-    sorbet-runtime (0.5.11668)
+    sorbet-runtime (0.5.11670)
     stringio (3.1.2)
     syntax_tree (6.2.0)
       prettier_print (>= 1.2.0)
