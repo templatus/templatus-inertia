@@ -2408,9 +2408,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^2.46.0":
-  version: 2.46.0
-  resolution: "eslint-plugin-svelte@npm:2.46.0"
+"eslint-plugin-svelte@npm:^2.46.1":
+  version: 2.46.1
+  resolution: "eslint-plugin-svelte@npm:2.46.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
@@ -2429,7 +2429,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/4d484183e29e6e6d2c85e91672e024b88b31d1bf98476e40379577b2e6c1d93f8676df11a4210864260fd7f23d14a1b7e80bb4a6bfba31324b78d88ee13cb81f
+  checksum: 10c0/48fd6c792615c534b505e5ef4616034da71af3892e5895de0b3802cdef03819e43716f36442137233a734726385a66ed8a01c08ff4c0496eaab1bb8bfbbc07c0
   languageName: node
   linkType: hard
 
@@ -5329,7 +5329,7 @@ __metadata:
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-cypress: "npm:^4.1.0"
     eslint-plugin-prettier: "npm:^5.2.1"
-    eslint-plugin-svelte: "npm:^2.46.0"
+    eslint-plugin-svelte: "npm:^2.46.1"
     eslint-plugin-tailwindcss: "npm:^3.17.5"
     jsdom: "npm:^25.0.1"
     plausible-tracker: "npm:^0.3.9"
