@@ -2528,10 +2528,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esm-env@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "esm-env@npm:1.2.0"
-  checksum: 10c0/3b9fe9f445e02716ab9904fb30689b7cb1199c9fb75a38ece2e3a71fa05470c6687777123bca0c7843a95250de0e83e45529b8d28ce6e656d5bd4f5f448f9353
+"esm-env@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "esm-env@npm:1.2.1"
+  checksum: 10c0/3a7efb5943cac44c84359d0bb25a918f90f1002c0cf9fd3c24d57f27068ba3b508a9c19c8603f8c37ea5730ae4a35efad4735447fd91ae760e275cc081702e69
   languageName: node
   linkType: hard
 
@@ -2566,13 +2566,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "esrap@npm:1.2.2"
+"esrap@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "esrap@npm:1.2.3"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
     "@types/estree": "npm:^1.0.1"
-  checksum: 10c0/a3a0b665c034f604a162b910346309c64c42635c5d2e8704a27afcdf4e6d4c529e05475d1875d6b3e0d550f8470986116414097230ab3a7c565b85091ca5e177
+  checksum: 10c0/409f6b6f9759444ee581892738d313f5040c2ee21606363746f3d1f9d94a55665bdf96349d976791ceb3b2facc6796f2aecd6a9e5b61b30f57041f1bfb5aee3c
   languageName: node
   linkType: hard
 
@@ -5215,9 +5215,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.2.11":
-  version: 5.2.11
-  resolution: "svelte@npm:5.2.11"
+"svelte@npm:^5.2.12":
+  version: 5.2.12
+  resolution: "svelte@npm:5.2.12"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5226,13 +5226,13 @@ __metadata:
     acorn-typescript: "npm:^1.4.13"
     aria-query: "npm:^5.3.1"
     axobject-query: "npm:^4.1.0"
-    esm-env: "npm:^1.2.0"
-    esrap: "npm:^1.2.2"
+    esm-env: "npm:^1.2.1"
+    esrap: "npm:^1.2.3"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/456821c3a0b729e8f9302c0b4a11fcb798c3ed60c37afa75d81913d47b8bafdab81f3ec3b34b5a4907ccaa374e1a8077953f6a971bdef3ca834e3f83f4d3e466
+  checksum: 10c0/e7d90a0bd315f8892f954a27cc8517ce0a02c9c316198da0b449cd7b2cec355d381150a17cc2fe7ebd22c6af8dea3d10d2412ad4d941752a8f8aee6af6e876be
   languageName: node
   linkType: hard
 
@@ -5338,7 +5338,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.3.2"
     prettier-plugin-tailwindcss: "npm:^0.6.9"
     size-limit: "npm:^11.1.6"
-    svelte: "npm:^5.2.11"
+    svelte: "npm:^5.2.12"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^3.4.15"
     timeago.js: "npm:^4.0.2"
