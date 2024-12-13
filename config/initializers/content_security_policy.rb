@@ -42,7 +42,7 @@ Rails.application.configure do
           :self,
           Rails.configuration.asset_host.presence,
           # Allow @inertiajs/progress to display progress bar
-          "'sha256-kCeyw5rRT2DINADvWYmAhXLhQs4dKZrnn2sofIDmprs='",
+          "'sha256-YfWBLaAD17kgcjrajLlty6AH2yMikIiscRhC6OENK74='",
           # Allow Sevelte to display animations, see https://github.com/sveltejs/svelte/issues/6662#issuecomment-917492365
           "'sha256-9OlNO0DNEeaVzHL4RZwCLsBHA8WBQ8toBp/4F5XV2nc='",
         ].compact,
