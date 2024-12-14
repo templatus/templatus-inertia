@@ -128,7 +128,7 @@ GEM
       logger
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.5.0)
+    inertia_rails (3.6.0)
       railties (>= 6)
     io-console (0.8.0)
     irb (1.14.2)
@@ -252,7 +252,7 @@ GEM
       ffi (~> 1.0)
     rbs (3.7.0)
       logger
-    rdoc (6.8.1)
+    rdoc (6.9.0)
       psych (>= 4.0.0)
     redis (5.3.0)
       redis-client (>= 0.22.0)
