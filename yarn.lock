@@ -1095,7 +1095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:1.0.6, @types/estree@npm:^1.0.0, @types/estree@npm:^1.0.1, @types/estree@npm:^1.0.5, @types/estree@npm:^1.0.6":
+"@types/estree@npm:*, @types/estree@npm:1.0.6, @types/estree@npm:^1.0.0, @types/estree@npm:^1.0.5, @types/estree@npm:^1.0.6":
   version: 1.0.6
   resolution: "@types/estree@npm:1.0.6"
   checksum: 10c0/cdfd751f6f9065442cd40957c07fd80361c962869aa853c1c2fd03e101af8b9389d8ff4955a43a6fcfa223dd387a089937f95be0f3eec21ca527039fd2d9859a
@@ -1283,7 +1283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.18.1":
+"@typescript-eslint/types@npm:8.18.1, @typescript-eslint/types@npm:^8.2.0":
   version: 8.18.1
   resolution: "@typescript-eslint/types@npm:8.18.1"
   checksum: 10c0/0a2ca5f7cdebcc844b6bc1e5afc5d83b563f55917d20e3fea3a17ed39c54b003178e26b5ec535113f45c93c569b46628d9a67defa70c01cbdfa801573fed69a2
@@ -2850,13 +2850,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "esrap@npm:1.2.3"
+"esrap@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "esrap@npm:1.3.1"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
-    "@types/estree": "npm:^1.0.1"
-  checksum: 10c0/409f6b6f9759444ee581892738d313f5040c2ee21606363746f3d1f9d94a55665bdf96349d976791ceb3b2facc6796f2aecd6a9e5b61b30f57041f1bfb5aee3c
+    "@typescript-eslint/types": "npm:^8.2.0"
+  checksum: 10c0/00656c5b0b4036332344cc2aad11c6207e72ec30071abc6e6a33799da0efcde7879e28045a00347418b544ca23ceca7d86dc4fb1687fde86090ad134f7574dd4
   languageName: node
   linkType: hard
 
@@ -5512,9 +5512,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.14.2":
-  version: 5.14.2
-  resolution: "svelte@npm:5.14.2"
+"svelte@npm:^5.14.4":
+  version: 5.14.4
+  resolution: "svelte@npm:5.14.4"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5524,12 +5524,12 @@ __metadata:
     aria-query: "npm:^5.3.1"
     axobject-query: "npm:^4.1.0"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^1.2.3"
+    esrap: "npm:^1.3.1"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/5fbc3544af6c53662e83f67c1679ad8dbed09c5e3de61afc3ff9040f7ac439e1028efb4455ed1333338dd852e4f4a678017c6c66364f7b81ea6cc267de26fe11
+  checksum: 10c0/c2a7e5bea9bfd1371b1dc0f0f4d28b7893edb8af4c064cb4770bb2cb309fbaddb391179d3eb4388d21d158a73af3711c3340919e43b126e2fdd74d287194269e
   languageName: node
   linkType: hard
 
@@ -5635,7 +5635,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.3.2"
     prettier-plugin-tailwindcss: "npm:^0.6.9"
     size-limit: "npm:^11.1.6"
-    svelte: "npm:^5.14.2"
+    svelte: "npm:^5.14.4"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^3.4.17"
     timeago.js: "npm:^4.0.2"
