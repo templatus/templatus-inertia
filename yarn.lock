@@ -1283,7 +1283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.18.1, @typescript-eslint/types@npm:^8.2.0":
+"@typescript-eslint/types@npm:8.18.1":
   version: 8.18.1
   resolution: "@typescript-eslint/types@npm:8.18.1"
   checksum: 10c0/0a2ca5f7cdebcc844b6bc1e5afc5d83b563f55917d20e3fea3a17ed39c54b003178e26b5ec535113f45c93c569b46628d9a67defa70c01cbdfa801573fed69a2
@@ -2850,13 +2850,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "esrap@npm:1.3.1"
+"esrap@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "esrap@npm:1.3.2"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
-    "@typescript-eslint/types": "npm:^8.2.0"
-  checksum: 10c0/00656c5b0b4036332344cc2aad11c6207e72ec30071abc6e6a33799da0efcde7879e28045a00347418b544ca23ceca7d86dc4fb1687fde86090ad134f7574dd4
+  checksum: 10c0/0d79db203ae439b4601cede1d885c5d36f5184b8055683c128cc99a832aa72586a11d8ee0ff4013a37d0c9d4857bb1ecc6b835fa4c2276538b684183423445a2
   languageName: node
   linkType: hard
 
@@ -5512,9 +5511,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.14.4":
-  version: 5.14.4
-  resolution: "svelte@npm:5.14.4"
+"svelte@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "svelte@npm:5.15.0"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5524,12 +5523,12 @@ __metadata:
     aria-query: "npm:^5.3.1"
     axobject-query: "npm:^4.1.0"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^1.3.1"
+    esrap: "npm:^1.3.2"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/c2a7e5bea9bfd1371b1dc0f0f4d28b7893edb8af4c064cb4770bb2cb309fbaddb391179d3eb4388d21d158a73af3711c3340919e43b126e2fdd74d287194269e
+  checksum: 10c0/715423922f4a5aa59abd0cf8ea84fc3514d62ac01ae5e592bc57f805e31be4babca78377ac68e64a17e504f31b19c612ded979e22773776e36e10f69e36a3213
   languageName: node
   linkType: hard
 
@@ -5635,7 +5634,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.3.2"
     prettier-plugin-tailwindcss: "npm:^0.6.9"
     size-limit: "npm:^11.1.6"
-    svelte: "npm:^5.14.4"
+    svelte: "npm:^5.15.0"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^3.4.17"
     timeago.js: "npm:^4.0.2"
