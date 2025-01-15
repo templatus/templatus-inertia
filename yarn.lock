@@ -2905,12 +2905,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "esrap@npm:1.4.2"
+"esrap@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "esrap@npm:1.4.3"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
-  checksum: 10c0/128bb5855e13207fb98248f90f87df1a1c552379938b7b0729e1ac71a0eed82a3cd75515d069067be08d4cda49bc8cf5d2d129a337843019650cab1b773430e6
+  checksum: 10c0/78fe1601335190402a75cebf57b410c681d9429a79befedaf5778c33927f0b23b8652486c6b2c89c5a59d9172f99c811c03434bdf8965f0686a3e4ebdcd061fa
   languageName: node
   linkType: hard
 
@@ -5571,9 +5571,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.17.5":
-  version: 5.17.5
-  resolution: "svelte@npm:5.17.5"
+"svelte@npm:^5.18.0":
+  version: 5.18.0
+  resolution: "svelte@npm:5.18.0"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5584,12 +5584,12 @@ __metadata:
     axobject-query: "npm:^4.1.0"
     clsx: "npm:^2.1.1"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^1.4.2"
+    esrap: "npm:^1.4.3"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/5f3a0110edbf9e3974d04078736db59dc07c99add9e4d2850fb547c22301e542b8f10ca5af9639558f3273fd2a9f7537cf2168fc2d9a250dc9e2d8ae13b5e42b
+  checksum: 10c0/87252d5b531c714c2047df470daf7b1b1214be5b77ebf522db0a731a89c744cc3b9ed22926853824f5b17dc24e41a86e93e31bd9b8f3a54ffce17953f9992791
   languageName: node
   linkType: hard
 
@@ -5695,7 +5695,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.9"
     size-limit: "npm:^11.1.6"
-    svelte: "npm:^5.17.5"
+    svelte: "npm:^5.18.0"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^3.4.17"
     timeago.js: "npm:^4.0.2"
