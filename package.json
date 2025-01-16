@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@honeybadger-io/js": "^6.10.1",
-    "@inertiajs/svelte": "^2.0.1",
+    "@inertiajs/svelte": "^2.0.2",
     "@rails/actioncable": "^8.0.100",
     "@tabler/icons-svelte": "^3.28.1",
     "eslint-plugin-tailwindcss": "^3.17.5",
