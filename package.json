@@ -55,7 +55,7 @@
     "vite": "^6.0.7",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-rails": "^0.5.0",
-    "vitest": "^2.1.8"
+    "vitest": "^3.0.1"
   },
   "size-limit": [
     {
