@@ -129,7 +129,7 @@ GEM
     honeybadger (5.26.2)
       logger
       ostruct
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     inertia_rails (3.6.0)
       railties (>= 6)
