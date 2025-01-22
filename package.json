@@ -13,7 +13,7 @@
     "@honeybadger-io/js": "^6.10.1",
     "@inertiajs/svelte": "^2.0.3",
     "@rails/actioncable": "^8.0.100",
-    "@tabler/icons-svelte": "^3.28.1",
+    "@tabler/icons-svelte": "^3.29.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
     "plausible-tracker": "^0.3.9",
     "timeago.js": "^4.0.2"
