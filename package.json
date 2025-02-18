@@ -52,7 +52,7 @@
     "vite": "^6.1.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-rails": "^0.5.0",
-    "vitest": "^3.0.5"
+    "vitest": "^3.0.6"
   },
   "size-limit": [
     {
