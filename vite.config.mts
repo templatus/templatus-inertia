@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import ViteRails from 'vite-plugin-rails';
+import tailwindcss from '@tailwindcss/vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import { sveltePreprocess } from 'svelte-preprocess';
 import { resolve } from 'path';
@@ -18,6 +19,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    tailwindcss(),
     ViteRails({
       fullReload: {
         additionalPaths: ['config/routes.rb', 'app/views/**/*'],
@@ -25,9 +27,7 @@ export default defineConfig({
     }),
     svelte({
       prebundleSvelteLibraries: true,
-      preprocess: sveltePreprocess({
-        postcss: true,
-      }),
+      preprocess: sveltePreprocess({}),
     }),
   ],
   resolve: {

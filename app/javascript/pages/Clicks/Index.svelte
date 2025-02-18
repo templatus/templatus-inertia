@@ -43,13 +43,13 @@
 </div>
 
 <ClickButton
-  class="mt-5 w-full lg:absolute lg:-right-10 lg:-top-5 lg:mt-0 lg:w-56 lg:rounded lg:bg-gradient-to-br lg:from-slate-100 lg:to-white lg:p-3 lg:shadow"
+  class="mt-5 w-full lg:absolute lg:-top-5 lg:-right-10 lg:mt-0 lg:w-56 lg:rounded-sm lg:bg-linear-to-br lg:from-slate-100 lg:to-white lg:p-3 lg:shadow-sm"
   count={$currentTotal}
 />
 
 {#if $currentItems.length}
   <h2
-    class="mt-20 text-center text-xl font-medium uppercase tracking-wide text-rails-dark sm:text-left"
+    class="text-rails-dark mt-20 text-center text-xl font-medium tracking-wide uppercase sm:text-left"
   >
     Latest clicks
   </h2>

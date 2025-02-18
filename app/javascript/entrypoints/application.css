@@ -1,21 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@source '../../../app/**/*.rb';
+@source '../../../app/javascript/**/*.{svelte,js,ts}';
+@plugin '@tailwindcss/forms';
 
-:root {
-  --color-rails-light: theme('colors.rails.light');
-  --color-rails-dark: theme('colors.rails.dark');
-  --color-inertia: theme('colors.inertia.DEFAULT');
+@theme {
+  --color-rails-light: oklch(54.44% 0.2233 29.15);
+  --color-rails-dark: oklch(32.7% 0.1342 29.23);
+  --color-inertia: oklch(59.39% 0.2166 300.05);
+  --color-rose: oklch(93.56% 0.0101 1.99);
 }
 
-.gradient__rails-light {
-  stop-color: var(--color-rails-light);
-}
+@layer base {
+  .gradient__rails-light {
+    stop-color: var(--color-rails-light);
+  }
 
-.gradient__rails-dark {
-  stop-color: var(--color-rails-dark);
-}
+  .gradient__rails-dark {
+    stop-color: var(--color-rails-dark);
+  }
 
-.gradient__inertia {
-  stop-color: var(--color-inertia);
+  .gradient__inertia {
+    stop-color: var(--color-inertia);
+  }
 }

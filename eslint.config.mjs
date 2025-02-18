@@ -5,7 +5,6 @@ import tseslint from 'typescript-eslint';
 import tsParser from '@typescript-eslint/parser';
 
 import pluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
-import pluginTailwindcss from 'eslint-plugin-tailwindcss';
 import pluginSvelte from 'eslint-plugin-svelte';
 import svelteParser from 'svelte-eslint-parser';
 import pluginCypress from 'eslint-plugin-cypress/flat';
@@ -14,7 +13,6 @@ export default [
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   pluginPrettierRecommended,
-  ...pluginTailwindcss.configs['flat/recommended'],
 
   {
     files: ['**/*.svelte', '*.svelte'],

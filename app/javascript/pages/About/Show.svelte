@@ -22,7 +22,7 @@
     <div class="lg:grid lg:grid-cols-3 lg:gap-x-8">
       <div>
         <h2
-          class="text-base font-semibold uppercase tracking-wide text-rails-dark"
+          class="text-rails-dark text-base font-semibold tracking-wide uppercase"
         >
           {group.slogan}
         </h2>
@@ -32,17 +32,17 @@
       </div>
       <div class="mt-12 lg:col-span-2 lg:mt-0">
         <dl
-          class="space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 sm:space-y-0 lg:gap-x-8"
+          class="space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:space-y-0 sm:gap-y-10 lg:gap-x-8"
         >
           {#each group.items as feature}
             <div class="relative">
               <dt>
-                <div class="absolute h-6 w-6 text-inertia" aria-hidden="true">
+                <div class="text-inertia absolute h-6 w-6" aria-hidden="true">
                   <IconCheck />
                 </div>
 
                 <p
-                  class="ml-9 flex items-center text-lg font-medium leading-6 text-rails-dark"
+                  class="text-rails-dark ml-9 flex items-center text-lg leading-6 font-medium"
                 >
                   <a
                     href={feature.href}
@@ -55,14 +55,14 @@
 
                   {#if feature.version}
                     <span
-                      class="ml-2 inline-flex items-center rounded-full bg-rose px-2.5 py-0.5 text-xs font-medium text-black"
+                      class="bg-rose ml-2 inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium text-black"
                     >
                       {feature.version}
                     </span>
                   {/if}
                 </p>
               </dt>
-              <dd class="ml-9 mt-2 text-base text-gray-600">
+              <dd class="mt-2 ml-9 text-base text-gray-600">
                 <!-- eslint-disable svelte/no-at-html-tags -->
                 {@html feature.description}
               </dd>

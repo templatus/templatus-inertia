@@ -29,7 +29,7 @@ https://github.com/templatus/templatus/
 ### Frontend
 
 - [Inertia](https://inertiajs.com/) as a protocol for frontend/backend communication
-- [Tailwind CSS 3](https://tailwindcss.com/) to not have to write CSS at all
+- [Tailwind CSS 4](https://tailwindcss.com/) to not have to write CSS at all
 - [Tabler Icons](https://tabler-icons.io/) for free SVG icons
 - [Vite](https://vitejs.dev/) for bundling JavaScript and CSS with Hot Module Replacement (HMR) in development
 
