@@ -48,10 +48,6 @@ updates:
           - 'rspec*'
           - 'factory_bot'
           - 'factory_bot_rails'
-      vitest:
-        patterns:
-          - '@vitest*'
-          - 'vitest'
 
   - package-ecosystem: npm
     directory: '/'
@@ -64,6 +60,16 @@ updates:
     labels:
       - 'dependencies'
       - 'javascript'
+    groups:
+      vitest:
+        patterns:
+          - '@vitest*'
+          - 'vitest'
+      tailwindcss:
+        patterns:
+          - '@tailwindcss/*'
+          - 'tailwindcss'
+          - 'prettier-plugin-tailwindcss'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
