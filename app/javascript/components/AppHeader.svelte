@@ -24,7 +24,7 @@
   <nav
     class="flex space-x-5 text-center text-lg font-medium uppercase lg:flex-col lg:space-y-5 lg:space-x-0"
   >
-    {#each tabs as tab}
+    {#each tabs as tab (tab.name)}
       <a
         use:inertia
         href={tab.href}
