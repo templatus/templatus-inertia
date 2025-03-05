@@ -7,30 +7,39 @@
     alert: '',
   };
 
-  let text: string;
+  let text: string = '';
   let icon: typeof IconAlertCircle | typeof IconCircleCheck;
   let backgroundClass: string;
   let textClass: string;
   let iconClass: string;
+  let timeoutId: ReturnType<typeof setTimeout>;
+
+  function showMessage(type: 'notice' | 'alert', message: string) {
+    text = message;
+    if (type === 'notice') {
+      icon = IconCircleCheck;
+      textClass = 'text-green-800';
+      iconClass = 'text-green-400';
+      backgroundClass = 'bg-green-50 border-green-500';
+    } else {
+      icon = IconAlertCircle;
+      textClass = 'text-red-800';
+      iconClass = 'text-red-400';
+      backgroundClass = 'bg-red-50 border-red-500';
+    }
+
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      text = '';
+    }, 2000);
+  }
 
   $: if (flash.notice) {
-    text = flash.notice;
-    icon = IconCircleCheck;
-    textClass = 'text-green-800';
-    iconClass = 'text-green-400';
-    backgroundClass = 'bg-green-50 border-green-500';
-
-    setTimeout(() => (text = ''), 2000);
+    showMessage('notice', flash.notice);
   }
 
   $: if (flash.alert) {
-    text = flash.alert;
-    icon = IconAlertCircle;
-    textClass = 'text-red-800';
-    iconClass = 'text-red-400';
-    backgroundClass = 'bg-red-50 border-red-500';
-
-    setTimeout(() => (text = ''), 2000);
+    showMessage('alert', flash.alert);
   }
 </script>
 

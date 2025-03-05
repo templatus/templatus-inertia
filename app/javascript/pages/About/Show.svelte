@@ -18,7 +18,7 @@
 </p>
 
 <div class="mt-20 space-y-24">
-  {#each features as group}
+  {#each features as group (group.name)}
     <div class="lg:grid lg:grid-cols-3 lg:gap-x-8">
       <div>
         <h2
@@ -34,7 +34,7 @@
         <dl
           class="space-y-10 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8"
         >
-          {#each group.items as feature}
+          {#each group.items as feature (feature.name)}
             <div class="relative">
               <dt>
                 <div class="text-inertia absolute h-6 w-6" aria-hidden="true">
