@@ -2,14 +2,12 @@ inherit_from:
   - node_modules/@prettier/plugin-ruby/rubocop.yml
 
 plugins:
+  - rubocop-capybara
+  - rubocop-factory_bot
   - rubocop-performance
   - rubocop-rails
   - rubocop-rspec
-
-require:
   - rubocop-rspec_rails
-  - rubocop-capybara
-  - rubocop-factory_bot
 
 AllCops:
   TargetRubyVersion: 3.4
