@@ -413,7 +413,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rack-canonical-host
   rack-cors
-  rails (~> 8.0.0)
+  rails (~> 8.0.2)
   redis (>= 4.0.1)
   rorvswild
   rspec-rails
