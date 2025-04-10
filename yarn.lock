@@ -517,27 +517,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.0.7":
-  version: 2.0.7
-  resolution: "@inertiajs/core@npm:2.0.7"
+"@inertiajs/core@npm:2.0.8":
+  version: 2.0.8
+  resolution: "@inertiajs/core@npm:2.0.8"
   dependencies:
     axios: "npm:^1.8.2"
-    deepmerge: "npm:^4.0.0"
+    es-toolkit: "npm:^1.34.1"
     qs: "npm:^6.9.0"
-  checksum: 10c0/af00baa9a4dc33ff8bb417c8b426147c080136a41864aae11771abe6a140d3f187318040109459335d96fa46261c76ca1da58a46c9b81de2c76321d5d1ec1d1f
+  checksum: 10c0/7bfcdb50f8993eeaadba9f2c0a6acd155ab624876ea025f23cd938b9a874f54c275db2a03e6442caf69c694d03a34e05832cc47256920be9907e4889da169018
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "@inertiajs/svelte@npm:2.0.7"
+"@inertiajs/svelte@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "@inertiajs/svelte@npm:2.0.8"
   dependencies:
-    "@inertiajs/core": "npm:2.0.7"
+    "@inertiajs/core": "npm:2.0.8"
     es-toolkit: "npm:^1.33.0"
     html-escape: "npm:^2.0.0"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0 || ^5.0.0-next.244
-  checksum: 10c0/5069d6678f8679d885c0ee85f89067f289a5ee357c82da52bf68a434bfe36af7d2a5a2b51a6354a471f9f7fc33dd6b4fa145388420c518ff171daf463f15ba97
+  checksum: 10c0/d76841d9114253b5e55ea0e06f6834c8b13214283e5c883d80d4e23d54599a3a43c059765c060f701f86aceaf4508ed59a568d71a8c5fa78a0c0e3e19b0e5307
   languageName: node
   linkType: hard
 
@@ -2207,7 +2207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.0.0, deepmerge@npm:^4.3.1":
+"deepmerge@npm:^4.3.1":
   version: 4.3.1
   resolution: "deepmerge@npm:4.3.1"
   checksum: 10c0/e53481aaf1aa2c4082b5342be6b6d8ad9dfe387bc92ce197a66dea08bd4265904a087e75e464f14d1347cf2ac8afe1e4c16b266e0561cc5df29382d3c5f80044
@@ -2392,7 +2392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-toolkit@npm:^1.33.0":
+"es-toolkit@npm:^1.33.0, es-toolkit@npm:^1.34.1":
   version: 1.34.1
   resolution: "es-toolkit@npm:1.34.1"
   dependenciesMeta:
@@ -5272,7 +5272,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.11.0"
-    "@inertiajs/svelte": "npm:^2.0.7"
+    "@inertiajs/svelte": "npm:^2.0.8"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.0.200"
     "@size-limit/file": "npm:^11.2.0"
