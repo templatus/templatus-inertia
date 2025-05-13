@@ -2725,14 +2725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "eslint-plugin-svelte@npm:3.5.1"
+"eslint-plugin-svelte@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "eslint-plugin-svelte@npm:3.6.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
     esutils: "npm:^2.0.3"
-    known-css-properties: "npm:^0.35.0"
+    known-css-properties: "npm:^0.36.0"
     postcss: "npm:^8.4.49"
     postcss-load-config: "npm:^3.1.4"
     postcss-safe-parser: "npm:^7.0.0"
@@ -2744,7 +2744,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/e45932db371b88fdbc3dfa74af8b3aed0d9c383354e555da724facc2fa6eba3253ebc4c9021d558ec6a67c402ad184677ced4db9efeee35cbfad385dc7996e05
+  checksum: 10c0/6d8b414846676e91160936da1d718c50e63231f1ae3b0ffda4ca92538496e68407f6d1bf5221261d5f5ae801c15bcb8682e268f68877905c6dd04041371aa443
   languageName: node
   linkType: hard
 
@@ -3935,10 +3935,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"known-css-properties@npm:^0.35.0":
-  version: 0.35.0
-  resolution: "known-css-properties@npm:0.35.0"
-  checksum: 10c0/04a4a2859d62670bb25b5b28091a1f03f6f0d3298a5ed3e7476397c5287b98c434f6dd9c004a0c67a53b7f21acc93f83c972e98c122f568d4d0bd21fd2b90fb6
+"known-css-properties@npm:^0.36.0":
+  version: 0.36.0
+  resolution: "known-css-properties@npm:0.36.0"
+  checksum: 10c0/098c8f956408a7ce26a639c2354e0184fb2bb2772bb7d1ba23192b6b6cf5818cbb8a0acfb4049705ea103d9916065703bc540fa084a6349fdb41bf745aada4bc
   languageName: node
   linkType: hard
 
@@ -5758,7 +5758,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.5"
     eslint-plugin-cypress: "npm:^4.3.0"
     eslint-plugin-prettier: "npm:^5.4.0"
-    eslint-plugin-svelte: "npm:^3.5.1"
+    eslint-plugin-svelte: "npm:^3.6.0"
     jsdom: "npm:^26.1.0"
     plausible-tracker: "npm:^0.3.9"
     prettier: "npm:^3.5.3"
