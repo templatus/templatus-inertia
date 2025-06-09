@@ -30,7 +30,7 @@
     "@tsconfig/svelte": "^5.0.4",
     "@types/rails__actioncable": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^8.34.0",
-    "@typescript-eslint/parser": "^8.33.1",
+    "@typescript-eslint/parser": "^8.34.0",
     "@vitest/coverage-v8": "^3.2.2",
     "acorn": "^8.15.0",
     "cypress": "^14.4.1",
