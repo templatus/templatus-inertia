@@ -31,7 +31,7 @@
     "@types/rails__actioncable": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
-    "@vitest/coverage-v8": "^3.2.3",
+    "@vitest/coverage-v8": "^3.2.4",
     "acorn": "^8.15.0",
     "cypress": "^14.4.1",
     "eslint": "^9.29.0",
@@ -52,7 +52,7 @@
     "vite": "^6.3.5",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-rails": "^0.5.0",
-    "vitest": "^3.2.3"
+    "vitest": "^3.2.4"
   },
   "size-limit": [
     {
