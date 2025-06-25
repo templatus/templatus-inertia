@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "^5.5.0",
     "eslint-plugin-svelte": "^3.9.3",
     "jsdom": "^26.1.0",
-    "prettier": "^3.6.0",
+    "prettier": "^3.6.1",
     "prettier-plugin-svelte": "^3.4.0",
     "prettier-plugin-tailwindcss": "^0.6.13",
     "size-limit": "^11.2.0",
