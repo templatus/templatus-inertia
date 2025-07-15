@@ -136,7 +136,7 @@ GEM
       concurrent-ruby (~> 1.0)
     inertia_rails (3.9.0)
       railties (>= 6)
-    io-console (0.8.0)
+    io-console (0.8.1)
     irb (1.15.2)
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
