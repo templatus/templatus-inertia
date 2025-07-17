@@ -534,27 +534,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.0.14":
-  version: 2.0.14
-  resolution: "@inertiajs/core@npm:2.0.14"
+"@inertiajs/core@npm:2.0.15":
+  version: 2.0.15
+  resolution: "@inertiajs/core@npm:2.0.15"
   dependencies:
     axios: "npm:^1.8.2"
     es-toolkit: "npm:^1.34.1"
     qs: "npm:^6.9.0"
-  checksum: 10c0/dfd063bdc8e2d28c148897cd3d708cc2c915061cb8fed2c6fc4dbe1e87f806377d744af7ee2b6c533e8fa3bc7013b29b2b559e4fe9429ba0e58530ff296dfa6d
+  checksum: 10c0/8f2ffd1adcaed0c8ec3cb95733c49332a182685ceb8037d95ec0c492e999dcf6c04b40d1f9293abb7edc98219847d71522c89b837787993fa10b6326e73b5189
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.0.14":
-  version: 2.0.14
-  resolution: "@inertiajs/svelte@npm:2.0.14"
+"@inertiajs/svelte@npm:^2.0.15":
+  version: 2.0.15
+  resolution: "@inertiajs/svelte@npm:2.0.15"
   dependencies:
-    "@inertiajs/core": "npm:2.0.14"
+    "@inertiajs/core": "npm:2.0.15"
     es-toolkit: "npm:^1.33.0"
     html-escape: "npm:^2.0.0"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0 || ^5.0.0-next.244
-  checksum: 10c0/f684880215d2cbbf30213449e5aec8acc2a576071557d436f3ab632e842daf164c5f9f16c963dd328ae45199e75e7b66915b7574c728b9d1412a8b0132bdebbe
+  checksum: 10c0/2251f65dc74e84359748b08af29fe2eba6295ea45fbebf869c1f176bd7a32fb49ad44834c7095c03e18f14dc94da4d89ef0ad39db18acdcfea3129001ab40428
   languageName: node
   linkType: hard
 
@@ -5430,7 +5430,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.11.1"
-    "@inertiajs/svelte": "npm:^2.0.14"
+    "@inertiajs/svelte": "npm:^2.0.15"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.0.200"
     "@size-limit/file": "npm:^11.2.0"
