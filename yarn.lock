@@ -5359,9 +5359,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.36.15":
-  version: 5.36.15
-  resolution: "svelte@npm:5.36.15"
+"svelte@npm:^5.36.16":
+  version: 5.36.16
+  resolution: "svelte@npm:5.36.16"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5377,7 +5377,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/f645144b19a433fc03ced3be8a38c68c03d4318731ec4b5ba7bbfa7e41f039a854fe0baaca6d0370ee3021e10f499f88c21bee762d21ca444dab73de9f68a416
+  checksum: 10c0/55b7031948640dd8c526a1bee323ca6007c59aef6ea1df8b493d27dfadd332d38db6ae47a96dfbf3697209dcfa7ca0d11fd4e3ec310de0a758f4d675915bac0f
   languageName: node
   linkType: hard
 
@@ -5460,7 +5460,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.4.0"
     prettier-plugin-tailwindcss: "npm:^0.6.14"
     size-limit: "npm:^11.2.0"
-    svelte: "npm:^5.36.15"
+    svelte: "npm:^5.36.16"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^4.1.11"
     timeago.js: "npm:^4.0.2"
