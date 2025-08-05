@@ -70,6 +70,13 @@ updates:
           - '@tailwindcss/*'
           - 'tailwindcss'
           - 'prettier-plugin-tailwindcss'
+      eslint:
+        patterns:
+          - 'eslint*'
+      typescript-eslint:
+        patterns:
+          - '@typescript-eslint/*'
+          - 'typescript-eslint'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
