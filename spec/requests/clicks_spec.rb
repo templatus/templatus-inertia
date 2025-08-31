@@ -69,7 +69,14 @@ describe 'Clicks', :inertia do
 
       expect(response).to have_http_status(:ok)
       expect_inertia.to render_component('Clicks/Index')
-      expect_inertia.to have_exact_props(total: 1, items: [click], flash: {})
+      expect_inertia.to have_exact_props(
+        total: 1,
+        items: [click],
+        flash: {
+        },
+        errors: {
+        },
+      )
     end
   end
 end
