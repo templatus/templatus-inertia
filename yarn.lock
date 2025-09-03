@@ -534,29 +534,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@inertiajs/core@npm:2.1.3"
+"@inertiajs/core@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@inertiajs/core@npm:2.1.4"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
     axios: "npm:^1.11.0"
     lodash-es: "npm:^4.17.21"
     qs: "npm:^6.9.0"
-  checksum: 10c0/b5de0ffb3fe76b2d6f95972e045dcd5832ecd5b393e969841fa275b524e66519dbf64c71e87220c7b4d4524e6e7b3f415ec9c544eb73fcdef7b1a2a6e9833151
+  checksum: 10c0/731a4b77dc138e32f813cfa4191ea0decb4d00f009fdd17ad728e8113f87c7df291a25371cdb7079f85282140d0497f3fdd26083c7d05fa559ba9e2ded3ab3d0
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@inertiajs/svelte@npm:2.1.3"
+"@inertiajs/svelte@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@inertiajs/svelte@npm:2.1.4"
   dependencies:
-    "@inertiajs/core": "npm:2.1.3"
+    "@inertiajs/core": "npm:2.1.4"
     "@types/lodash-es": "npm:^4.17.12"
-    html-escape: "npm:^2.0.0"
     lodash-es: "npm:^4.17.21"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/88bd5dfc2ca1686208f049db933617c7faa47f81e709e2aeecd7885e67a84f45547fee83d60075463c2655532ebbdb942d70967465ca02803b7f9edd0075e414
+  checksum: 10c0/46d6771bab1abe34e6bdccfd68520be88153ca65ebf0c6060f0e669547fdb275f46d8d6d201740ca8601fb3acf6d6c58e3771e42fff23c8317a8f4464b02d655
   languageName: node
   linkType: hard
 
@@ -3304,13 +3303,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-escape@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "html-escape@npm:2.0.0"
-  checksum: 10c0/19825bda8a698fc94b7ae7d2f8cddc5f28c5a39b79eaeffb4cc371a6f882abe8d1fd6ef511f84a34ec0498190b17923d5db1e6cb4efb75d938c3e34c5daae35d
-  languageName: node
-  linkType: hard
-
 "html-escaper@npm:^2.0.0":
   version: 2.0.2
   resolution: "html-escaper@npm:2.0.2"
@@ -5411,7 +5403,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.11.2"
-    "@inertiajs/svelte": "npm:^2.1.3"
+    "@inertiajs/svelte": "npm:^2.1.4"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.0.201"
     "@size-limit/file": "npm:^11.2.0"
