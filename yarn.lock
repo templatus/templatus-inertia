@@ -2658,9 +2658,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^3.12.2":
-  version: 3.12.2
-  resolution: "eslint-plugin-svelte@npm:3.12.2"
+"eslint-plugin-svelte@npm:^3.12.3":
+  version: 3.12.3
+  resolution: "eslint-plugin-svelte@npm:3.12.3"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.6.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2678,7 +2678,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/a0b77a5711231afeaccc1571cb3673155cd89c76ce28321155a28f3a935328d155689375cec4465d4f9ff57c87e659bc2be316d6c85e0be29a9a5b9cda278843
+  checksum: 10c0/d4a5860c7478930aa2d7453bcb131b1e49d0afb18ca5f5db0fbc3244f3fda004488f67b9ac9b876f07824082d311230471876795913562575f769be264413729
   languageName: node
   linkType: hard
 
@@ -5419,7 +5419,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-cypress: "npm:^5.1.1"
     eslint-plugin-prettier: "npm:^5.5.4"
-    eslint-plugin-svelte: "npm:^3.12.2"
+    eslint-plugin-svelte: "npm:^3.12.3"
     jsdom: "npm:^26.1.0"
     plausible-tracker: "npm:^0.3.9"
     prettier: "npm:^3.6.2"
