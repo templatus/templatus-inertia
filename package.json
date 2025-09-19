@@ -54,6 +54,23 @@
     "vite-plugin-rails": "^0.5.0",
     "vitest": "^3.2.4"
   },
+  "dependenciesMeta": {
+    "@tailwindcss/oxide": {
+      "built": true
+    },
+    "cypress": {
+      "built": true
+    },
+    "esbuild": {
+      "built": true
+    },
+    "svelte-preprocess": {
+      "built": true
+    },
+    "vite": {
+      "built": true
+    }
+  },
   "size-limit": [
     {
       "limit": "85 kB",
