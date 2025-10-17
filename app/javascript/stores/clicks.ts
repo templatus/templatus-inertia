@@ -1,11 +1,11 @@
 import { writable } from 'svelte/store';
-import { createConsumer } from '@rails/actioncable';
 import { router } from '@inertiajs/svelte';
 import * as Routes from '@/routes';
+import consumer from '@/channels/consumer';
 
 import type { Subscription } from 'rails__actioncable';
 
-let subscription: Subscription;
+let subscription: Subscription | null = null;
 
 export type Click = {
   id: number;
@@ -23,7 +23,10 @@ export function sendClick(): void {
 }
 
 export function startCable(): void {
-  subscription = createConsumer().subscriptions.create(
+  // Clean up existing subscription if any
+  stopCable();
+
+  subscription = consumer.subscriptions.create(
     {
       channel: 'ClicksChannel',
     },
@@ -40,7 +43,7 @@ export function startCable(): void {
 export function stopCable(): void {
   if (subscription) {
     subscription.unsubscribe();
-    subscription.consumer.disconnect();
+    subscription = null;
   }
   subscribed.set(false);
 }
