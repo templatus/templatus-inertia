@@ -548,28 +548,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.2.9":
-  version: 2.2.9
-  resolution: "@inertiajs/core@npm:2.2.9"
+"@inertiajs/core@npm:2.2.10":
+  version: 2.2.10
+  resolution: "@inertiajs/core@npm:2.2.10"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
     axios: "npm:^1.12.2"
     lodash-es: "npm:^4.17.21"
     qs: "npm:^6.14.0"
-  checksum: 10c0/a45731dbc6e2af799d82fb1a2dd8d741c1df7645b840711ebe51a673df32c890bf5beb66be8e15d43410c57901192a730910a27f0ee40b7c6df931d9e21e7e74
+  checksum: 10c0/1d34caffd7f43ee6ef78d85d6789111101488a465080d371053f03b90029f761357b900ab378a895e2b84be5e25c1827fae4a92e97d4eab6c082c217e6b4421d
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.2.9":
-  version: 2.2.9
-  resolution: "@inertiajs/svelte@npm:2.2.9"
+"@inertiajs/svelte@npm:^2.2.10":
+  version: 2.2.10
+  resolution: "@inertiajs/svelte@npm:2.2.10"
   dependencies:
-    "@inertiajs/core": "npm:2.2.9"
+    "@inertiajs/core": "npm:2.2.10"
     "@types/lodash-es": "npm:^4.17.12"
     lodash-es: "npm:^4.17.21"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/adccade9cf127ef7f6e2554beec7a9e407e1262e2c687aa862fd78cdea555a4923c51b302258c7d438245b695d3057d6780bd69f711fc123812395b6e4277e54
+  checksum: 10c0/b2f31d8bccbdd7844ccb3b02ae8840e76701cd75f0b54edc9ecc082f6cfa9a1279306fe1886d29e47b563984dc3e1e5f3b559d350c8b384d265434d64799828e
   languageName: node
   linkType: hard
 
@@ -5423,7 +5423,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.12.2"
-    "@inertiajs/svelte": "npm:^2.2.9"
+    "@inertiajs/svelte": "npm:^2.2.10"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.0"
     "@size-limit/file": "npm:^11.2.0"
