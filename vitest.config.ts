@@ -9,8 +9,13 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    exclude: [...configDefaults.exclude, 'vendor/**'],
+    exclude: [...configDefaults.exclude, 'vendor/**', 'spec/cypress/**'],
     setupFiles: './spec/javascript/setupTests.js',
+    server: {
+      deps: {
+        inline: [/^(?!.*vitest).*svelte.*/],
+      },
+    },
   },
   resolve: {
     alias: {
