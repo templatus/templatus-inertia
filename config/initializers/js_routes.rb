@@ -18,7 +18,6 @@ JsRoutes.setup do |config|
     /sidekiq/,
     # Other
     /webmanifest/,
-    /cypress/,
   ]
 
   config.compact = true

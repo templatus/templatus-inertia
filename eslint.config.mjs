@@ -7,7 +7,6 @@ import tsParser from '@typescript-eslint/parser';
 import pluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import pluginSvelte from 'eslint-plugin-svelte';
 import svelteParser from 'svelte-eslint-parser';
-import pluginCypress from 'eslint-plugin-cypress/flat';
 
 export default [
   eslint.configs.recommended,
@@ -25,11 +24,6 @@ export default [
   },
 
   ...pluginSvelte.configs['flat/recommended'],
-
-  {
-    ...pluginCypress.configs.recommended,
-    files: ['spec/cypress/**/*.{js,ts}'],
-  },
 
   {
     languageOptions: {

@@ -33,13 +33,12 @@
     "@typescript-eslint/parser": "^8.46.2",
     "@vitest/coverage-v8": "^4.0.4",
     "acorn": "^8.15.0",
-    "cypress": "^15.5.0",
     "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-cypress": "^5.2.0",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-svelte": "^3.12.5",
     "jsdom": "^27.0.1",
+    "playwright": "^1.56.1",
     "prettier": "^3.6.2",
     "prettier-plugin-svelte": "^3.4.0",
     "prettier-plugin-tailwindcss": "^0.7.1",
@@ -56,9 +55,6 @@
   },
   "dependenciesMeta": {
     "@tailwindcss/oxide": {
-      "built": true
-    },
-    "cypress": {
       "built": true
     },
     "esbuild": {

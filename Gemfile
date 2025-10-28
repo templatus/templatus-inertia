@@ -105,6 +105,12 @@ end
 group :test do
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem 'simplecov', require: false
+
+  # Capybara aims to simplify the process of integration testing Rack applications (https://github.com/teamcapybara/capybara)
+  gem 'capybara'
+
+  # Playwright driver for Capybara (https://github.com/jemelyah/capybara-playwright-driver)
+  gem 'capybara-playwright-driver'
 end
 
 group :production do

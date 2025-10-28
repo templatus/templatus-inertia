@@ -13,7 +13,7 @@ CI.run do
        'bin/brakeman --quiet --no-pager --exit-on-warn --exit-on-error'
 
   step 'Tests: JavaScript', 'bin/yarn test'
-  step 'Tests: Rails', 'bin/rspec'
+  step 'Tests: Rails', 'env PLAYWRIGHT_HEADLESS=true bin/rspec'
   step 'Tests: Seeds', 'env RAILS_ENV=test bin/rails db:seed:replant'
 
   # Optional: set a green GitHub commit status to unblock PR merge.

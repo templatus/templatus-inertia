@@ -1,5 +1,4 @@
 [![Build Status](https://github.com/templatus/templatus-inertia/workflows/CI/badge.svg)](https://github.com/templatus/templatus-inertia/actions)
-[![Cypress](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/5d6bqs&style=flat-square&logo=cypress)](https://dashboard.cypress.io/projects/5d6bqs/runs)
 
 # Templatus (Inertia edition)
 
@@ -47,7 +46,7 @@ https://github.com/templatus/templatus/
 - [RuboCop](https://rubocop.org/) for Ruby static code analysis
 - [RSpec](https://rspec.info/) for Ruby testing
 - [ESLint](https://eslint.org/) for TypeScript static code analysis
-- [Cypress](https://www.cypress.io/) for E2E testing
+- [Capybara](https://github.com/teamcapybara/capybara) with [Playwright](https://playwright.dev/) for System tests
 
 ### Deployment
 
@@ -223,18 +222,10 @@ JavaScript unit tests:
 bin/yarn test
 ```
 
-E2E tests with Cypress:
+System tests with Capybara and Playwright:
 
 ```
-bin/cypress open
-```
-
-This opens Cypress and starts Rails in `development` environment, but with `CYPRESS=true`, so the `test` database is used. This allows code editing without class reloading and recompiling assets.
-
-To run Cypress in headless mode:
-
-```
-bin/cypress run
+bin/rspec spec/system
 ```
 
 ### Test deployment locally

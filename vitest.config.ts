@@ -9,7 +9,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    exclude: [...configDefaults.exclude, 'vendor/**', 'spec/cypress/**'],
+    exclude: [...configDefaults.exclude, 'vendor/**'],
     setupFiles: './spec/javascript/setupTests.js',
     server: {
       deps: {
