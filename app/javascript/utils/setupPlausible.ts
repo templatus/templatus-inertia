@@ -1,17 +1,17 @@
 import { metaContent } from '@/utils/metaContent';
 import { router } from '@inertiajs/svelte';
-import Plausible from 'plausible-tracker';
+import { init, track } from '@plausible-analytics/tracker';
 
 const plausibleUrl = metaContent('plausible-url');
 if (plausibleUrl) {
-  const plausible = Plausible({
-    domain: metaContent('app-host') || window.location.host,
-    apiHost: plausibleUrl,
+  init({
+    domain: metaContent('app-host') || globalThis.location.host,
+    endpoint: plausibleUrl,
+    autoCapturePageviews: false,
+    outboundLinks: true,
   });
 
-  plausible.enableAutoOutboundTracking();
-
   router.on('navigate', () => {
-    plausible.trackPageview();
+    track('pageview', {});
   });
 }
