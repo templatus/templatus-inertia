@@ -80,6 +80,9 @@ group :development, :test do
 
   # Code style checking for factory_bot files (https://github.com/rubocop/rubocop-factory_bot)
   gem 'rubocop-factory_bot', require: false
+
+  # Patch-level verification for Bundler (https://github.com/rubysec/bundler-audit#readme)
+  gem 'bundler-audit', require: false
 end
 
 group :development do
