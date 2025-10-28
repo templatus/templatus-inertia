@@ -12,6 +12,7 @@ CI.run do
   step 'Security: Brakeman code analysis',
        'bin/brakeman --quiet --no-pager --exit-on-warn --exit-on-error'
 
+  step 'Tests: JavaScript', 'bin/yarn test'
   step 'Tests: Rails', 'bin/rspec'
   step 'Tests: Seeds', 'env RAILS_ENV=test bin/rails db:seed:replant'
 
