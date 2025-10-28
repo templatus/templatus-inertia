@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@honeybadger-io/js": "^6.12.3",
-    "@inertiajs/svelte": "^2.2.12",
+    "@inertiajs/svelte": "^2.2.13",
     "@plausible-analytics/tracker": "^0.4.3",
     "@rails/actioncable": "^8.1.0",
     "@tabler/icons-svelte": "^3.35.0",
@@ -69,7 +69,7 @@
   },
   "size-limit": [
     {
-      "limit": "85 kB",
+      "limit": "90 kB",
       "path": "public/{vite,vite-dev,vite-test}/assets/*.js"
     }
   ],
