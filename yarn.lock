@@ -152,11 +152,9 @@ __metadata:
   linkType: hard
 
 "@csstools/css-syntax-patches-for-csstree@npm:^1.0.14":
-  version: 1.0.14
-  resolution: "@csstools/css-syntax-patches-for-csstree@npm:1.0.14"
-  peerDependencies:
-    postcss: ^8.4
-  checksum: 10c0/e431cf5aa4ccd6a40f4a417663ac7178c822c5427b9c8473e466257dc46dd9698e3852d5517ec220b7d1d1ea911e9007ecb429464329ae169a0aa68b56f1c3ac
+  version: 1.0.15
+  resolution: "@csstools/css-syntax-patches-for-csstree@npm:1.0.15"
+  checksum: 10c0/67949c5a09b8144ae5e87334c1698add2e1e2cfee4e4b43396905c7fbb74bdf759ca0300ba909f8946b3111036a8c863903fa46f1a880992b248306d6cd8b126
   languageName: node
   linkType: hard
 
@@ -1190,9 +1188,9 @@ __metadata:
   linkType: hard
 
 "@types/aws-lambda@npm:^8.10.89":
-  version: 8.10.156
-  resolution: "@types/aws-lambda@npm:8.10.156"
-  checksum: 10c0/7de38e4241c4b4ffd740622850508aff77ed3258ff2278cc96f86d18f8045d2c0fd944c74c0fbcc32334179a7022a85ce69b5cc807e9a473243cd7d1cb90959b
+  version: 8.10.157
+  resolution: "@types/aws-lambda@npm:8.10.157"
+  checksum: 10c0/2517007b6c0b392883aac58d8ef88c0d387de5fcb425011300d2641fd1a1dab5755df4d973abc8879132ffb2924321e19b5ce3ecd06eaa0fdf71ba6e172c9be0
   languageName: node
   linkType: hard
 
@@ -1300,11 +1298,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 24.9.1
-  resolution: "@types/node@npm:24.9.1"
+  version: 24.9.2
+  resolution: "@types/node@npm:24.9.2"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10c0/c52f8168080ef9a7c3dc23d8ac6061fab5371aad89231a0f6f4c075869bc3de7e89b075b1f3e3171d9e5143d0dda1807c3dab8e32eac6d68f02e7480e7e78576
+  checksum: 10c0/7905d43f65cee72ef475fe76316e10bbf6ac5d08a7f0f6c38f2b6285d7ca3009e8fcafc8f8a1d2bf3f55889c9c278dbb203a9081fd0cf2d6d62161703924c6fa
   languageName: node
   linkType: hard
 
@@ -1745,13 +1743,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.12.2":
-  version: 1.13.0
-  resolution: "axios@npm:1.13.0"
+  version: 1.13.1
+  resolution: "axios@npm:1.13.1"
   dependencies:
     follow-redirects: "npm:^1.15.6"
     form-data: "npm:^4.0.4"
     proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/2af09f8ad9db9565bf97055eb0ddd2fd4abd9a03d23157b409348c9589370a88c3ede02e11fd1268becb780a77b62bdf9488650dd7208eda57edceca1d65622e
+  checksum: 10c0/de9c3c6de43d3ee1146d3afe78645f19450cac6a5d7235bef8b8e8eeb705c2e47e2d231dea99cecaec4dae1897c521118ca9413b9d474063c719c4d94c5b9adc
   languageName: node
   linkType: hard
 
@@ -2424,11 +2422,11 @@ __metadata:
   linkType: hard
 
 "esrap@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "esrap@npm:2.1.1"
+  version: 2.1.2
+  resolution: "esrap@npm:2.1.2"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
-  checksum: 10c0/81bcb126b50bd7dc103d49b4e1a4245ecfafbc8ba5c6a786abadc6e120a1b1c6ad8d1c10f929f07f65ae26c7fa8d6eaf81d2a79c080e2828bb5092c64eeeffe8
+  checksum: 10c0/9370790a8ac14be091403d9769cc51bbcebcf167c07ebd3499506e4fb121200d68f1a42700040cebdc90b86f3f5b8667b32c8afc0b0cc2bbe24f8358dd4c4747
   languageName: node
   linkType: hard
 
@@ -4480,15 +4478,15 @@ __metadata:
   linkType: hard
 
 "tar@npm:^7.4.3":
-  version: 7.5.1
-  resolution: "tar@npm:7.5.1"
+  version: 7.5.2
+  resolution: "tar@npm:7.5.2"
   dependencies:
     "@isaacs/fs-minipass": "npm:^4.0.0"
     chownr: "npm:^3.0.0"
     minipass: "npm:^7.1.2"
     minizlib: "npm:^3.1.0"
     yallist: "npm:^5.0.0"
-  checksum: 10c0/0dad0596a61586180981133b20c32cfd93c5863c5b7140d646714e6ea8ec84583b879e5dc3928a4d683be6e6109ad7ea3de1cf71986d5194f81b3a016c8858c9
+  checksum: 10c0/a7d8b801139b52f93a7e34830db0de54c5aa45487c7cb551f6f3d44a112c67f1cb8ffdae856b05fd4f17b1749911f1c26f1e3a23bbe0279e17fd96077f13f467
   languageName: node
   linkType: hard
 
