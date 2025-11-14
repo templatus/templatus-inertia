@@ -517,28 +517,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.2.15":
-  version: 2.2.15
-  resolution: "@inertiajs/core@npm:2.2.15"
+"@inertiajs/core@npm:2.2.16":
+  version: 2.2.16
+  resolution: "@inertiajs/core@npm:2.2.16"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
-    axios: "npm:^1.12.2"
+    axios: "npm:^1.13.2"
     lodash-es: "npm:^4.17.21"
     qs: "npm:^6.14.0"
-  checksum: 10c0/8b639831072749457d2f9f67de2ab770dc9f655c5c501cbcb16e750a35c2a7ace546144a01c00dc75b105f546e6be181da5301e31a7733074c7b7735d36ef5fa
+  checksum: 10c0/4c7865741035ffdaf4dc9c41320cc76f64c5ba5f0d4fc1c6cf38229c80dd57f65c8a3d23ecc11a23502e801dd1416b2e170def8bb01d8022dd46f160cc919e88
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.2.15":
-  version: 2.2.15
-  resolution: "@inertiajs/svelte@npm:2.2.15"
+"@inertiajs/svelte@npm:^2.2.16":
+  version: 2.2.16
+  resolution: "@inertiajs/svelte@npm:2.2.16"
   dependencies:
-    "@inertiajs/core": "npm:2.2.15"
+    "@inertiajs/core": "npm:2.2.16"
     "@types/lodash-es": "npm:^4.17.12"
     lodash-es: "npm:^4.17.21"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/bc0d26710e69d1f283c204f080fa06c7bf80d78f4d9bc8919d0b9c5534c43a3950114524545e50b188cb2d1323cc191048d25e3b8f891aeefe62a1582c912615
+  checksum: 10c0/966e8a755dfdaff4c50251d1d3de26fd7672f21255dee8c1dcc77661993474dabba4455200db12ecd919b7a65a544de6643bca952bce0d0d4f80675527ab2af0
   languageName: node
   linkType: hard
 
@@ -1742,14 +1742,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.12.2":
-  version: 1.13.1
-  resolution: "axios@npm:1.13.1"
+"axios@npm:^1.13.2":
+  version: 1.13.2
+  resolution: "axios@npm:1.13.2"
   dependencies:
     follow-redirects: "npm:^1.15.6"
     form-data: "npm:^4.0.4"
     proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/de9c3c6de43d3ee1146d3afe78645f19450cac6a5d7235bef8b8e8eeb705c2e47e2d231dea99cecaec4dae1897c521118ca9413b9d474063c719c4d94c5b9adc
+  checksum: 10c0/e8a42e37e5568ae9c7a28c348db0e8cf3e43d06fcbef73f0048669edfe4f71219664da7b6cc991b0c0f01c28a48f037c515263cb79be1f1ae8ff034cd813867b
   languageName: node
   linkType: hard
 
@@ -4495,7 +4495,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.12.3"
-    "@inertiajs/svelte": "npm:^2.2.15"
+    "@inertiajs/svelte": "npm:^2.2.16"
     "@plausible-analytics/tracker": "npm:^0.4.4"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.100"
