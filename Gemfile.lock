@@ -160,7 +160,7 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    js-routes (2.3.5)
+    js-routes (2.3.6)
       railties (>= 5)
       sorbet-runtime
     json (2.18.0)
@@ -236,7 +236,7 @@ GEM
       syntax_tree-rbs (>= 0.2.0)
     prettier_print (1.2.1)
     prettyprint (0.2.0)
-    prism (1.6.0)
+    prism (1.7.0)
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
