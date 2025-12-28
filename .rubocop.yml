@@ -10,7 +10,7 @@ plugins:
   - rubocop-rspec_rails
 
 AllCops:
-  TargetRubyVersion: 3.4
+  TargetRubyVersion: 4.0
   Exclude:
     - app/javascript/**/*
     - bin/**/*
