@@ -153,7 +153,7 @@ GEM
       ostruct
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.15.0)
+    inertia_rails (3.16.0)
       railties (>= 6)
     io-console (0.8.2)
     irb (1.16.0)
