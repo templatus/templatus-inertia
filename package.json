@@ -13,7 +13,7 @@
     "@honeybadger-io/js": "^6.12.3",
     "@inertiajs/svelte": "^2.3.7",
     "@plausible-analytics/tracker": "^0.4.4",
-    "@rails/actioncable": "^8.1.100",
+    "@rails/actioncable": "^8.1.200",
     "@tabler/icons-svelte": "^3.36.1",
     "timeago.js": "^4.0.2"
   },
