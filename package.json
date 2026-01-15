@@ -35,7 +35,7 @@
     "acorn": "^8.15.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-svelte": "^3.14.0",
     "jsdom": "^27.4.0",
     "playwright": "^1.57.0",
