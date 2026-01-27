@@ -529,30 +529,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.3.11":
-  version: 2.3.11
-  resolution: "@inertiajs/core@npm:2.3.11"
+"@inertiajs/core@npm:2.3.12":
+  version: 2.3.12
+  resolution: "@inertiajs/core@npm:2.3.12"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
     axios: "npm:^1.13.2"
     laravel-precognition: "npm:^1.0.0"
-    lodash-es: "npm:^4.17.22"
+    lodash-es: "npm:^4.17.23"
     qs: "npm:^6.14.1"
-  checksum: 10c0/3cfe757ec17e42ba4585c8cf3bac946214da3a4a78f6328e5a8672c4f12d20f624e6bd880bb7490d247c4c3bea0069a452be341056040b97e42d05b060b10b8c
+  checksum: 10c0/aa0569a820a512b0ebd47c5f58449d38bde6d3930203bddd9a4493b3c4480fd5349551553f3cb5e66c1f80d891d6848c895256f1447b4307e1fb1f8e658f3230
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.3.11":
-  version: 2.3.11
-  resolution: "@inertiajs/svelte@npm:2.3.11"
+"@inertiajs/svelte@npm:^2.3.12":
+  version: 2.3.12
+  resolution: "@inertiajs/svelte@npm:2.3.12"
   dependencies:
-    "@inertiajs/core": "npm:2.3.11"
+    "@inertiajs/core": "npm:2.3.12"
     "@types/lodash-es": "npm:^4.17.12"
     laravel-precognition: "npm:^1.0.0"
-    lodash-es: "npm:^4.17.22"
+    lodash-es: "npm:^4.17.23"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/d1862910cb6374c95347a80888288827625dab549f4a193ae63ec4e5aaf1477951d43269a3e8fab86a6e84a987b15e90e42216786c9ed04722e171c71fd0e78c
+  checksum: 10c0/938e2390561c60dcd5ca93a1d26035ada8c17d028da4b4a2610db9bd257928d7d6cfd541cf1120f58d99ef0cbf161bf62be122cf224a8156638d88359fc1d98c
   languageName: node
   linkType: hard
 
@@ -3228,7 +3228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.21, lodash-es@npm:^4.17.22":
+"lodash-es@npm:^4.17.21, lodash-es@npm:^4.17.23":
   version: 4.17.23
   resolution: "lodash-es@npm:4.17.23"
   checksum: 10c0/3150fb6660c14c7a6b5f23bd11597d884b140c0e862a17fdb415aaa5ef7741523182904a6b7929f04e5f60a11edb5a79499eb448734381c99ffb3c4734beeddd
@@ -4395,7 +4395,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.12.3"
-    "@inertiajs/svelte": "npm:^2.3.11"
+    "@inertiajs/svelte": "npm:^2.3.12"
     "@plausible-analytics/tracker": "npm:^0.4.4"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.200"
