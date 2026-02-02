@@ -2403,7 +2403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^2.2.1":
+"esrap@npm:^2.2.2":
   version: 2.2.2
   resolution: "esrap@npm:2.2.2"
   dependencies:
@@ -4324,9 +4324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.49.0":
-  version: 5.49.0
-  resolution: "svelte@npm:5.49.0"
+"svelte@npm:^5.49.1":
+  version: 5.49.1
+  resolution: "svelte@npm:5.49.1"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -4338,12 +4338,12 @@ __metadata:
     clsx: "npm:^2.1.1"
     devalue: "npm:^5.6.2"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^2.2.1"
+    esrap: "npm:^2.2.2"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/e47feb4290b17fa6123205782a9ab4d71dc6aea9ea9947875ca308b955a6b55c68b083f9459c8b24f9dda08730d3a37b6356c8aae7608a9977dbcda5b77d0498
+  checksum: 10c0/88280010aa6b0ce8b859e03fd11090e668e06d076d1954a818f1c00821fcc79da3a4e5ee8f29337d12d250c24b596b84588a1b8002e56e9b15414c37724232b8
   languageName: node
   linkType: hard
 
@@ -4424,7 +4424,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.4.1"
     prettier-plugin-tailwindcss: "npm:^0.7.2"
     size-limit: "npm:^12.0.0"
-    svelte: "npm:^5.49.0"
+    svelte: "npm:^5.49.1"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^4.1.18"
     timeago.js: "npm:^4.0.2"
