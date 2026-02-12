@@ -529,30 +529,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@inertiajs/core@npm:2.3.13"
+"@inertiajs/core@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@inertiajs/core@npm:2.3.14"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
     axios: "npm:^1.13.2"
     laravel-precognition: "npm:^1.0.1"
     lodash-es: "npm:^4.17.23"
     qs: "npm:^6.14.1"
-  checksum: 10c0/1ee36ca4a4112371090ce2d9f224312043a40874c96e2a23df3ec1f8ee0bde0ba1603b424f2baf739272fc95bf09549f387679b3b853cd24d5d4487042147dd2
+  checksum: 10c0/3d00d5e725fc421e95cf40c1396d49b60ec0fcd5ac6e386222034410a793bda60a990b9e50b32bb606892a9211992719d3c12699b16c0dfd5ba6b16625884620
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.3.13":
-  version: 2.3.13
-  resolution: "@inertiajs/svelte@npm:2.3.13"
+"@inertiajs/svelte@npm:^2.3.14":
+  version: 2.3.14
+  resolution: "@inertiajs/svelte@npm:2.3.14"
   dependencies:
-    "@inertiajs/core": "npm:2.3.13"
+    "@inertiajs/core": "npm:2.3.14"
     "@types/lodash-es": "npm:^4.17.12"
     laravel-precognition: "npm:^1.0.1"
     lodash-es: "npm:^4.17.23"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/108b91539b0c2a53f6c959204ec8d37215773985ecb8ba4b1ee5771fd102c65336ec37fbc070bf2773e87a9f51d15da7045283104e3b148e5d28ce598710db64
+  checksum: 10c0/8dce8470b963fad7e57f98f7b48f75e1bf8e9d9a9a8932f22d5acae207ee8ed71abbeaeb714f4979baca5163eebe27e7dd64eb8d75aa8ce5108c3df5f3126974
   languageName: node
   linkType: hard
 
@@ -4395,7 +4395,7 @@ __metadata:
   resolution: "templatus-inertia@workspace:."
   dependencies:
     "@honeybadger-io/js": "npm:^6.12.3"
-    "@inertiajs/svelte": "npm:^2.3.13"
+    "@inertiajs/svelte": "npm:^2.3.14"
     "@plausible-analytics/tracker": "npm:^0.4.4"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.200"
