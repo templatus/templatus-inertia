@@ -1194,10 +1194,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/svelte@npm:^5.0.7":
-  version: 5.0.7
-  resolution: "@tsconfig/svelte@npm:5.0.7"
-  checksum: 10c0/47f3aec41464292c7e31714dc7055c8f4d3ee5da0d7227f3999317da3594d76fc69b7ba0401554af1f6facecc90a2dee5d01b8b5d1b499d328fffcedab1c692e
+"@tsconfig/svelte@npm:^5.0.8":
+  version: 5.0.8
+  resolution: "@tsconfig/svelte@npm:5.0.8"
+  checksum: 10c0/dbc071d5e4e7438468963bc1753c20d40fd732cd3e4397c35d0ad15369f5d31dda8e6ef59e9c6ec7ff761bc4de31a33621bdad3aa2b589df1619b54eebb9dbba
   languageName: node
   linkType: hard
 
@@ -4335,7 +4335,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:^6.9.1"
     "@testing-library/svelte": "npm:^5.3.1"
     "@testing-library/user-event": "npm:^14.6.1"
-    "@tsconfig/svelte": "npm:^5.0.7"
+    "@tsconfig/svelte": "npm:^5.0.8"
     "@types/rails__actioncable": "npm:^8.0.3"
     "@typescript-eslint/eslint-plugin": "npm:^8.56.0"
     "@typescript-eslint/parser": "npm:^8.56.0"
