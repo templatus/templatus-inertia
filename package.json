@@ -14,7 +14,7 @@
     "@inertiajs/svelte": "^2.3.15",
     "@plausible-analytics/tracker": "^0.4.4",
     "@rails/actioncable": "^8.1.200",
-    "@tabler/icons-svelte": "^3.36.1",
+    "@tabler/icons-svelte": "^3.37.1",
     "timeago.js": "^4.0.2"
   },
   "devDependencies": {
