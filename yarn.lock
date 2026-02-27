@@ -528,30 +528,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:2.3.16":
-  version: 2.3.16
-  resolution: "@inertiajs/core@npm:2.3.16"
+"@inertiajs/core@npm:2.3.17":
+  version: 2.3.17
+  resolution: "@inertiajs/core@npm:2.3.17"
   dependencies:
     "@types/lodash-es": "npm:^4.17.12"
     axios: "npm:^1.13.5"
     laravel-precognition: "npm:^1.0.2"
     lodash-es: "npm:^4.17.23"
-    qs: "npm:^6.14.2"
-  checksum: 10c0/162e1efda07d21de6d7171de33c7ca6b19332a0be2076ce29628faaceb19f20518bf75a6b9daa7f589a4a88d74366eb8aafb489b813ecb6e74b5dfd8ddbb0fae
+    qs: "npm:^6.15.0"
+  checksum: 10c0/a3a85a0fb7ce4224a57c83282461f7217f9f656d817915655f3bb40ddf5cc7dd6b9b3cd20ae2ac81f11d77528e117f110ada22bb4bd5c398ab40070373cfbce1
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^2.3.16":
-  version: 2.3.16
-  resolution: "@inertiajs/svelte@npm:2.3.16"
+"@inertiajs/svelte@npm:^2.3.17":
+  version: 2.3.17
+  resolution: "@inertiajs/svelte@npm:2.3.17"
   dependencies:
-    "@inertiajs/core": "npm:2.3.16"
+    "@inertiajs/core": "npm:2.3.17"
     "@types/lodash-es": "npm:^4.17.12"
     laravel-precognition: "npm:^1.0.2"
     lodash-es: "npm:^4.17.23"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0
-  checksum: 10c0/9ceef6b74eec33961d4410a137e64f6499b3ec94de212ed08c032bbf5a344d9a8dac84f2a4c970786a0a441e930321264bb367f6e05e5a83b4a08d15f3743b27
+  checksum: 10c0/11f905d97b71412d771857629e759ef238f8820785e5f2842445ef91d414c9ee62531685df59449d76b7a32a9cc635dc98b7b0c8ad27939799fffb6218f408b7
   languageName: node
   linkType: hard
 
@@ -3784,7 +3784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.14.2":
+"qs@npm:^6.15.0":
   version: 6.15.0
   resolution: "qs@npm:6.15.0"
   dependencies:
@@ -4286,7 +4286,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@honeybadger-io/js": "npm:^6.12.3"
-    "@inertiajs/svelte": "npm:^2.3.16"
+    "@inertiajs/svelte": "npm:^2.3.17"
     "@plausible-analytics/tracker": "npm:^0.4.4"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.200"
