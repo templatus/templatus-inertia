@@ -1,4 +1,4 @@
-describe 'Clicks', :inertia do
+describe 'Clicks' do
   include ActiveSupport::Testing::TimeHelpers
 
   let(:user_agent) { 'Netscape Navigator' }
@@ -71,7 +71,7 @@ describe 'Clicks', :inertia do
       expect_inertia.to render_component('Clicks/Index')
       expect_inertia.to have_exact_props(
         total: 1,
-        items: [click],
+        items: [click.as_json],
         flash: {
         },
         errors: {
