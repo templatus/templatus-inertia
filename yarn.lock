@@ -2122,7 +2122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devalue@npm:^5.6.3":
+"devalue@npm:^5.6.4":
   version: 5.6.4
   resolution: "devalue@npm:5.6.4"
   checksum: 10c0/0c1bbe036945e55c5f6d54f52bb1a99b19677dd48a8404517fbddb02e725803457bed6317d2c05292d68767914ba319a6a645dbfdf8ade65d687ab430bfc2ae1
@@ -4512,9 +4512,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.53.11":
-  version: 5.53.11
-  resolution: "svelte@npm:5.53.11"
+"svelte@npm:^5.53.12":
+  version: 5.53.12
+  resolution: "svelte@npm:5.53.12"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -4525,14 +4525,14 @@ __metadata:
     aria-query: "npm:5.3.1"
     axobject-query: "npm:^4.1.0"
     clsx: "npm:^2.1.1"
-    devalue: "npm:^5.6.3"
+    devalue: "npm:^5.6.4"
     esm-env: "npm:^1.2.1"
     esrap: "npm:^2.2.2"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/d2b402c144207b365bec83bbe2765f7a35cc0a54be5e48ddc63c3168b46a2ced45d5dbfabad8f963404841985c08be0d1d1796c3c6290c3d079608a8ed18d58c
+  checksum: 10c0/7f6f839b10de941866128a6db220b01c7600190c27db24e735b6eb1f2028c905b9a38bc9dcb3dc9deae6418e5a12d3ff9e6a3bdbcf30f0998aa3edfeb8dc39eb
   languageName: node
   linkType: hard
 
@@ -4614,7 +4614,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.5.1"
     prettier-plugin-tailwindcss: "npm:^0.7.2"
     size-limit: "npm:^12.0.1"
-    svelte: "npm:^5.53.11"
+    svelte: "npm:^5.53.12"
     svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^4.2.1"
     timeago.js: "npm:^4.0.2"
