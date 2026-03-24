@@ -49,16 +49,13 @@
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.2",
     "typescript-eslint": "^8.57.2",
-    "vite": "^8.0.1",
+    "vite": "^8.0.2",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-rails": "^0.6.0",
     "vitest": "^4.1.1"
   },
   "dependenciesMeta": {
     "@tailwindcss/oxide": {
-      "built": true
-    },
-    "esbuild": {
       "built": true
     },
     "svelte-preprocess": {
