@@ -4,7 +4,8 @@
     "strict": false,
     "target": "esNext",
     "module": "esNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
     "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
     "paths": {
       "@/*": ["./app/javascript/*"],

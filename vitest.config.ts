@@ -5,7 +5,7 @@ import path from 'path';
 import { configDefaults } from 'vitest/config';
 
 export default defineConfig({
-  plugins: [svelte({ hot: !process.env.VITEST }), svelteTesting()],
+  plugins: [svelte(), svelteTesting()],
   test: {
     globals: true,
     environment: 'jsdom',
