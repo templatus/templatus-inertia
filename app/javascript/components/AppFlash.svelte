@@ -2,45 +2,38 @@
   import { fly } from 'svelte/transition';
   import { IconAlertCircle, IconCircleCheck } from '@tabler/icons-svelte';
 
-  export let flash = {
-    notice: '',
-    alert: '',
-  };
+  type Flash = { notice?: string; alert?: string };
+  const { flash = {} }: { flash?: Flash } = $props();
 
-  let text: string = '';
-  let icon: typeof IconAlertCircle | typeof IconCircleCheck;
-  let backgroundClass: string;
-  let textClass: string;
-  let iconClass: string;
-  let timeoutId: ReturnType<typeof setTimeout>;
+  let text: string = $state('');
+  let isNotice: boolean = $state(true);
 
-  function showMessage(type: 'notice' | 'alert', message: string) {
-    text = message;
-    if (type === 'notice') {
-      icon = IconCircleCheck;
-      textClass = 'text-green-800';
-      iconClass = 'text-green-400';
-      backgroundClass = 'bg-green-50 border-green-500';
-    } else {
-      icon = IconAlertCircle;
-      textClass = 'text-red-800';
-      iconClass = 'text-red-400';
-      backgroundClass = 'bg-red-50 border-red-500';
+  const backgroundClass = $derived(
+    isNotice ? 'bg-green-50 border-green-500' : 'bg-red-50 border-red-500',
+  );
+  const textClass = $derived(isNotice ? 'text-green-800' : 'text-red-800');
+  const iconClass = $derived(isNotice ? 'text-green-400' : 'text-red-400');
+
+  $effect(() => {
+    if (flash.notice) {
+      text = flash.notice;
+      isNotice = true;
+    } else if (flash.alert) {
+      text = flash.alert;
+      isNotice = false;
     }
+  });
 
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => {
+  // Auto-dismiss after 2 seconds
+  $effect(() => {
+    if (!text) return;
+
+    const id = setTimeout(() => {
       text = '';
     }, 2000);
-  }
 
-  $: if (flash.notice) {
-    showMessage('notice', flash.notice);
-  }
-
-  $: if (flash.alert) {
-    showMessage('alert', flash.alert);
-  }
+    return () => clearTimeout(id);
+  });
 </script>
 
 {#if text}
@@ -51,7 +44,11 @@
   >
     <div class="mx-auto flex items-center justify-center">
       <div class={iconClass}>
-        <svelte:component this={icon} size={32} />
+        {#if isNotice}
+          <IconCircleCheck size={32} />
+        {:else}
+          <IconAlertCircle size={32} />
+        {/if}
       </div>
 
       <p class="ml-2 text-base font-medium {textClass}">

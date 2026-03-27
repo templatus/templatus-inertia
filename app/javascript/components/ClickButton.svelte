@@ -2,10 +2,11 @@
   import { sendClick } from '@/stores/clicks';
   import { scale } from 'svelte/transition';
 
-  export let count: number;
+  const { count, class: className }: { count: number; class?: string } =
+    $props();
 </script>
 
-<div class="{$$props.class} flex flex-col">
+<div class="{className} flex flex-col">
   <div id="counter" class="text-center">
     {#key count}
       <div
@@ -22,7 +23,7 @@
 
   <button
     type="button"
-    on:click={sendClick}
+    onclick={sendClick}
     class="bg-rose hover:bg-rails-light active:ring-rails-light mt-3 w-full rounded-sm py-2 font-medium text-black transition hover:text-white active:ring-2 active:ring-offset-1 active:outline-hidden"
   >
     Click me!

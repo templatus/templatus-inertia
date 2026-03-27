@@ -4,6 +4,8 @@
   import logoPath from '@/images/logo.svg';
   import * as Routes from '@/routes';
 
+  const { class: className }: { class?: string } = $props();
+
   const tabs = [
     { name: 'Home', href: Routes.root() },
     { name: 'About', href: Routes.about() },
@@ -11,7 +13,7 @@
 </script>
 
 <header
-  class="{$$props.class} flex items-end justify-between space-x-5 p-5 lg:flex-col lg:items-stretch lg:space-y-36 lg:space-x-0 lg:p-0"
+  class="{className} flex items-end justify-between space-x-5 p-5 lg:flex-col lg:items-stretch lg:space-y-36 lg:space-x-0 lg:p-0"
 >
   <img
     src={assetUrl(logoPath)}
@@ -29,7 +31,7 @@
         use:inertia
         href={tab.href}
         class="rounded-md px-2 py-1 transition lg:shadow-sm {tab.href ===
-        $page.url
+        page.url
           ? 'text-rails-dark lg:bg-rails-dark bg-white lg:text-white'
           : 'lg:text-rails-dark bg-transparent text-white hover:scale-105 lg:bg-white'}"
       >

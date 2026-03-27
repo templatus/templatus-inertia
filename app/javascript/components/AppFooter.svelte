@@ -2,6 +2,8 @@
   import GitVersion from '@/components/GitVersion.svelte';
   import { metaContent } from '@/utils/metaContent';
 
+  const { class: className }: { class?: string } = $props();
+
   const git: {
     commitVersion?: string;
     commitTime?: string;
@@ -12,7 +14,7 @@
 </script>
 
 <footer
-  class="{$$props.class} flex flex-wrap items-end justify-between space-y-2 px-4 text-sm text-white sm:px-6 lg:px-0"
+  class="{className} flex flex-wrap items-end justify-between space-y-2 px-4 text-sm text-white sm:px-6 lg:px-0"
 >
   <div class="flex w-full items-end space-x-2 sm:w-auto">
     <a

@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<script lang="ts" module>
   import Layout from '@/layouts/default.svelte';
   export const layout = Layout;
 </script>
@@ -17,8 +17,7 @@
   import ClickButton from '@/components/ClickButton.svelte';
   import ClickList from '@/components/ClickList.svelte';
 
-  export let items: Click[];
-  export let total: number;
+  const { items, total }: { items: Click[]; total: number } = $props();
 
   // Save the current items and total (if given) to the store
   if (items) currentItems.set(items);

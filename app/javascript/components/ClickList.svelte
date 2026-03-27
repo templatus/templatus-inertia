@@ -3,7 +3,7 @@
   import { flip } from 'svelte/animate';
   import { fade, scale } from 'svelte/transition';
 
-  export let clicks: Click[];
+  const { clicks }: { clicks: Click[] } = $props();
 
   function formattedDate(click: Click) {
     return new Date(click.created_at).toLocaleString('en', {
@@ -22,8 +22,8 @@
     <li
       class="bg-white py-5"
       animate:flip={{ duration: 200 }}
-      in:scale|local={{ duration: 200, delay: 200 }}
-      out:fade|local={{ duration: 200 }}
+      in:scale={{ duration: 200, delay: 200 }}
+      out:fade={{ duration: 200 }}
     >
       <p>
         <span class="text-rose rounded-sm bg-gray-900 px-2 py-1 font-mono">

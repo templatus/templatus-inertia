@@ -1,17 +1,18 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import * as timeago from 'timeago.js';
 
   let timeElement: HTMLElement;
 
-  onMount(() => {
+  $effect(() => {
     timeago.render(timeElement);
 
     return () => timeago.cancel(timeElement);
   });
 
-  export let commitVersion: string;
-  export let commitTime: string;
+  const {
+    commitVersion,
+    commitTime,
+  }: { commitVersion: string; commitTime: string } = $props();
 </script>
 
 <div>

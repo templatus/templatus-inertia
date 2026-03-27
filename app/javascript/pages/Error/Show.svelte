@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<script lang="ts" module>
   import Layout from '@/layouts/default.svelte';
   export const layout = Layout;
 </script>
@@ -6,9 +6,9 @@
 <script lang="ts">
   import PageTitle from '@/components/PageTitle.svelte';
 
-  export let status: number;
+  const { status }: { status: number } = $props();
 
-  const ERROR_MESSAGES = {
+  const ERROR_MESSAGES: Record<number, string> = {
     404: "The page you were looking for doesn't exist",
     422: 'The change you wanted was rejected',
     500: "We're sorry, but something went wrong",

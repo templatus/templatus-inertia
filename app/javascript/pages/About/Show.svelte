@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<script lang="ts" module>
   import Layout from '@/layouts/default.svelte';
   export const layout = Layout;
 </script>
@@ -7,7 +7,19 @@
   import PageTitle from '@/components/PageTitle.svelte';
   import { IconCheck } from '@tabler/icons-svelte';
 
-  export let features;
+  type Feature = {
+    name: string;
+    href: string;
+    description: string;
+    version?: string;
+  };
+  type FeatureGroup = {
+    name: string;
+    slogan: string;
+    items: Feature[];
+  };
+
+  const { features }: { features: FeatureGroup[] } = $props();
 </script>
 
 <PageTitle>About</PageTitle>
