@@ -83,7 +83,7 @@ GEM
       activesupport (>= 6.0.0)
     ast (2.4.3)
     base64 (0.3.0)
-    bigdecimal (4.1.0)
+    bigdecimal (4.1.1)
     bindex (0.8.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
@@ -152,7 +152,7 @@ GEM
       ostruct
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.19.0)
+    inertia_rails (3.20.0)
       railties (>= 6)
     io-console (0.8.2)
     irb (1.17.0)
