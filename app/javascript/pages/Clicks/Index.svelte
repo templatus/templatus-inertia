@@ -19,9 +19,11 @@
 
   const { items, total }: { items: Click[]; total: number } = $props();
 
-  // Save the current items and total (if given) to the store
-  if (items) currentItems.set(items);
-  if (total) currentTotal.set(total);
+  // Keep the store in sync with props when navigating between pages
+  $effect(() => {
+    if (items) currentItems.set(items);
+    if (total) currentTotal.set(total);
+  });
 
   onMount(() => {
     startCable();
