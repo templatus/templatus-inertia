@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 import ViteRails from 'vite-plugin-rails';
 import tailwindcss from '@tailwindcss/vite';
-import { svelte } from '@sveltejs/vite-plugin-svelte';
-import { sveltePreprocess } from 'svelte-preprocess';
+import { svelte, vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { resolve } from 'path';
 
 export default defineConfig({
@@ -27,7 +26,7 @@ export default defineConfig({
     }),
     svelte({
       prebundleSvelteLibraries: true,
-      preprocess: sveltePreprocess({}),
+      preprocess: vitePreprocess(),
     }),
   ],
   resolve: {

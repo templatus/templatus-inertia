@@ -3352,46 +3352,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^6.0.3":
-  version: 6.0.3
-  resolution: "svelte-preprocess@npm:6.0.3"
-  peerDependencies:
-    "@babel/core": ^7.10.2
-    coffeescript: ^2.5.1
-    less: ^3.11.3 || ^4.0.0
-    postcss: ^7 || ^8
-    postcss-load-config: ">=3"
-    pug: ^3.0.0
-    sass: ^1.26.8
-    stylus: ">=0.55"
-    sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-    svelte: ^4.0.0 || ^5.0.0-next.100 || ^5.0.0
-    typescript: ^5.0.0
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
-    coffeescript:
-      optional: true
-    less:
-      optional: true
-    postcss:
-      optional: true
-    postcss-load-config:
-      optional: true
-    pug:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    typescript:
-      optional: true
-  checksum: 10c0/ee6d92f0ae9b00830cae764ce7c286b83e52f142fb617a932bd81f09b4b29c8b2c02ef5e4b6bbade9729cc7c65f7fef55e1a366758766b15a06538df1e55e8ce
-  languageName: node
-  linkType: hard
-
 "svelte@npm:^5.55.3":
   version: 5.55.3
   resolution: "svelte@npm:5.55.3"
@@ -3495,7 +3455,6 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.7.2"
     size-limit: "npm:^12.0.1"
     svelte: "npm:^5.55.3"
-    svelte-preprocess: "npm:^6.0.3"
     tailwindcss: "npm:^4.2.2"
     timeago.js: "npm:^4.0.2"
     typescript: "npm:^6.0.2"
@@ -3506,8 +3465,6 @@ __metadata:
     vitest: "npm:^4.1.4"
   dependenciesMeta:
     "@tailwindcss/oxide":
-      built: true
-    svelte-preprocess:
       built: true
     vite:
       built: true
