@@ -65,6 +65,8 @@ jobs:
         run: bin/rails db:create
 
       - name: Compile assets
+        env:
+          VITE_RUBY_SKIP_ASSETS_PRECOMPILE_INSTALL: 'true'
         run: bin/rails assets:precompile
 
       - name: Get Playwright version
