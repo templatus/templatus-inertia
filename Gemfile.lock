@@ -152,7 +152,7 @@ GEM
       ostruct
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.20.0)
+    inertia_rails (3.21.0)
       railties (>= 6)
     io-console (0.8.2)
     irb (1.17.0)
@@ -194,7 +194,7 @@ GEM
       mime-types-data (~> 3.2025, >= 3.2025.0507)
     mime-types-data (3.2026.0414)
     mini_mime (1.1.5)
-    minitest (6.0.3)
+    minitest (6.0.4)
       drb (~> 2.0)
       prism (~> 1.5)
     msgpack (1.8.0)
