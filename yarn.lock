@@ -633,9 +633,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "@sveltejs/vite-plugin-svelte@npm:7.1.1"
+"@sveltejs/vite-plugin-svelte@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "@sveltejs/vite-plugin-svelte@npm:7.1.2"
   dependencies:
     deepmerge: "npm:^4.3.1"
     magic-string: "npm:^0.30.21"
@@ -644,7 +644,7 @@ __metadata:
   peerDependencies:
     svelte: ^5.46.4
     vite: ^8.0.0-beta.7 || ^8.0.0
-  checksum: 10c0/b79ed1fa1562a5f0f215b1f7b28737939f10c8851a9addf79bda993a3f1dccf6fd618f1c83aa04c451626bd7c96396894de333a848bf82690b5f997a79706d0d
+  checksum: 10c0/d177e090ae310e1f9fc4e906de6034274f318e7ea831bf099b9624b469715408fa6ce1e4fe08a8272f8805fe32f882a2a97e6319e36995c86365fd6b407c9001
   languageName: node
   linkType: hard
 
@@ -3177,7 +3177,7 @@ __metadata:
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.300"
     "@size-limit/file": "npm:^12.1.0"
-    "@sveltejs/vite-plugin-svelte": "npm:^7.1.1"
+    "@sveltejs/vite-plugin-svelte": "npm:^7.1.2"
     "@tabler/icons-svelte": "npm:^3.43.0"
     "@tailwindcss/forms": "npm:^0.5.11"
     "@tailwindcss/vite": "npm:^4.2.4"
