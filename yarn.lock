@@ -2767,13 +2767,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^3.5.2":
-  version: 3.5.2
-  resolution: "prettier-plugin-svelte@npm:3.5.2"
+"prettier-plugin-svelte@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "prettier-plugin-svelte@npm:4.0.0"
   peerDependencies:
     prettier: ^3.0.0
-    svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
-  checksum: 10c0/d0d4a817588efad41b4bc7c7ea41d42bc1068fd52be63b5b6698563fb27eb38ade3007a396a9cd9da875783c5cb489123635c685f20ec9f57b924894732c5f26
+    svelte: ^5.0.0
+  checksum: 10c0/e037d73fa09209f018f07bf4905e7b183df520276d4655bfbd5e683ea921b482f0c36d460a0947dd06425e1935c0bb7d5f4694ed7d14b17a54772a4bfffeb028
   languageName: node
   linkType: hard
 
@@ -3198,7 +3198,7 @@ __metadata:
     jsdom: "npm:^29.1.1"
     playwright: "npm:^1.60.0"
     prettier: "npm:^3.8.3"
-    prettier-plugin-svelte: "npm:^3.5.2"
+    prettier-plugin-svelte: "npm:^4.0.0"
     prettier-plugin-tailwindcss: "npm:^0.8.0"
     size-limit: "npm:^12.1.0"
     svelte: "npm:^5.55.9"
