@@ -1179,7 +1179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/tsconfig-utils@npm:8.59.4, @typescript-eslint/tsconfig-utils@npm:^8.59.4":
+"@typescript-eslint/tsconfig-utils@npm:8.59.4":
   version: 8.59.4
   resolution: "@typescript-eslint/tsconfig-utils@npm:8.59.4"
   peerDependencies:
@@ -1188,7 +1188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/tsconfig-utils@npm:8.60.0, @typescript-eslint/tsconfig-utils@npm:^8.60.0":
+"@typescript-eslint/tsconfig-utils@npm:8.60.0, @typescript-eslint/tsconfig-utils@npm:^8.59.4, @typescript-eslint/tsconfig-utils@npm:^8.60.0":
   version: 8.60.0
   resolution: "@typescript-eslint/tsconfig-utils@npm:8.60.0"
   peerDependencies:
@@ -1213,14 +1213,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.59.4, @typescript-eslint/types@npm:^8.59.4":
+"@typescript-eslint/types@npm:8.59.4":
   version: 8.59.4
   resolution: "@typescript-eslint/types@npm:8.59.4"
   checksum: 10c0/5bb831f9acf98057b3dce6ebfc1df5f1796e701cdf035e71fdee6d0bb7f7e7d9c428bac38f46db4e08381ad8903424fcfbe55bcae223a6244b9133de8e0be190
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.60.0, @typescript-eslint/types@npm:^8.60.0":
+"@typescript-eslint/types@npm:8.60.0, @typescript-eslint/types@npm:^8.59.4, @typescript-eslint/types@npm:^8.60.0":
   version: 8.60.0
   resolution: "@typescript-eslint/types@npm:8.60.0"
   checksum: 10c0/d2b6d46081a6521f204fda30e8f03712480b788d80b62b311e0f33764752d3db3bd415dd4e1f8d28495931316da1dfb5ee259e40c5de970367fbaa1efe97223f
