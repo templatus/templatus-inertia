@@ -361,9 +361,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inertiajs/core@npm:3.2.0":
-  version: 3.2.0
-  resolution: "@inertiajs/core@npm:3.2.0"
+"@inertiajs/core@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@inertiajs/core@npm:3.3.0"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.31"
     es-toolkit: "npm:^1.33.0"
@@ -373,20 +373,20 @@ __metadata:
   peerDependenciesMeta:
     axios:
       optional: true
-  checksum: 10c0/73b329aa5ccff2ab31174bdd0ba58cecf2d4efe8fdbf9bccc352fa3f0eba934c3cf846540e63f212dd5083c279fb1fce653d339caf67a9de4d8a4c66f7ae0e7f
+  checksum: 10c0/161147eee71513163ca8a11493796ab125411da1e35547c894118875adc14d16664ce8e0c6a1f78504b71eacacaf9ef8b5ec8908a9cdc09f6c36824c49b85128
   languageName: node
   linkType: hard
 
-"@inertiajs/svelte@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@inertiajs/svelte@npm:3.2.0"
+"@inertiajs/svelte@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@inertiajs/svelte@npm:3.3.0"
   dependencies:
-    "@inertiajs/core": "npm:3.2.0"
+    "@inertiajs/core": "npm:3.3.0"
     es-toolkit: "npm:^1.33.0"
     laravel-precognition: "npm:^2.0.0"
   peerDependencies:
     svelte: ^5.0.0
-  checksum: 10c0/91e65220685d2e090e50ef77839429157c7a6800e90cf76b464f2db9edaab36401c6720a543592bcd26a4dfe31a2e9fa2c2c186438a97de2e18f1c8e678f3623
+  checksum: 10c0/e60daa704c7c8aa345ca4e0238b7d06662151c5eff6fc022be212c86d39724562dcdd534be5ffa83fc710ed0509730af30f6c8e059740c585b9248a67cfc92a1
   languageName: node
   linkType: hard
 
@@ -3172,7 +3172,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@honeybadger-io/js": "npm:^6.14.0"
-    "@inertiajs/svelte": "npm:^3.2.0"
+    "@inertiajs/svelte": "npm:^3.3.0"
     "@plausible-analytics/tracker": "npm:^0.4.5"
     "@prettier/plugin-ruby": "npm:^4.0.4"
     "@rails/actioncable": "npm:^8.1.300"
