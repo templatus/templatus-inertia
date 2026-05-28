@@ -3099,9 +3099,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.55.9":
-  version: 5.55.9
-  resolution: "svelte@npm:5.55.9"
+"svelte@npm:^5.55.10":
+  version: 5.55.10
+  resolution: "svelte@npm:5.55.10"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -3119,7 +3119,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/dbfbfed9e10b13365f36039887188faaf940bb5c796bc634f8218d907a0405742d20564b48224afd06c547e6905cdbcdf8446710cf17df3faa8d525c295eda2b
+  checksum: 10c0/4d4a943413a41d9e5bee184c98673ec947a3a345894ce26a314b757ecc7b5218734605a96376652519bfc64ff532888abd9600ff92f15a6ee5b47fba145bb9f4
   languageName: node
   linkType: hard
 
@@ -3201,7 +3201,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^4.0.1"
     prettier-plugin-tailwindcss: "npm:^0.8.0"
     size-limit: "npm:^12.1.0"
-    svelte: "npm:^5.55.9"
+    svelte: "npm:^5.55.10"
     tailwindcss: "npm:^4.3.0"
     timeago.js: "npm:^4.0.2"
     typescript: "npm:^6.0.3"
