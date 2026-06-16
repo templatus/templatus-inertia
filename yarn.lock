@@ -141,15 +141,15 @@ __metadata:
   linkType: hard
 
 "@csstools/css-color-parser@npm:^4.1.0":
-  version: 4.1.4
-  resolution: "@csstools/css-color-parser@npm:4.1.4"
+  version: 4.1.7
+  resolution: "@csstools/css-color-parser@npm:4.1.7"
   dependencies:
     "@csstools/color-helpers": "npm:^6.0.2"
     "@csstools/css-calc": "npm:^3.2.1"
   peerDependencies:
     "@csstools/css-parser-algorithms": ^4.0.0
     "@csstools/css-tokenizer": ^4.0.0
-  checksum: 10c0/47abed11d5526448d122c4a6decd2e7ef6206138e5579a1a1285b5de0a1a8aaa1d670a842b965a15f4c917b53758b3ae3c537b42112b4c04f7a1f9c82aa9bda9
+  checksum: 10c0/5e94c6cb89b06f0caffadfd5f6666f2a97fd0906756151fc7a73b3a758ab86d3086bb18956171b003d69735e62f40b544dda28aa48012fc703809dc0450681dc
   languageName: node
   linkType: hard
 
