@@ -1,4 +1,3 @@
-.yarn
 db/schema.rb
 tsconfig.json
 coverage/*

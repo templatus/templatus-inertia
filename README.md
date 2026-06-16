@@ -31,6 +31,7 @@ https://github.com/templatus/templatus/
 - [Tailwind CSS 4](https://tailwindcss.com/) to not have to write CSS at all
 - [Tabler Icons](https://tabler-icons.io/) for free SVG icons
 - [Vite](https://vitejs.dev/) for bundling JavaScript and CSS with Hot Module Replacement (HMR) in development
+- [Bun](https://bun.sh/) as package manager for JavaScript dependencies
 
 ### Development
 
@@ -104,19 +105,23 @@ https://github.com/rails/rails/pull/41994
 
 ```
 $ RAILS_ENV=production SECRET_KEY_BASE_DUMMY=1 bin/rails assets:precompile
+bun install v1.3.14 (0d9b296a)
+
+Checked 306 installs across 351 packages (no changes) [73.00ms]
 Building with Vite ⚡️
-vite v5.4.10 building for production...
-transforming...
-✓ 5932 modules transformed.
+vite v8.0.16 building client environment for production...
+transforming...✓ 6848 modules transformed.
 rendering chunks...
 computing gzip size...
-../../public/vite/.vite/manifest-assets.json         0.10 kB │ gzip:  0.09 kB
-../../public/vite/assets/logo-CFLTF6Dx.svg           0.50 kB │ gzip:  0.30 kB
-../../public/vite/.vite/manifest.json                0.64 kB │ gzip:  0.24 kB
-../../public/vite/assets/application-C6-kcyvH.css   22.09 kB │ gzip:  4.92 kB
-../../public/vite/assets/application-ByWAsid9.js    19.96 kB │ gzip:  8.08 kB │ map:    54.10 kB
-../../public/vite/assets/vendor-DHyeDnQa.js        211.06 kB │ gzip: 71.88 kB │ map: 1,065.92 kB
-✓ built in 5.67s
+public/vite/.vite/manifest-assets.json             0.09 kB │ gzip:  0.09 kB
+public/vite/assets/logo-CFLTF6Dx.svg               0.49 kB │ gzip:  0.30 kB
+public/vite/.vite/manifest.json                    0.96 kB │ gzip:  0.28 kB
+public/vite/assets/application-CiDSB2aZ.css       29.83 kB │ gzip:  6.04 kB
+public/vite/assets/rolldown-runtime-QTnfLwEv.js    0.69 kB │ gzip:  0.42 kB
+public/vite/assets/application-fjvTAGXx.js        19.55 kB │ gzip:  8.06 kB │ map:    56.04 kB
+public/vite/assets/vendor-BBEbfbGy.js            210.92 kB │ gzip: 67.62 kB │ map: 1,182.34 kB
+
+✓ built in 2.61s
 Build with Vite complete: /Users/ledermann/Projects/templatus-inertia/public/vite
 ```
 
@@ -173,7 +178,7 @@ puma-dev link
 echo 3036 > ~/.puma-dev/vite.templatus-inertia
 ```
 
-4. Setup the application to install gems and NPM packages and create the database:
+4. Setup the application to install gems and JavaScript packages and create the database:
 
 ```bash
 bin/setup
@@ -198,13 +203,13 @@ bin/rubocop
 ESLint:
 
 ```
-bin/yarn lint
+bun run lint
 ```
 
 TypeScript compiler:
 
 ```
-bin/yarn tsc
+bun run tsc
 ```
 
 ### Running tests locally
@@ -219,7 +224,7 @@ open coverage/index.html
 JavaScript unit tests:
 
 ```
-bin/yarn test
+bun run test
 ```
 
 System tests with Capybara and Playwright:
