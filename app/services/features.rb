@@ -16,9 +16,9 @@ class Features
   def alpine_version
     return if RUBY_PLATFORM.exclude?('linux')
 
-    # :nocov:
+    # simplecov:disable
     `cat /etc/alpine-release 2>/dev/null`.chomp.presence
-    # :nocov:
+    # simplecov:enable
   end
 
   def ruby_version

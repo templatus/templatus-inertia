@@ -218,7 +218,7 @@ Ruby tests:
 
 ```
 bin/rspec
-open coverage/index.html
+open coverage/ruby/index.html
 ```
 
 JavaScript unit tests:

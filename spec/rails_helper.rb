@@ -6,14 +6,9 @@
 # cache stays on.
 ENV['DISABLE_BOOTSNAP_COMPILE_CACHE'] = '1'
 
+# Configured in .simplecov
 require 'simplecov'
-SimpleCov.start 'rails' do
-  add_filter 'app/jobs/application_job.rb'
-  add_filter 'app/mailers/application_mailer.rb'
-  add_filter 'app/channels/application_cable/connection.rb'
-  add_filter 'app/channels/application_cable/channel.rb'
-  add_filter 'app/models/application_record.rb'
-end
+SimpleCov.start
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
