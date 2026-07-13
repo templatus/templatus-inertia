@@ -5,6 +5,10 @@
 SimpleCov.configure do
   load_profile 'rails'
 
+  # Vitest writes to coverage/javascript and wipes its report directory on
+  # each run, so keep the Ruby report in a sibling of its own.
+  coverage_dir 'coverage/ruby'
+
   skip 'app/jobs/application_job.rb'
   skip 'app/mailers/application_mailer.rb'
   skip 'app/channels/application_cable/connection.rb'

@@ -11,6 +11,11 @@ export default defineConfig({
     environment: 'jsdom',
     exclude: [...configDefaults.exclude, 'vendor/**'],
     setupFiles: './spec/javascript/setupTests.js',
+    coverage: {
+      // Keep out of SimpleCov's way: `coverage.clean` wipes this directory
+      // on every run, which would take the Ruby report with it.
+      reportsDirectory: './coverage/javascript',
+    },
     server: {
       deps: {
         inline: [/^(?!.*vitest).*svelte.*/],
