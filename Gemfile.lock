@@ -386,7 +386,7 @@ GEM
       rack (>= 3.2.0)
       redis-client (>= 0.29.0)
     simplecov (1.0.2)
-    sorbet-runtime (0.6.13341)
+    sorbet-runtime (0.6.13342)
     syntax_tree (6.3.0)
       prettier_print (>= 1.2.0)
     syntax_tree-haml (4.0.3)
