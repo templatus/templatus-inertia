@@ -11,7 +11,7 @@
     "size": "bun run size-limit"
   },
   "dependencies": {
-    "@honeybadger-io/js": "^6.14.0",
+    "@honeybadger-io/js": "^6.15.0",
     "@inertiajs/svelte": "^3.6.1",
     "@plausible-analytics/tracker": "^0.4.5",
     "@rails/actioncable": "^8.1.300",
