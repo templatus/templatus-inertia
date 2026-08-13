@@ -13,7 +13,7 @@
   "dependencies": {
     "@honeybadger-io/js": "^6.16.0",
     "@inertiajs/svelte": "^3.6.1",
-    "@plausible-analytics/tracker": "^0.4.5",
+    "@plausible-analytics/tracker": "^0.4.6",
     "@rails/actioncable": "^8.1.301",
     "@tabler/icons-svelte": "^3.46.0",
     "timeago.js": "^4.0.2"
