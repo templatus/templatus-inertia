@@ -31,7 +31,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'app/javascript'),
+      '@': resolve(import.meta.dirname, 'app/javascript'),
     },
   },
   server: {
