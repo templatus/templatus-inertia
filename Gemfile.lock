@@ -451,6 +451,7 @@ DEPENDENCIES
   honeybadger
   inertia_rails
   js-routes
+  json (< 3)
   lograge
   ostruct
   pg (~> 1.1)
