@@ -6,7 +6,7 @@
     "module": "esNext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom/vitest"],
     "paths": {
       "@/*": ["./app/javascript/*"],
       "@test/*": ["./spec/javascript/*"]
