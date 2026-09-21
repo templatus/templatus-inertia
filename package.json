@@ -21,7 +21,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@prettier/plugin-ruby": "^4.0.4",
-    "@size-limit/file": "^13.1.1",
+    "@size-limit/file": "^14.0.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4.3.3",
