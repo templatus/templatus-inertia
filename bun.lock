@@ -15,7 +15,7 @@
       "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@prettier/plugin-ruby": "^4.0.4",
-        "@size-limit/file": "^14.0.1",
+        "@size-limit/file": "^14.1.0",
         "@sveltejs/vite-plugin-svelte": "^7.3.0",
         "@tailwindcss/forms": "^0.5.11",
         "@tailwindcss/vite": "^4.3.3",
@@ -185,7 +185,7 @@
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.1", "", {}, "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw=="],
 
-    "@size-limit/file": ["@size-limit/file@14.0.1", "", { "peerDependencies": { "size-limit": "14.0.1" } }, "sha512-F1qJqAPcoK+V9KhLHsKLENwaoqdFfXL4OnGNV9kXI9VaWAOu4ykdyGHR1AOd8ZXcnyeA45PBROSmmKCajfc1hA=="],
+    "@size-limit/file": ["@size-limit/file@14.1.0", "", { "peerDependencies": { "size-limit": "14.1.0" } }, "sha512-mR0uVxzdzV31pk8Iz795dDXxhHsrv9RSsyjeCVboUr1Q2+2KL/GpjeMZ44ydFqI2JfXZ22dOsbY28yPeOse1Nw=="],
 
     "@sveltejs/acorn-typescript": ["@sveltejs/acorn-typescript@1.0.13", "", { "peerDependencies": { "acorn": "^8.9.0" } }, "sha512-wgKggnhZVL9Bfx1OaKKTrYY9BFRk6C8UAkQNUcIv1+llzYrIqy+RZm5HPKzn0NpEBvTVhTqB4kQyllZywsRBRQ=="],
 
