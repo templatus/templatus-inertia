@@ -10,7 +10,7 @@
         "@plausible-analytics/tracker": "^0.4.6",
         "@rails/actioncable": "^8.1.400",
         "@tabler/icons-svelte": "^3.51.0",
-        "timeago.js": "^4.0.2",
+        "timeago.js": "^4.3.1",
       },
       "devDependencies": {
         "@eslint/js": "^10.0.1",
@@ -599,7 +599,7 @@
 
     "tapable": ["tapable@2.3.3", "", {}, "sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A=="],
 
-    "timeago.js": ["timeago.js@4.3.0", "", {}, "sha512-/pZHN79A/m+GqVa0UZD4YS91AFsTiXN8vmKb2VYM+NK/v6LcH6enmFXNcLgkojEMXXhocc4r3IHMspngyX3Pfg=="],
+    "timeago.js": ["timeago.js@4.3.1", "", {}, "sha512-lK+ZtlgJlzmAIeWDMmnN2WTmTPPwfQoFn8NRanj1ZzIdfC+MMOsivRjQFvurvCy6kB22wJwH0s3TMisfnv93Tw=="],
 
     "tinybench": ["tinybench@6.2.3", "", {}, "sha512-Al01C2JIBnO2CXCAPbpAl6sUiOZHeThGtHYNTa51JRw9PyWOCdr+9Ong05R4qg/Sk3+H645E8ov1h2c58ityNw=="],
 
