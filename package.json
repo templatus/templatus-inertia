@@ -29,7 +29,7 @@
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/svelte": "^5.4.2",
     "@testing-library/user-event": "^14.6.8",
-    "@tsconfig/svelte": "^5.0.8",
+    "@tsconfig/svelte": "^5.0.9",
     "@types/rails__actioncable": "^8.0.3",
     "@typescript-eslint/eslint-plugin": "^8.72.2",
     "@typescript-eslint/parser": "^8.72.2",
