@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "^5.5.7",
     "eslint-plugin-svelte": "^3.24.1",
     "jsdom": "^31.0.1",
-    "playwright": "^1.64.1",
+    "playwright": "^1.65.1",
     "prettier": "^3.10.1",
     "prettier-plugin-svelte": "^4.1.1",
     "prettier-plugin-tailwindcss": "^0.8.1",
