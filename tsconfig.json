@@ -1,7 +1,7 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
-    "strict": false,
+    "strict": true,
     "target": "esNext",
     "module": "esNext",
     "moduleResolution": "bundler",
