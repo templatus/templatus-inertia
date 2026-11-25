@@ -5,7 +5,7 @@
     "": {
       "name": "templatus-inertia",
       "dependencies": {
-        "@honeybadger-io/js": "^6.17.2",
+        "@honeybadger-io/js": "^6.17.4",
         "@inertiajs/svelte": "^3.11.0",
         "@plausible-analytics/tracker": "^0.4.6",
         "@rails/actioncable": "^8.1.400",
@@ -101,9 +101,9 @@
 
     "@exodus/bytes": ["@exodus/bytes@1.16.0", "", { "peerDependencies": { "@noble/hashes": "^1.8.0 || ^2.0.0" }, "optionalPeers": ["@noble/hashes"] }, "sha512-IcpW84uEn3N7ETtNZMlxKhfl6Pec8rUNGOTBtWbK1FKhJxIFAptZyVrvVRVBimAJxJCgc3PxepxkdWWG4DVzfA=="],
 
-    "@honeybadger-io/core": ["@honeybadger-io/core@6.12.2", "", { "dependencies": { "json-nd": "^1.0.0", "stacktrace-parser": "^0.1.10" } }, "sha512-GMa49Dn5tKKjAjkYq/IhFwBnwQh3rsjK8ysIU8o6XsGmcWrqC0hmAcH41npaX1KVlUK/1zjTfjVFLIvS5Sn3Bg=="],
+    "@honeybadger-io/core": ["@honeybadger-io/core@6.12.3", "", { "dependencies": { "json-nd": "^1.0.0", "stacktrace-parser": "^0.1.10" } }, "sha512-vM1eOU1aCu8j4MY5F9Ou5/t15WPkVjrvgMMsEWnWAfSlJ1ro5cpNH1tIVzcorCF7MAihY3gbdhOxM8QMXzKnXQ=="],
 
-    "@honeybadger-io/js": ["@honeybadger-io/js@6.17.2", "", { "dependencies": { "@honeybadger-io/core": "^6.12.2", "@types/aws-lambda": "^8.10.89", "@types/express": "^5.0.3" }, "peerDependencies": { "fastify": ">=4", "fastify-plugin": ">=4" }, "optionalPeers": ["fastify", "fastify-plugin"], "bin": { "honeybadger-checkins-sync": "scripts/check-ins-sync-bin.js" } }, "sha512-Uxcyl94+km1T8JflgEVJtkXCFuhUfS2g1VvHkTHuBe/q5JJsXmt+NbajgZYXlitz5kzFhgBvDYcxl15V0bcBPw=="],
+    "@honeybadger-io/js": ["@honeybadger-io/js@6.17.4", "", { "dependencies": { "@honeybadger-io/core": "^6.12.3", "@types/aws-lambda": "^8.10.89", "@types/express": "^5.0.3" }, "peerDependencies": { "fastify": ">=4", "fastify-plugin": ">=4" }, "optionalPeers": ["fastify", "fastify-plugin"], "bin": { "honeybadger-checkins-sync": "scripts/check-ins-sync-bin.js" } }, "sha512-RAOjE7XRMMd3TX5ZInjQR7zlAvPWDOU7BSrZ5MjFj4O87HaMz45dxtB5MGyDoZCYiOGolmIkRN/UmRbk18lsAA=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.2", "", { "dependencies": { "@humanfs/types": "^0.15.0" } }, "sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA=="],
 
